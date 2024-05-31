@@ -1,0 +1,158 @@
+Notes for Survey
+
+
+=== DECL POL EXPLAIN ===
+
+EXPLANANDUM DECL
+Speaker states something to explain the fact that his daughter got a perfect score on the test
+
+How did your daughter get a perfect score on the test?
+I tutored her every day after class!
+
+EXPLANANS DECL
+Speaker states that his daughter got a perfect score on the test to explain something
+
+Why are you so happy today?
+My daughter got a perfect score on the test!
+
+
+
+EXPLANANDUM INT ANS
+Speaker states something to explain the fact of whether his daughter got a perfect score on the test
+
+EXPLANANS INT ANS
+Speaker states the fact of whether his daughter got a perfect score on the test to explain something
+
+
+EXPLANANDUM INT Q
+Speaker states something to explain the issue whether his daughter got a perfect score on the test
+
+Did your daughter get a perfect score on the test
+How is that an issue?
+Because if she got a perfect score, she would qualify for a scholarship.
+
+
+EXPLANANS INT Q
+Speaker asks whether his daughter got a perfect score on the test to explain something
+
+You should not be upset about a 99
+Why?
+Well, did my daughter get a perfect score on the test? Now she is a surgeon!
+
+
+
+=== DECL WH EXPLAIN ===
+
+
+EXPLANANDUM DECL
+Mary states something to explain the fact that her father fired Sue
+
+Why did your father fire Sue
+She stole money from the store
+
+
+EXPLANANS DECL
+Mary states that her father fired Sue to explain something
+
+Why won't Sue talk to you?
+My father fired her.
+
+
+EXPLANANDUM INT ANS
+Mary states something to explain the fact of who her father fired
+
+EXPLANANS INT ANS
+Mary states the fact of who her father fired to explain something
+
+
+EXPLANANDUM INT Q
+Mary states something to explain the issue who her father fired
+
+Who did your father fire?
+How is that an issue?
+Because I need to know who to stop inviting to work parties.
+
+EXPLANANS INT Q
+Mary asks who her father fired to explain something
+
+Who was stealing the money from the store?
+Who did my father just fire?
+
+
+
+
+=== DECL POL COMMENT ===
+
+
+COMMENTANDUM DECL
+Mary states something to comment on the fact that last summer was especially hot
+
+It caused drought that killed many of the crops.
+
+COMMENTANS DECL
+Mary states that last summer was especially hot to comment on something
+
+Talking about climate change
+
+
+
+COMMENTANDUM INT ANS
+Mary states something to comment on the fact of whether last summer was especially hot
+
+COMMENTANS INT ANS
+Mary states the fact of whether last summer was especially hot to comment on something
+
+
+COMMENTANDUM INT Q
+Mary states something to comment on the issue whether last summer was especially hot
+
+Some people are more bothered by humidity than dry heat.  
+
+
+COMMENTANS INT Q
+Mary asks whether last summer was especially hot to comment on something
+
+The climate has been getting more extreme over time.
+
+
+
+
+
+=== DECL WH COMMENT ===
+
+
+COMMENTANDUM DECL
+John states something to comment on the fact that his children most enjoy Mary's cooking
+
+Wow your children most enjoy Mary's cooking!
+It's because she adds butter to her rice.
+
+
+COMMENTANS DECL
+John states that his children most enjoy Mary's cooking to comment on something
+
+Your children seem to like your cooking!
+Well, my children most enjoy Mary's cooking.
+
+
+
+COMMENTANDUM INT ANS
+John states something to comment on the fact of whose cooking his children most enjoy
+
+COMMENTANS INT ANS
+John states the fact of whose cooking his children most enjoy to comment on something
+
+
+
+COMMENTANDUM INT Q
+John states something to comment on the issue whose cooking his children most enjoy
+
+Whose cooking does his children most enjoy?
+I don't know, they refuse to tell me.
+
+
+COMMENTANS INT Q
+John asks whose cooking his children most enjoy to comment on something
+
+We need to choose someone to host this party.
+Whose cooking do my children most enjoy?

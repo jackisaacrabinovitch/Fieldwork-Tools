@@ -1,0 +1,949 @@
+[
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASSERT DECL-POL",
+		"Targeted_Object_Content": "p, p = SC",
+		"Speech_Content": "p",
+		"Goals": "1. test event=theme reports with DECL, 2. test event=theme reports with POL 3. test high scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "assert_decl_pol_with_decl",
+				"context_type":"plain_assertion",
+				"context": "You are hanging out with your friend Mary. Mary tells you: <p>Mary: My younger brother just passed his driving test!</p>Later, you see your friend John. John asks you if there is any news from Mary, so you tell him:",
+				"template": "Mary ___ that her younger brother passed his driving test.",
+				"clause_type": "decl",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_pol_with_pol",
+				"minimal_class": 0,
+				"context_type":"plain_assertion_int",
+				"context": "Later, you see another friend Bill. In your earlier conversation with Mary, she told you that her younger brother wants to personally tell Bill that he passed his driving test. Bill asks you: <p>Bill: Hey, did you hear if Mary's younger brother passed his driving test?</p> You don't want to lie to Bill, but also don't want to tell him. So you say:",
+				"template": "Mary ___ whether her younger brother passed his driving test, but you should ask him yourself!",
+				"clause_type": "pol",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_pol_with_decl_indefinite_high_scope",
+				"minimal_class": 1,
+				"context_type":"plain_assertion_high_indef",
+				"context": "Even later, another friend Sue comes up to you and asks you what Mary told you. You remember that Mary told you about her younger brother passing some test, but it's been so long ago that you forget which test. You respond:",
+				"template": "Mary ___ that her younger brother passed a test, but I forget which test.",
+				"clause_type": "decl",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_pol_with_pol_indefinite_high_scope",
+				"minimal_class": 2,
+				"context_type":"plain_assertion_int_high_indef",
+				"context": "Finally, another friend Harold comes up to you and asks you the same question. At this point you don't even remember if Mary's younger brother passed the test. You respond:",
+				"template": "Mary ___ whether her younger brother passed a test, but I forget which test, and whether he passed it.",
+				"clause_type": "pol",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASSERT DECL-POL INDEFINITE",
+		"Targeted_Object_Content": "p, p = SC",
+		"Speech_Content": "p",
+		"Goals": "1. test low scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "assert_decl_pol_with_decl_indefinite_low_scope",
+				"minimal_class": 1,
+				"context_type":"plain_assertion_low_indef",
+				"context": "Your friend Mary is asking you and Sue for advice about her younger brother, who is struggling in school. Sue asks whether Mary's younger brother has failed all of his tests. Mary responds: <p>Mary: My younger brother passed a test.</p> Sue couldn't hear clearly and asks you what Mary just said. You respond:",
+				"template": "Mary ___ that her younger brother passed a test.",
+				"clause_type": "decl",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_pol_with_pol_indefinite_low_scope",
+				"minimal_class": 2,
+				"context_type":"plain_assertion_low_indef",
+				"context": "Later, Bill asks you if Mary's younger brother passed any tests. You don't think you should be the one talking to Bill about Mary's younger brother. So you say:",
+				"template": "Mary ___ whether her younger brother passed a test, but it is not my place to tell you.",
+				"clause_type": "pol",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASSERT DECL-WH",
+		"Targeted_Object_Content": "p, p = SC",
+		"Speech_Content": "p",
+		"Goals": "1. test event=theme reports with DECL, 2. test event=theme reports with WH, 3. test high scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "assert_decl_wh_with_decl",
+				"context_type":"plain_assertion",
+				"context": "You meet with your friend John. He excitedly tells you:<p>John: My older sister met the King of Bhutan at Starbucks yesterday!</p> Later you see your friend Sue, and she asks you if you've heard anything new from John.",
+				"template": "John ___ that his older sister met the King of Bhutan at Starbucks!",
+				"clause_type": "decl",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_wh_with_wh",
+				"minimal_class": 3,
+				"context_type":"plain_assertion_int",
+				"context": "Later, you see another friend Mary. In your earlier conversation with John, he told you that his older sister wants to personally tell Mary that he met the King of Bhutan. Mary asks you: <p>Mary: Hey, John's older sister called me and said she met someone really important yesterday, but she won't tell me who yet. Do you know?</p> You don't want to lie to Mary, but also don't want to tell her. So you say:",
+				"template": "John ___ who his older sister met at Starbucks, but she wants to tell you in person!",
+				"clause_type": "wh",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_wh_with_decl_indefinite_high_scope",
+				"minimal_class": 4,
+				"context_type":"plain_assertion_high_indef",
+				"context": "Even later, another friend Harold comes up to you and asks you what John told you. You remember that John told you about his older sister meeting the King of Bhutan at some cafe, but it's been so long ago that you forget which cafe.",
+				"template": "John ___ that his older sister met the King of Bhutan at a cafe, but I forget which cafe.",
+				"clause_type": "decl",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_wh_with_wh_indefinite_high_scope",
+				"minimal_class": 5,
+				"context_type":"plain_assertion_int_high_indef",
+				"context": "Finally, another friend Bill comes up to you and and asks you the same question. At this point you don't even remember who John's older sister met. You respond:",
+				"template": "John ___ who his older sister met at a cafe, but I forget which person, and which cafe.",
+				"clause_type": "wh",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASSERT DECL-WH INDEFINITE",
+		"Targeted_Object_Content": "p, p = SC",
+		"Speech_Content": "p",
+		"Goals": "1. test low scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "assert_decl_wh_with_decl_indefinite_low_scope",
+				"minimal_class": 4,
+				"context_type":"plain_assertion_low_indef",
+				"context": "Your friend John comes up to you one day and says: <p>John: My older sister met the King of Bhutan at a cafe!</p> Just after this, your friend Sue comes up to you and asks you: <p>Did I just hear correctly? That John's older sister met the King of Bhutan at a park?</p> You correct her:",
+				"template": "John ___ that his older sister met the King of Bhutan at a cafe, not a park.",
+				"clause_type": "decl",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			},
+			{
+				"id": "assert_decl_wh_with_wh_indefinite_low_scope",
+				"minimal_class": 5,
+				"context_type":"plain_assertion_int_low_indef",
+				"context": "Later, you see another friend Bill. Bill asks you: <p>Bill: Hey, did John tell you who his older sister met at a park?</p> You say to Bill:",
+				"template": "John ___ who his older sister met at a cafe, he didn't mention a park.",
+				"clause_type": "wh",
+				"theme_event": "both",
+				"force_predicates": [
+					"SAY"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASK POL",
+		"Targeted_Object_Content": "Q(pol), Q = SC",
+		"Speech_Content": "Q(pol)",
+		"Goals": "1. test event=theme reports with POL, 2. test with SAY verb, 3. test high scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "ask_pol_specific",
+				"minimal_class": 0,
+				"context_type":"plain_query",
+				"context": "Your friend Mary asks you: <p>Mary: Did my younger brother pass his driving test?</p> Later, your friend Bill asks you what Mary said. You respond:",
+				"template": "Mary ___ whether her younger brother passed his driving test.",
+				"clause_type": "pol",
+				"theme_event": "both",
+				"force_predicates": [
+					"ASK",
+					"SAY",
+					"SAY-ALT"
+				]
+			},
+			{
+				"id": "ask_pol_indefinite_high_scope",
+				"minimal_class": 2,
+				"context_type":"plain_query_high_indef",
+				"context": "Even later, another friend Sue comes up to you and asks you what Mary said to you. You remember that Mary asked you about whether her younger brother passed some test, but it's been so long ago that you forget which test. You respond:",
+				"template": "Mary ___ whether her younger brother passed a test, but I forget which test.",
+				"clause_type": "pol",
+				"theme_event": "both",
+				"force_predicates": [
+					"ASK",
+					"SAY",
+					"SAY-ALT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASK POL INDEFINITE",
+		"Targeted_Object_Content": "Q(pol), Q = SC",
+		"Speech_Content": "Q(pol)",
+		"Goals": "1. test low scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "ask_pol_indefinite_low_scope",
+				"minimal_class": 2,
+				"context_type":"plain_query_low_indef",
+				"context": "Mary's brother John wants to become an astronaut. In order to be an astronaut, one must complete a physical test. There are three tests, and each of the tests are very hard, but one only needs to pass one of them to become an astronaut. You and your friend Sue watch John complete the tests, passing all of them. Later, Mary calls you and says: <p>Mary: Did my younger brother pass a test?</p> Sue cannot hear Mary and so she asks you what Mary said, and you respond:",
+				"template": "Mary ___ whether her younger brother passed a test.",
+				"clause_type": "pol",
+				"theme_event": "both",
+				"force_predicates": [
+					"ASK",
+					"SAY",
+					"SAY-ALT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASK WH",
+		"Targeted_Object_Content": "Q(wh), Q = SC",
+		"Speech_Content": "Q(wh)",
+		"Goals": "1. test event=theme reports with WH, 2. test with SAY verb, 3. test high scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "ask_wh_specific",
+				"minimal_class": 3,
+				"context_type":"plain_query",
+				"context": "Your friend John asks you: <p>John: Who did my older sister meet at Starbucks?</p> Later, your friend Sue asks you what John said. You respond:",
+				"template": "John ___ who his older sister met at Starbucks.",
+				"clause_type": "wh",
+				"theme_event": "both",
+				"force_predicates": [
+					"ASK",
+					"SAY",
+					"SAY-ALT"
+				]
+			},
+			{
+				"id": "ask_wh_indefinite_high_scope",
+				"minimal_class": 5,
+				"context_type":"plain_query_high_indef",
+				"context": "Even later, another friend Mary comes up to you and asks you what John said to you. You remember that John asked you about who his older sister met at a cafe, but it's been so long ago that you forget which cafe. You respond:",
+				"template": "John ___ who his older sister met at a cafe, but I forget which cafe.",
+				"clause_type": "wh",
+				"theme_event": "both",
+				"force_predicates": [
+					"ASK",
+					"SAY",
+					"SAY-ALT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Identity",
+		"Task_Name": "ASK WH INDEFINITE",
+		"Targeted_Object_Content": "Q(wh), Q = SC",
+		"Speech_Content": "Q(wh)",
+		"Goals": "1. test low scope indefinite under embedded clause",
+		"steps": [
+			{
+				"id": "ask_wh_indefinite_low_scope",
+				"minimal_class": 5,
+				"context_type":"plain_query_low_indef",
+				"context": "Your friend John asks you: <p>John: Who did my older sister meet at a cafe?</p> Later, your friend Mary asks you what John said. You respond:",
+				"template": "John ___ who his older sister met at a cafe.",
+				"clause_type": "wh",
+				"theme_event": "both",
+				"force_predicates": [
+					"ASK",
+					"SAY",
+					"SAY-ALT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Set-Element",
+		"Task_Name": "ANSWER POL",
+		"Targeted_Object_Content": "Q(pol), SC ∈ p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with POL, 2. test event reports with DECL",
+		"steps": [
+			{
+				"id": "answer_pol_theme",
+				"minimal_class": 8,
+				"context_type":"reporting_question_answered",
+				"context": "You are listening to a conversation between Mary and John. Mary asks John: <p>Mary: Did your daughter get a passing grade on her final test?</p> John responds, saying yes. Mary then asks John: <p>John: Did your son get a passing grade on his final test</p> John doesn't respond. Later, Bill comes up to you and asks you what John said in response to Mary's questions. You respond:",
+				"template": "John ___ whether his daughter got a passing grade on her final test, but didn't say anything about his son.",
+				"clause_type": "pol",
+				"theme_event": "theme",
+				"force_predicates": [
+					"ANSWER","EXPLAIN"
+				]
+			},
+			{
+				"id": "answer_pol_event",
+				"minimal_class": 9,
+				"context_type":"reporting_answer",
+				"context": "Bill then asks you how John responded to the question about his daughter.",
+				"template": "John ___ that his daughter got a passing grade on her final test.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"ANSWER","EXPLAIN"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Set-Element",
+		"Task_Name": "ANSWER WH",
+		"Targeted_Object_Content": "Q(wh), SC ∈ p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with WH, 2. test event reports with DECL",
+		"steps": [
+			{
+				"id": "answer_wh_theme",
+				"minimal_class": 10,
+				"context_type":"reporting_question_answered",
+				"context": "You are listening to a conversation between John and Mary. John asks Mary: <p>John: Who did your father fire?</p> Mary responds, saying that her father fired Sue. John then asks Mary: <p>John: Who did your father hire to replace her?</p> Mary doesn't respond. Later, Fiona comes up to you and asks you what Mary said in response to John's questions. You respond:",
+				"template": "Mary ___ who her father fired, but didn't say anything about finding a replacement.",
+				"clause_type": "wh",
+				"theme_event": "theme",
+				"force_predicates": [
+					"ANSWER","EXPLAIN"
+				]
+			},
+			{
+				"id": "answer_wh_event",
+				"minimal_class": 11,
+				"context_type":"reporting_answer",
+				"context": "Fiona then asks you how Mary responded to the question about who her father fired.",
+				"template": "Mary ___ that her father fired Sue.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"ANSWER","EXPLAIN"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Set-Element",
+		"Task_Name": "QUESTION DECL-POL",
+		"Targeted_Object_Content": "p, p ∈ SC",
+		"Speech_Content": "Q(pol)",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with POL",
+		"steps": [
+			{
+				"id": "question_decl_pol_decl_theme",
+				"context_type":"reporting_claim_questioned",
+				"context": "After a large storm, inspectors assess the damage at each house. When they come to John's house, they find it is in perfect condition. <p>Inspector: Your house wasn't damaged at all during the storm.</p> John, still nervous, and somewhat paranoid, replies: <p>John: Is my house really okay? Can you check again?</p> Later, Bill asks you what John's reaction to the news of his house was. You respond:",
+				"template": "John ___ that his house wasn't damaged in the storm.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"QUESTION",
+					"ASK",
+					"ASK-ALT"
+				]
+			},
+			{
+				"id": "question_decl_pol_pol_event",
+				"context_type":"reporting_question",
+				"context": "A week later, your friend Mary is telling you that John has called the inspectors out to see his house a second time. You are not surprised, as you remember him being so nervous. You respond:",
+				"template": "When the inspectors first came, John ___ whether his house was really okay. I'm not surprised he called them back.",
+				"clause_type": "pol",
+				"theme_event": "event",
+				"force_predicates": [
+					"QUESTION"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Set-Element",
+		"Task_Name": "QUESTION DECL-WH",
+		"Targeted_Object_Content": "p, p ∈ SC",
+		"Speech_Content": "Q(wh)",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with WH",
+		"steps": [
+			{
+				"id": "question_decl_wh_decl_theme",
+				"context_type":"reporting_claim_questioned",
+				"context": "You are with your friend Mary late at night. Mary hears her brother talking loudly on the phone. Mary looks at her brother, and her brother says: <p>Mary's brother: I'm talking to aunt Jill.</p> Mary responds: <p>Mary: That's hard to believe, who were you really talking to so late at night? A friend from school? Maybe a girlfriend?</p> Later, Sue asks you what Mary's reaction to her what her brother said. You respond:",
+				"template": "Mary ___ that her younger brother was really talking to their aunt so late at night.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"QUESTION",
+					"ASK",
+					"ASK-ALT"
+				]
+			},
+			{
+				"id": "question_decl_wh_wh_event",
+				"context": "A week later, your friend Bill tells you that Mary's brother has a new girlfriend.",
+				"context_type":"reporting_question",
+				"template": "I'm not surprised. Last week Mary ___ who her younger brother was really talking to so late at night. I guess he must have lied when he said it was his aunt.",
+				"clause_type": "wh",
+				"theme_event": "event",
+				"force_predicates": [
+					"QUESTION"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "DENY DECL-POL",
+		"Targeted_Object_Content": "p, SC endorses ¬p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with POL, 3 test event reports with DECL",
+		"steps": [
+			{
+				"id": "deny_decl_pol_decl_theme",
+				"context_type":"reporting_claim_denied",
+				"context": "You are watching a court case, where John is the defendant. The Judge says to John: <p>Judge: You are accused of stealing your younger brother's car.</p> John replies: <p>John: I did not steal my younger brother's car!</p> Your friend Mary asks you what has happened in the court case. You reply:",
+				"template": "John ___ that he had stolen his younger brother's car.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"DENY"
+				]
+			},
+			{
+				"id": "deny_decl_pol_pol_theme",
+				"context_type":"reporting_deny_int",
+				"context": "Later your friend Sue comes to you and asks you if you've heard about John's court case, and what you think. You reply:",
+				"template": "John ___ whether he had stolen his younger brother's car, but I'm not sure if I believe him.",
+				"clause_type": "pol",
+				"theme_event": "theme",
+				"force_predicates": [
+					"DENY"
+				]
+			},
+			{
+				"id": "deny_decl_pol_decl_event",
+				"context": "Sue asks you how John refuted the Judge's claims. You respond:",
+				"context_type":"reporting_denial",
+				"template": "Well, John ___ that he had not stolen his younger brother's car. He didn't say much else.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"DENY"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "DENY DECL-WH",
+		"Targeted_Object_Content": "p, SC endorses ¬p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with WH, 3 test event reports with DECL",
+		"steps": [
+			{
+				"id": "deny_decl_wh_decl_theme",
+				"context_type":"reporting_claim_denied",
+				"context": "You are watching a court case, where Mary is the defendant. Mary has been accused of getting money from her sister, who was recently arrested for fraud. The Judge says to Mary: <p>Judge: You have a million dollars in your account that you didn't have a month ago. The prosecution states that you got the money from your sister, and she got the money fraudulently.</p> Mary responds to the Judge: <p>Mary: I did not get the money from my sister!</p> Your friend Sue asks you what Mary said about the money she has. You reply:",
+				"template": "Mary ___ that she got the money from her sister.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"DENY"
+				]
+			},
+			{
+				"id": "deny_decl_wh_wh_theme",
+				"context_type":"reporting_deny_int",
+				"context": "Later, your friend Bill comes to you and asks you about the case. You explain that Mary mysteriously acquired a lot of money. Bill asks you what she said about how she got the money.",
+				"template": "Well, Mary ___ who she got the money from, but the prosecution thinks she got it from her sister.",
+				"clause_type": "wh",
+				"theme_event": "theme",
+				"force_predicates": [
+					"DENY"
+				]
+			},
+			{
+				"id": "deny_decl_wh_decl_event",
+				"context_type":"reporting_denial",
+				"context": "Bill asks you how Mary refuted the prosecution's claims. You respond:",
+				"template": "Well, Mary ___ that she did not get the money from her younger sister. She didn't say much else.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"DENY"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "P EXPLAIN DECL-POL THEME",
+		"Targeted_Object_Content": "p, SC endorses p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with POL",
+		"steps": [
+			{
+				"id": "p_explain_decl_pol_theme_decl",
+				"minimal_class": 9,
+				"context_type":"reporting_claim_explained",
+				"context": "You are a teacher. This semester, John's daughter, who is your student, has been struggling in class, and it seems like she would fail. However, she got a passing grade on her final test. In a meeting with John, you ask him how it is possible that she got the score. John shyly replies. <p>John: Well, I hired a tutor.</p> Later, you meet with your friend Mary. She asks you if John told you how his daughter got a perfect score.",
+				"template": "John ___ that his daughter got a passing grade on her final test. But I'm not sure if he'd want me to tell you how.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"EXPLAIN"
+				]
+			},
+			{
+				"id": "p_explain_decl_pol_theme_pol",
+				"minimal_class": 8,
+				"context_type":"reporting_claim_explained_int",
+				"context": "Another teacher who teaches John's daughter is suspicious that she cheated on her other exam. The teacher asks you:<p>Other teacher: Did John's daughter get a passing grade for your final test?</p> You tell her that you cannot disclose your student's grades to other teachers. She responds: <p>Other teacher: Well can you at least tell me if John told you how she got her grade?</p> You respond:",
+				"template": "Yes, John ___ whether his daughter got a passing grade on her final test. I think the grade is deserved.",
+				"clause_type": "pol",
+				"theme_event": "theme",
+				"force_predicates": [
+					"EXPLAIN"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "P EXPLAIN DECL-WH THEME",
+		"Targeted_Object_Content": "p, SC endorses p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with WH",
+		"steps": [
+			{
+				"id": "p_explain_decl_wh_theme_decl",
+				"minimal_class": 11,
+				"context_type":"reporting_claim_explained",
+				"context": "You work for the father of your friend Mary. Your boss recently fired a coworker named Sue. You confront Mary and ask her: <p>You: Why did your father fire Sue?</p> Mary responds: <p>Mary: Don't tell anyone, but she was caught stealing money from the store.</p> Later your manager Bill asks you if Mary told you anything why Sue got fired.",
+				"template": "Yes, Mary ___ that her father fired Sue. But I can't tell you his reasoning.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"EXPLAIN"
+				]
+			},
+			{
+				"id": "p_explain_decl_wh_theme_wh",
+				"minimal_class": 10,
+				"context_type":"reporting_claim_explained_int",
+				"context": "Later, when working a customer comes up to you and asks: <p>Customer: I heard from Mary that her father fired someone was recently. Do you know who?</p> You say that you do know who, but company policy prevents you from talking to customers about it. The customer responds: <p>Customer: Well, can you at least tell me if Mary told you how the person got fired?</p> You respond:",
+				"template": "Mary ___ who her father fired. It seemed justified to me.",
+				"clause_type": "wh",
+				"theme_event": "theme",
+				"force_predicates": [
+					"EXPLAIN"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "P EXPLAIN DECL-POL EVENT",
+		"Targeted_Object_Content": "p, SC endorses p",
+		"Speech_Content": "p",
+		"Goals": "1. Get theme reading for P EXPLAIN DECL-POL as event reading, 2. test event reports with POL",
+		"steps": [
+			{
+				"id": "p_explain_decl_pol_event_decl",
+				"minimal_class": 9,
+				"context_type":"reporting_explanation",
+				"context": "One day, you see your friend John crying. You ask him if he is okay, and why he is crying. John responds: <p>John: My daughter got a passing grade for her final test. I am just so happy.</p> Later, Bill comes up to you and tells you he saw John crying, he asks: <p>Bill: Why was John crying?</p> You respond:",
+				"template": "When I asked him, John ___ that his daughter got a passing grade on her final test. He was so happy there were tears of joy.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"EXPLAIN","ANSWER"
+				]
+			},
+			{
+				"id": "p_explain_decl_pol_event_pol",
+				"minimal_class": 8,
+				"context_type":"reporting_explanation_int",
+				"context": "A week later, your friend Sue comes up to you and says to you <p>Sue: I heard you saw John crying a week ago. Why was he crying?</p> You remember him saying something about his daughter's final test, but you forget is he was crying happily because she passed, or crying sadly because she failed. You respond:",
+				"template": "When I asked him, John ___ whether his daughter got a passing grade on her final test. I forget what he said, and if it was tears of joy or of sadness.",
+				"clause_type": "pol",
+				"theme_event": "event",
+				"force_predicates": [
+					"EXPLAIN","ANSWER"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "P EXPLAIN DECL-WH EVENT",
+		"Targeted_Object_Content": "p, SC endorses p",
+		"Speech_Content": "p",
+		"Goals": "1. Get theme reading for P EXPLAIN DECL-WH as event reading, 2. test event reports with WH",
+		"steps": [
+			{
+				"id": "p_explain_decl_wh_event_decl",
+				"minimal_class": 11,
+				"context_type":"reporting_explanation",
+				"context": "Recently your friend Fiona has seemed upset. You approach her friend Mary and ask: <p>You: Why is Fiona so upset?</p> Mary responds: <p>Mary: My father fired Sue.</p> Later, John comes to you and asks you why Fiona seems upset. You respond:",
+				"template": "I just asked Mary, and Mary ___ that her father fired Sue.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"EXPLAIN","ANSWER"
+				]
+			},
+			{
+				"id": "p_explain_decl_wh_event_wh",
+				"minimal_class": 10,
+				"context_type":"reporting_explanation_int",
+				"context": "A week later, Bill asks you why Fiona was so upset. You remember that she was upset that someone was fired, but you forget who was actually fired.",
+				"template": "I asked Mary a week ago, and Mary ___ who her father fired. I forget who it was though.",
+				"clause_type": "wh",
+				"theme_event": "event",
+				"force_predicates": [
+					"EXPLAIN","ANSWER"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "Q EXPLAIN POL THEME",
+		"Targeted_Object_Content": "Q(pol), SC endorses Q",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with question reading POL",
+		"steps": [
+			{
+				"id": "q_explain_pol_theme",
+				"context_type":"reporting_question_explained",
+				"minimal_class": 8,
+				"context": "You are a tutor, being interviewed by John and Sue about their daughter. <p>You: Did your daughter pass her final exam this year?</p> Sue asks: <p>Sue: How is that an issue?</p> Before you answer, John responds: <p>John: Because if she didn't pass, she will need to repeat the year.</p> Later your friend asks you how Sue and John reacted to your questions.",
+				"template": "John ___ whether his daughter got a passing grade on her final test. I'm surprised Sue couldn't guess why I asked.",
+				"clause_type": "pol",
+				"theme_event": "theme",
+				"force_predicates": [
+					"EXPLAIN"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "Q EXPLAIN WH THEME",
+		"Targeted_Object_Content": "Q(wh), SC endorses Q",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with question reading WH",
+		"steps": [
+			{
+				"id": "q_explain_wh_theme",
+				"minimal_class": 10,
+				"context_type":"reporting_question_explained",
+				"context": "You are a police officer, asking Mary and John some questions after they report a break in in their business. You ask Mary, the boss's daughter: <p>You: Who did your father most recently fire?</p> John asks: <p>Mary's father: How is that an issue?</p> Mary interjects: <p>Mary: It's an issue because that they may be a suspect.</p> Later your friend asks you how the questioning went, you respond:",
+				"template": "Mary ___ who her father fired. I'm surprised John couldn't guess why I asked.",
+				"clause_type": "wh",
+				"theme_event": "theme",
+				"force_predicates": [
+					"EXPLAIN"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "Q EXPLAIN POL EVENT",
+		"Targeted_Object_Content": "p, SC endorses p",
+		"Speech_Content": "Q",
+		"Goals": "1. test event reports with question reading POL",
+		"steps": [					
+			{
+				"id": "q_explain_pol_event",
+				"minimal_class": 8,
+				"context_type":"reporting_question_explanation",
+				"context": "You are talking with your friend John. Recently you have been upset because your son got a failing grade on a test. John reassures you: <p>John: Well, did my daughter get a passing grade on her final test?</p> You know that his daughter failed her final test, but became a great surgeon anyway, so his question conformts you. Later your friend Mary asks you if you feel better. You say that John helped you feel better. She asks you how. You respond:",
+				"template": "John ___ whether his daughter got a passing grade on her final test. Of course, I know what happened with her, and it made me feel better about my son.",
+				"clause_type": "pol",
+				"event_event": "event",
+				"force_predicates": [
+					"EXPLAIN","ANSWER"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Endorsement",
+		"Task_Name": "Q EXPLAIN WH EVENT",
+		"Targeted_Object_Content": "p, SC endorses p",
+		"Speech_Content": "Q",
+		"Goals": "1. test event reports with question reading WH",
+		"steps": [
+			{
+				"id": "q_explain_wh_event",
+				"minimal_class": 10,
+				"context_type":"reporting_question_explanation",
+				"context": "One day you and your coworker Mary are closing the shop you work at. Mary turns to you and says: <p>Mary: We need to change the passcode for the lock or someone we don't want might get in.</p> You ask her who would possibly come in. Mary responds: <p>Mary: Well, who did my father fire?</p> You know that Mary's father recently fired John, and so you understand that she is worried about John breaking into the shop. Later your friend Fiona asks you why the passcode was changed. You respond:",
+				"template": "When I asked Mary, Mary ___ who her father fired. Of course, I knew who, and understood her concern!",
+				"clause_type": "wh",
+				"event_event": "event",
+				"force_predicates": [
+					"EXPLAIN","ANSWER"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "P COMMENT DECL-POL THEME",
+		"Targeted_Object_Content": "p, SC about p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with POL",
+		"steps": [
+			{
+				"id": "p_comment_decl_pol_theme_decl",
+				"minimal_class": 12,
+				"context_type":"reporting_claim_commented_on",
+				"context": "You are listening to your friends John and Mary having a conversation. John says: <p>John: Last summer was especially hot.</p> Mary responds to John: <p>Mary: Yeah, the heat caused a drought that killed many of the crops.</p>Your friend Sue walks in, having only heard what Mary said, and asks you what the context was for Mary saying that. You respond:",
+				"template": "Mary ___ that last summer was especially hot.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"COMMENT"
+				]
+			},
+			{
+				"id": "p_comment_decl_pol_theme_pol",
+				"minimal_class": 13,
+				"context_type":"reporting_claim_commented_on_int",
+				"context": "Later, your friend Bill comes up to you and asks you if you know if anyone has an opinion about the heat last summer. You respond:",
+				"template": "Mary ___ whether last summer was especially hot. She said that the heat caused a drought that killed many of the crops.",
+				"clause_type": "pol",
+				"theme_event": "theme",
+				"force_predicates": [
+					"COMMENT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "P COMMENT DECL-WH THEME",
+		"Targeted_Object_Content": "p, SC about p",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with DECL, 2. test theme reports with WH",
+		"steps": [
+			{
+				"id": "p_comment_decl_wh_theme_decl",
+				"minimal_class": 7,
+				"context_type":"reporting_claim_commented_on",
+				"context": "You at a party hosted by Mary and notice that John's kids appear to really enjoy Mary's cooking. You tell John <p>You: Wow your children enjoy Mary's cooking the most!</p>John responds to you: <p>John: It's because she adds butter to her rice.</p> Your friend Bill walks in, having only heard what John said, and asks you what the context was for John saying that. You respond:",
+				"template": "John ___ that his children enjoy Mary's cooking the most.",
+				"clause_type": "decl",
+				"theme_event": "theme",
+				"force_predicates": [
+					"COMMENT"
+				]
+			},
+			{
+				"id": "p_comment_decl_wh_theme_wh",
+				"minimal_class": 6,
+				"context_type":"reporting_claim_commented_on_int",
+				"context": "Later, your friend Fiona comes up to you and asks you if you know if anyone has an opinion about whose cooking John's children like. You respond:",
+				"template": "John ___ whose cooking his children enjoy the most. He said that Mary puts butter in her rice.",
+				"clause_type": "wh",
+				"theme_event": "theme",
+				"force_predicates": [
+					"COMMENT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "P COMMENT DECL-POL EVENT",
+		"Targeted_Object_Content": "p, SC about p",
+		"Speech_Content": "p",
+		"Goals": "1. Get theme reading for P COMMENT DECL-POL as event reading, 2. test event reports with POL",
+		"steps": [
+			{
+				"id": "p_comment_decl_pol_event_decl",
+				"minimal_class": 12,
+				"context_type":"reporting_comment",
+				"context": "You and Bill are listening in on a conversation between John and Mary. John says to Mary: <p>John: Climate change makes weather more intense.</p> Mary responds: <p>Mary: That's true, last summer was especially hot!</p> Bill turns to you and says he couldn't hear what Mary said in response to John. You respond:",
+				"template": "Mary ___ that last summer was especially hot.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"COMMENT"
+				]
+			},
+			{
+				"id": "p_comment_decl_pol_event_pol",
+				"minimal_class": 13,
+				"context_type":"reporting_comment_int",
+				"context": "A week later, your friend Sue comes up to you and says to you <p>Sue: I heard John and Mary were talking about climate change. How did Mary react to what John said?</p> You remember Mary saying something about the temperature last summer, but you forget if she said it was especially hot, or not especially hot. You respond:",
+				"template": "Mary ___ whether last summer was especially hot. I forget if she said that it was hot or that it wasn't.",
+				"clause_type": "pol",
+				"theme_event": "event",
+				"force_predicates": [
+					"COMMENT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "P COMMENT DECL-WH EVENT",
+		"Targeted_Object_Content": "p, SC about p",
+		"Speech_Content": "p",
+		"Goals": "1. Get theme reading for P COMMENT DECL-WH as event reading, 2. test event reports with WH",
+		"steps": [
+			{
+				"id": "p_comment_decl_wh_event_decl",
+				"minimal_class": 7,
+				"context_type":"reporting_comment",
+				"context": "You and Sue are listening in on a conversation between Fiona and John. Fiona says to John: <p>Fiona: Your children say they like your cooking!</p> John responds: <p>John: Well, they enjoy Mary's cooking the most.</p> Sue turns to you and says he couldn't hear what John said in response to Fiona. You respond:",
+				"template": "John ___ that his children enjoy Mary's cooking the most.",
+				"clause_type": "decl",
+				"theme_event": "event",
+				"force_predicates": [
+					"COMMENT"
+				]
+			},
+			{
+				"id": "p_comment_decl_wh_event_wh",
+				"minimal_class": 6,
+				"context_type":"reporting_comment_int",
+				"context": "A week later, your friend Bill comes up to you and says to you <p>Bill: I heard Fiona and John were talking about John's children's favorite food, how did John react to what Fiona said?</p> You remember John saying something about his kids liking someone else's cooking the most, but you forget who he said specifically. You respond:",
+				"template": "John ___ whose cooking his children enjoy the most. I forget who, but it wasn't John.",
+				"clause_type": "wh",
+				"theme_event": "event",
+				"force_predicates": [
+					"COMMENT"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "Q COMMENT POL THEME",
+		"Targeted_Object_Content": "Q(pol), SC about Q",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with question reading POL",
+		"steps": [
+			{
+				"id": "q_comment_pol_theme",
+				"minimal_class": 13,
+				"context_type":"reporting_question_commented_on",
+				"context": "You are listening in on a conversation between Sue and Mary. Sue asks Mary: <p>Sue: Was last summer especially hot?</p> Mary responds: <p>Mary: Some people are more bothered by humidity than dry heat.</p> Your friend Fiona walks in, having only heard what Mary said, and asks you what the context was for Mary saying that. You respond:",
+				"template": "Mary ___ whether last summer was especially hot.",
+				"clause_type": "pol",
+				"theme_event": "theme",
+				"force_predicates": [
+					"COMMENT","ANSWER"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "Q COMMENT WH THEME",
+		"Targeted_Object_Content": "Q(wh), SC about Q",
+		"Speech_Content": "p",
+		"Goals": "1. test theme reports with question reading WH",
+		"steps": [
+			{
+				"id": "q_comment_wh_theme",
+				"minimal_class": 6,
+				"context_type":"reporting_question_commented_on",
+				"context": "You are listening in on a conversation between Harold and John. Harold asks John: <p>Harold: Whose cooking does your children most enjoy?</p> John responds: <p>John: What they enjoy isn't necessarily what is best for them.</p> Your friend Bill walks in, having only heard what John said, and asks you what the context was for John saying that. You respond:",
+				"template": "John ___ whose cooking his children enjoy the most.",
+				"clause_type": "wh",
+				"theme_event": "theme",
+				"force_predicates": [
+					"COMMENT","ANSWER"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "Q COMMENT POL EVENT",
+		"Targeted_Object_Content": "p, SC about p",
+		"Speech_Content": "Q",
+		"Goals": "1. test event reports with question reading POL",
+		"steps": [
+			{
+				"id": "q_comment_pol_event",
+				"minimal_class": 13,
+				"context_type":"reporting_question_comment",
+				"context": "You and John are listening to Fiona and Mary have a conversation. Fiona says to Mary: <p>Fiona: The climate has been getting more extreme over time.</p> Mary then asks Fiona: <p>Mary: Was last summer especially hot?</p> John turns to you and says he couldn't hear what Mary said in response to Fiona. You respond:",
+				"template": "Mary ___ whether last summer was especially hot.",
+				"clause_type": "pol",
+				"event_event": "event",
+				"force_predicates": [
+					"COMMENT","ANSWER","QUESTION"
+				]
+			}
+		]
+	},
+	{
+		"Relation_Type": "Aboutness",
+		"Task_Name": "Q COMMENT WH EVENT",
+		"Targeted_Object_Content": "p, SC about p",
+		"Speech_Content": "Q",
+		"Goals": "1. test event reports with question reading WH",
+		"steps": [
+			{
+				"id": "q_comment_wh_event",
+				"minimal_class": 6,
+				"context_type":"reporting_question_comment",
+				"context": "You and Sue are listening to Bill and John have a conversation. Bill says to John: <p>Bill: Your children have been telling me all about the food they like.</p> John then asks Bill: <p>John: Whose cooking do my children enjoy the most?</p> Sue turns to you and says she couldn't hear what John said in response to Bill. You respond:",
+				"template": "John ___ whose cooking his children enjoy the most.",
+				"clause_type": "wh",
+				"event_event": "event",
+				"force_predicates": [
+					"COMMENT","ANSWER","QUESTION"
+				]
+			}
+		]
+	}
+
+]

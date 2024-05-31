@@ -1,0 +1,708 @@
+{
+	"Context_Types": {
+		"plain_assertion": {
+			"report_of": "an assertion",
+			"form_content_type": "decl/prop",
+			"content_represent": "the assertion",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "SAY",
+					"justification": "as a default verb for representing an assertion."
+				}
+			],
+			"context": "The context of this subtask introduces a assertion, which the consultant is then prompted to report directly."
+		},
+		"plain_query": {
+			"report_of": "a query",
+			"form_content_type": "int/ques",
+			"content_represent": "the query",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "ASK",
+					"justification": "as a default verb for representing a query."
+				},
+				{
+					"predicate": "SAY",
+					"justification": "to test if SAY can report queries in combination with certain clause kinds."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to test if SAY-ALT can report queries in combination with certain clause kinds."
+				}
+			],
+			"context": "The context of this subtask introduces a query, which the consultant is then prompted to report directly."
+		},
+		"plain_assertion_int": {
+			"report_of": "an assertion",
+			"form_content_type": "int/prop",
+			"content_represent": "the assertion",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "SAY",
+					"justification": "as a default verb for representing an assertion."
+				}
+			],
+			"context": "This subtask takes the previously reported assertion and forms a context in which the consultant is prompted to report a description of the assertion being uttered, without identifying the exact truth conditions of the assertion; this context promotes using an interrogative to refer to a set of possible propositional contents which the reported assertion may have."
+		},
+		"plain_assertion_high_indef": {
+			"report_of": "an assertion",
+			"form_content_type": "decl/prop",
+			"content_represent": "the assertion",
+			"containing": "The report contains an indefinite which refers to a specific individual in the original speech, thus forcing a <b>wide scope reading of an indefinite</b>.",
+			"predicates": [
+				{
+					"predicate": "SAY",
+					"justification": "as a default verb for representing an assertion."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to form minimal pairs with other SAY-ALT forms."
+				}
+			],
+			"context": "This subtasks takes a DP referred to directly in the original assertion, and creates a context where the consultant has \"forgotten\" the exact identity of the DP. This allows the consultant to replace the DP with an indefinite in their report, which must be interpreted with high scope, as the consultant acknowledges that the original assertion made specific reference to the DP."
+		},
+		"plain_query_high_indef": {
+			"report_of": "a query",
+			"form_content_type": "int/ques",
+			"content_represent": "the query",
+			"containing": "The report contains an indefinite which refers to a specific individual in the original speech, thus forcing a <b>wide scope reading of an indefinite</b>.",
+			"predicates": [
+				{
+					"predicate": "ASK",
+					"justification": "as a default verb for representing a query."
+				},
+				{
+					"predicate": "ASK-ALT",
+					"justification": "to form minimal pairs with other ASK-ALT forms."
+				},
+				{
+					"predicate": "SAY",
+					"justification": "to test if SAY can report queries in combination with certain clause kinds."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to test if SAY-ALT can report queries in combination with certain clause kinds."
+				}
+			],
+			"context": "This subtasks takes a DP referred to directly in the original query, and creates a context where the consultant has \"forgotten\" the exact identity of the DP. This allows the consultant to replace the DP with an indefinite in their report, which must be interpreted with high scope, as the consultant acknowledges that the original query made specific reference to the DP."
+		},
+		"plain_assertion_int_high_indef": {
+			"report_of": "an assertion",
+			"form_content_type": "int/prop",
+			"content_represent": "the assertion",
+			"containing": "The report contains an indefinite which refers to a specific individual in the original speech, thus forcing a <b>wide scope reading of an indefinite</b>.",
+			"predicates": [
+				{
+					"predicate": "SAY",
+					"justification": "as a default verb for representing an assertion."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to form minimal pairs with other SAY-ALT forms."
+				}
+			],
+			"context": "This subtask includes further \"forgetting\", such that the consultant is prompted to use both an indefinite for the \"forgotten\" DP, as well as form an interrogative to express that the reported speech had the propositional content of one of the alternative answers to the question denoted by the interrogative."
+		},
+		"plain_assertion_low_indef": {
+			"report_of": "an assertion",
+			"form_content_type": "decl/prop",
+			"content_represent": "the assertion",
+			"containing": "The reported speech contains an indefinite which the report refers to, thus forcing a <b>narrow scope reading of an indefinite</b>.",
+			"predicates": [
+				{
+					"predicate": "SAY",
+					"justification": "as a default verb for representing an assertion."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to form minimal pairs with other SAY-ALT forms."
+				}
+			],
+			"context": "The context of this subtask introduces a assertion, which the consultant is then prompted to report directly. The assertion contains an indefinite to prompt a low scope reading of an indefinite in the resulting report."
+		},
+		"plain_query_low_indef": {
+			"report_of": "a query",
+			"form_content_type": "int/ques",
+			"content_represent": "the query",
+			"containing": "The reported speech contains an indefinite which the report refers to, thus forcing a <b>narrow scope reading of an indefinite</b>.",
+			"predicates": [
+				{
+					"predicate": "ASK",
+					"justification": "as a default verb for representing a query."
+				},
+				{
+					"predicate": "ASK-ALT",
+					"justification": "to form minimal pairs with other ASK-ALT forms."
+				},
+				{
+					"predicate": "SAY",
+					"justification": "to test if SAY can report queries in combination with certain clause kinds."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to test if SAY-ALT can report queries in combination with certain clause kinds."
+				}
+			],
+			"context": "The context of this subtask introduces a query, which the consultant is then prompted to report directly. The query contains an indefinite to prompt a low scope reading of an indefinite in the resulting report."
+		},
+		"plain_assertion_int_low_indef": {
+			"report_of": "an assertion",
+			"form_content_type": "int/prop",
+			"content_represent": "the assertion",
+			"containing": "The reported speech contains an indefinite which the report refers to, thus forcing a <b>narrow scope reading of an indefinite</b>.",
+			"predicates": [
+				{
+					"predicate": "SAY",
+					"justification": "as a default verb for representing an assertion."
+				},
+				{
+					"predicate": "SAY-ALT",
+					"justification": "to form minimal pairs with other SAY-ALT forms."
+				}
+			],
+			"context": "This subtask takes the previously reported assertion and forms a context in which the consultant is prompted to report a description of the assertion being uttered, without identifying the exact truth conditions of the assertion; this context promotes using an interrogative to refer to a set of possible propositional contents which the reported assertion may have. The indefinite is maintained in the structure of the report to maintain a low scope reading of an indefinite in the resulting report."
+		},
+		"reporting_question_answered": {
+			"report_of": "an assertion which answers a question",
+			"form_content_type": "int/ques",
+			"content_represent": "the question being answered",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "ANSWER",
+					"justification": "as a default verb for representing an answering event."
+				},
+				{
+					"predicate": "EXPLAIN",
+					"justification": "to test whether answers to contextually salient questions count as claims to be explained (explanandum)."
+				},
+				{
+					"predicate": "EXPLAIN-ALT",
+					"justification": "to test whether answers to contextually salient questions count as claims to be explained (explanandum)."
+				}
+			],
+			"context": "The context of this subtask introduces a character asking two questions, and a second character answering only one of the questions. The consultant is prompted to report on the second character's speech by making reference to the question which the second character answered."
+		},
+		"reporting_answer": {
+			"report_of": "an assertion which answers a question",
+			"form_content_type": "decl/prop",
+			"content_represent": "the assertion answering a question",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "ANSWER",
+					"justification": "as a default verb for representing an answering event."
+				},
+				{
+					"predicate": "EXPLAIN",
+					"justification": "to test whether answers to contextually salient questions count as explanations (explanans)."
+				},
+				{
+					"predicate": "EXPLAIN-ALT",
+					"justification": "to test whether answers to contextually salient questions count as claims to be explained (explanandum)."
+				}
+			],
+			"context": "This subtask continues the previous context, by prompting the consultant to further provide the actual (propositional) content of the second character's answer."
+		},
+		"reporting_claim_questioned": {
+			"report_of": "a query questioning a claim",
+			"form_content_type": "decl/prop",
+			"content_represent": "the claim being questioned",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "QUESTION",
+					"justification": "as a default verb for representing an questioning event."
+				},
+				{
+					"predicate": "ASK",
+					"justification": "to test whether ASK can combine with declarative clauses."
+				},
+				{
+					"predicate": "ASK-ALT",
+					"justification": "to test whether ASK-ALT can combine with declarative clauses."
+				}
+			],
+			"context": "The context of this subtask introduces a character making a claim, followed by a second character questioning the claim. The consultant is prompted to report on the second character's speech by making reference to the claim which the second character questions."
+		},
+		"reporting_question": {
+			"report_of": "a query questioning a claim",
+			"form_content_type": "int/ques",
+			"content_represent": "the query questioning the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "QUESTION",
+					"justification": "as a default verb for representing an questioning event."
+				}
+			],
+			"context": "This subtask continues the previous context, by prompting the consultant to further provide the actual (question) content of the second character's query."
+		},
+		"reporting_claim_denied": {
+			"report_of": "an assertion which denies a claim",
+			"form_content_type": "decl/prop",
+			"content_represent": "the claim being denied",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "DENY",
+					"justification": "as a default verb for representing an denying event."
+				}
+			],
+			"context": "The context of this subtask introduces a character making a claim, followed by a second character denying the claim. The consultant is prompted to report on the second character's speech by making reference to the claim which the second character denies."
+		},
+		"reporting_deny_int": {
+			"report_of": "an assertion which denies a claim",
+			"form_content_type": "int/prop",
+			"content_represent": "the claim being denied/the assertion denying the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "DENY",
+					"justification": "as a default verb for representing an denying event."
+				}
+			],
+			"context": "This subtask continues the previous context, by prompting the consultant to use an interrogative clause to refer to the claim being denied. Because of the difficulty of finding situations which are both i. formal enough that speakers of some languages (e.g. Hindi) will use a verb with the meaning of DENY,and ii. are ambiguous enough that one could felicitously deny multiple answers to an interrogative clause (e.g. deny stealing bread AND deny not stealing bread), I do not try to create such a context, and simply prompt the consultant to use the interrogative through the template."
+		},
+		"reporting_denial": {
+			"report_of": "an assertion which denies a claim",
+			"form_content_type": "int/prop",
+			"content_represent": "the assertion denying the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "DENY",
+					"justification": "as a default verb for representing an denying event."
+				}
+			],
+			"context": "This subtask continues the previous context, by prompting the consultant to further provide the actual (propositional) content of the second character's denial."
+		},
+		"reporting_claim_explained": {
+			"report_of": "an assertion which explains a fact",
+			"form_content_type": "decl/prop",
+			"content_represent": "the fact being explained",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "EXPLAIN",
+					"justification": "as a default verb for representing an explaining event."
+				},
+				{
+					"predicate": "ANSWER",
+					"justification": "to test if ANSWER can refer to any kind of responding event."
+				}
+			],
+			"context": "The context of this subtask introduces a character asking for an explanation for some fact, followed by a second character giving the explanation. The consultant is prompted to report on the second character's speech by making reference to the claim which the first character asks about, and the second character explains."
+		},
+		"reporting_claim_explained_int": {
+			"report_of": "an assertion which explains a fact",
+			"form_content_type": "int/prop",
+			"content_represent": "the fact being explained",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "EXPLAIN",
+					"justification": "as a default verb for representing an explaining event."
+				},
+				{
+					"predicate": "ANSWER",
+					"justification": "to test if ANSWER can refer to any kind of responding event."
+				}
+			],
+			"context": "This subtask takes the salient fact being explained and forms a context in which the consultant is prompted to report a description of the fact without identifying the exact truth conditions of the fact; this context promotes using an interrogative to refer to a set of possible propositional contents which the explained fact may have."
+		},
+		"reporting_explanation": {
+			"report_of": "an assertion which explains a fact",
+			"form_content_type": "decl/prop",
+			"content_represent": "the assertion explaining the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "EXPLAIN",
+					"justification": "as a default verb for representing an explaining event."
+				},
+				{
+					"predicate": "ANSWER",
+					"justification": "to test if ANSWER can refer to any kind of responding event."
+				}
+			],
+			"context": "The context of this subtask introduces a character asking for an explanation for some fact, followed by a second character giving the explanation. The consultant is prompted to report on the second character's speech by making reference to the explanation which the second character gives."
+		},
+		"reporting_explanation_int": {
+			"report_of": "an assertion which explains a fact",
+			"form_content_type": "int/prop",
+			"content_represent": "the assertion explaining the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "EXPLAIN",
+					"justification": "as a default verb for representing an explaining event."
+				},
+				{
+					"predicate": "ANSWER",
+					"justification": "to test if ANSWER can refer to any kind of responding event."
+				}
+			],
+			"context": "This subtask takes the previously reported explanation and forms a context in which the consultant is prompted to report a description of the explanation made, without identifying the exact truth conditions of the explanation; this context promotes using an interrogative to refer to a set of possible propositional contents which the reported assertion may have."
+		},
+		"reporting_question_explained": {
+			"report_of": "an assertion which explains a question",
+			"form_content_type": "int/ques",
+			"content_represent": "the question being explained",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "EXPLAIN",
+					"justification": "as a default verb for representing an explaining event."
+				},
+				{
+					"predicate": "EXPLAIN-ALT",
+					"justification": "to form minimal pairs with other EXPLAIN-ALT forms."
+				},
+				{
+					"predicate": "ANSWER",
+					"justification": "to test if ANSWER can refer to any kind of responding event."
+				}
+			],
+			"context": "The context of this subtask introduces a character bringing up an question, a second character asking for an explanation of the issue being raised, followed by a third character explaining the question. The consultant is prompted to report on the third character's speech by making reference to the question which the first character raises."
+		},
+		"reporting_question_explanation": {
+			"report_of": "a query which explains a fact",
+			"form_content_type": "int/ques",
+			"content_represent": "the query explaining the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "EXPLAIN",
+					"justification": "as a default verb for representing an explaining event."
+				},
+				{
+					"predicate": "EXPLAIN-ALT",
+					"justification": "to form minimal pairs with other EXPLAIN-ALT forms."
+				},
+				{
+					"predicate": "ANSWER",
+					"justification": "to test if ANSWER can refer to any kind of responding event."
+				}
+			],
+			"context": "The context of this subtask introduces a character asking for an explanation for some fact, followed by a second character asking a question as a means of giving the explanation. The consultant is prompted to report on the second character's speech by making reference to the question which the second character gives as explanation."
+		},
+		"reporting_claim_commented_on": {
+			"report_of": "an assertion which comments on a claim",
+			"form_content_type": "decl/prop",
+			"content_represent": "the claim being commented on",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "COMMENT",
+					"justification": "as a default verb for representing an commenting event."
+				},
+				{
+					"predicate": "COMMENT-ALT",
+					"justification": "to form minimal pairs with other COMMENT-ALT forms."
+				}
+			],
+			"context": "The context of this subtask introduces a character who makes a claim, followed by a second character who makes an assertion commenting on the claim. The consultant is prompted to report on the second character's speech by making reference to claim which the first character utters."
+		},
+		"reporting_claim_commented_on_int": {
+			"report_of": "an assertion which comments on a claim",
+			"form_content_type": "int/prop",
+			"content_represent": "the claim being commented on",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "COMMENT",
+					"justification": "as a default verb for representing an commenting event."
+				},
+				{
+					"predicate": "COMMENT-ALT",
+					"justification": "to form minimal pairs with other COMMENT-ALT forms."
+				}
+			],
+			"context": "This subtask takes the salient claim being commented on and forms a context in which the consultant is prompted to report a description of the claim without identifying the exact truth conditions of the claim; this context promotes using an interrogative to refer to a set of possible propositional contents which the commented on claim may have."
+		},
+		"reporting_comment": {
+			"report_of": "an assertion which comments on a claim",
+			"form_content_type": "decl/prop",
+			"content_represent": "the assertion commenting on the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "COMMENT",
+					"justification": "as a default verb for representing an commenting event."
+				},
+				{
+					"predicate": "COMMENT-ALT",
+					"justification": "to form minimal pairs with other COMMENT-ALT forms."
+				}
+			],
+			"context": "The context of this subtask introduces a character who makes a claim, followed by a second character who makes an assertion commenting on the claim. The consultant is prompted to report on the second character's speech by making reference to comment which the second character provides."
+		},
+		"reporting_comment_int": {
+			"report_of": "an assertion which comments on a claim",
+			"form_content_type": "int/prop",
+			"content_represent": "the assertion commenting on the claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "COMMENT",
+					"justification": "as a default verb for representing an commenting event."
+				},
+				{
+					"predicate": "COMMENT-ALT",
+					"justification": "to form minimal pairs with other COMMENT-ALT forms."
+				}
+			],
+			"context": "This subtask takes the previously reported comment and forms a context in which the consultant is prompted to report a description of the comment, without identifying the exact truth conditions of the comment; this context promotes using an interrogative to refer to a set of possible propositional contents which the reported comment may have."
+		},
+		"reporting_question_commented_on": {
+			"report_of": "an assertion which comments on a question",
+			"form_content_type": "int/ques",
+			"content_represent": "the question being commented on",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "COMMENT",
+					"justification": "as a default verb for representing an commenting event."
+				}
+			],
+			"context": "The context of this subtask introduces a character who asks a question, followed by a second character who makes an assertion commenting on the question. The consultant is prompted to report on the second character's speech by making reference to question which the first character utters."
+		},
+		"reporting_question_comment": {
+			"report_of": "a query which comments on a claim",
+			"form_content_type": "int/ques",
+			"content_represent": "the query which comments on a claim",
+			"containing": "",
+			"predicates": [
+				{
+					"predicate": "COMMENT",
+					"justification": "as a default verb for representing an commenting event."
+				}
+			],
+			"context": "The context of this subtask introduces a character making a claim, followed by a second character asking a question as a means of commenting on this claim. The consultant is prompted to report on the second character's speech by making reference to the question which the second character uses as a comment."
+		}
+	},
+	"Task_Order": [
+
+		{
+			"item":"session",
+			"title":"Session 1 (20 Contexts)",
+			"content":"This session consists of two sets: Basic Assertions and Queries, and EXPLAIN with Answerhood Readings. I chose these two because they are fairly straightforward (and so should be a good introduction to these kinds of tasks for the consultant) and should allow me to get a good sense of where answerhood readings of interrogative clauses are possible (depending on clause type, embedding clause, and explanans vs. explanandum readings). Getting the explanans explanandum distinction in this set relies on the concept of EXPLAIN --- I leave COMMENT, the other predicate concept which distinguishes explanans and explanandum, for later sessions."
+		},
+
+		{
+			"item":"set",
+			"title":"Basic Assertions and Queries",
+			"content":"This set of tasks serves the following functions: i. capture data related to how assertions and queries are reported without relating the reported speech act to some other relevant claim, fact, or issue, ii. to capture data related to where certain clause kinds enforce question readings, iii. capture data related to the availability for wide scope of indefinites under various clause kinds, and iv. introduce consultants to the format of the tasks in this survey."
+		},
+		{
+			"item": "task",
+			"id": "ASSERT DECL-POL"
+		},
+		{
+			"item": "task",
+			"id": "ASSERT DECL-WH"
+		},
+		{
+			"item":"pause",
+			"title":"Defining SAY-ALT",
+			"content":"If the consultant has predominantly used a predicate other than the one labelled as SAY, then label the predominant predicate SAY-ALT. Otherwise, ignore the SAY-ALT label in future sets."
+		},
+		{
+			"item": "task",
+			"id": "ASK POL"
+		},
+		{
+			"item": "task",
+			"id": "ASK WH"
+		},
+		{
+			"item":"pause",
+			"title":"Defining ASK-ALT",
+			"content":"If the consultant has predominantly used a predicate other than the one labelled as ASK, then label the predominant predicate ASK-ALT. Otherwise, ignore the ASK-ALT label in future sets."
+		},
+
+		{
+			"item":"set",
+			"title":"EXPLAIN with Answerhood Readings",
+			"content":"This set of tasks serves the function capturing data related to how the availability of answerhood readings interacts with the event-theme (explanans-explanandum) distinction."
+		},
+		{
+			"item": "task",
+			"id": "P EXPLAIN DECL-POL THEME"
+		},
+		{
+			"item": "task",
+			"id": "P EXPLAIN DECL-WH THEME"
+		},
+		{
+			"item": "task",
+			"id": "P EXPLAIN DECL-POL EVENT"
+		},
+		{
+			"item": "task",
+			"id": "P EXPLAIN DECL-WH EVENT"
+		},
+		{
+			"item":"pause",
+			"title":"Defining EXPLAIN-ALT",
+			"content":"If the consultant has predominantly used a predicate other than the one labelled as EXPLAIN, then label the predominant predicate EXPLAIN-ALT. Otherwise, ignore the EXPLAIN-ALT label in future sets."
+		},
+
+
+
+		{
+			"item":"session",
+			"title":"Session 2 (18 Contexts)",
+			"content":"This session consists of three sets: Question Explanans Readings, Minimal Pairs for Indefinite Data, and Question Explanandum Readings. The first and last of these work together to give a good sense of where question (non-answerhood) readings of interrogative clauses are possible (depending on clause type, embedding clause, and explanans vs. explanandum readings). I predict that these readings are a bit more difficult to get, so I include both EXPLAIN and COMMENT concepts. The middle set gets minimal pairs for the indefinite data collected in the first session, with narrow scope rather than wide scope readings. I put this in the middle to give breathing room between the two harder sets."
+		},
+
+		{
+			"item":"set",
+			"title":"Question Explanans Readings",
+			"content":"This set of tasks serves the function capturing data related to whether interrogatives can have event (explanans) readings while still referring to question content (ie without an answerhood reading)."
+		},
+		{
+			"item": "task",
+			"id": "Q EXPLAIN POL EVENT"
+		},
+		{
+			"item": "task",
+			"id": "Q EXPLAIN WH EVENT"
+		},
+		{
+			"item": "task",
+			"id": "Q COMMENT POL EVENT"
+		},
+		{
+			"item": "task",
+			"id": "Q COMMENT WH EVENT"
+		},
+
+
+
+
+		{
+			"item":"set",
+			"title":"Minimal Pairs for Indefinite Data",
+			"content":"This set of tasks serves the function of collecting minimal pairs for the data on the interpretation of indefinites, by eliciting identical sentences of those with indefinites in earlier task sets, but with narrow scope readings."
+		},
+		{
+			"item": "task",
+			"id": "ASK POL INDEFINITE"
+		},
+		{
+			"item": "task",
+			"id": "ASK WH INDEFINITE"
+		},
+		{
+			"item": "task",
+			"id": "ASSERT DECL-POL INDEFINITE"
+		},
+		{
+			"item": "task",
+			"id": "ASSERT DECL-WH INDEFINITE"
+		},
+
+
+		
+
+
+		{
+			"item":"set",
+			"title":"Question Explanandum Readings",
+			"content":"This set of tasks serves the function capturing data related to whether interrogatives can have theme (explanandum) readings while still referring to question content (ie without an answerhood reading). I include ANSWER concepts in addition to EXPLAIN and COMMENT, as the theme (explanandum) of ANSWER is always a question (namely the question that is answered)."
+		},
+		{
+			"item": "task",
+			"id": "Q EXPLAIN POL THEME"
+		},
+		{
+			"item": "task",
+			"id": "Q EXPLAIN WH THEME"
+		},
+		{
+			"item": "task",
+			"id": "Q COMMENT POL THEME"
+		},
+		{
+			"item": "task",
+			"id": "Q COMMENT WH THEME"
+		},
+		{
+			"item": "task",
+			"id": "ANSWER POL"
+		},
+		{
+			"item": "task",
+			"id": "ANSWER WH"
+		},
+		{
+			"item":"pause",
+			"title":"Defining COMMENT-ALT",
+			"content":"If the consultant has predominantly used a predicate other than the one labelled as COMMENT, then label the predominant predicate COMMENT-ALT. Otherwise, ignore the COMMENT-ALT label in future sets."
+		},
+
+
+
+
+		{
+			"item":"session",
+			"title":"Session 3 (18 Contexts)",
+			"content":"This session consists of two sets: Explanans and Explanandum readings with QUESTION and DENY, and COMMENT with Answerhood Readings. These are the least important sets, and so is last. The first functions mostly as a sanity check, while the second fills the COMMENT paradigm with answerhood readings."
+		},
+
+
+
+
+		{
+			"item":"set",
+			"title":"Explanans and Explanandum readings with QUESTION and DENY",
+			"content":"This set of tasks serves the following functions: i. to elicit more data on the interaction between the interaction between the event-theme (explanans-explanandum) distinction and whether embedded clauses are interpreted as question or propositional content, ii. to confirm that ASK-type predicates do not take declarative complements (unlike QUESTION-type predicates), and iii. to serve as a sanity check: QUESTION and DENY serve a great grounds for distinguishing between explanans and explanandum because the two readings are contradictory in under both predicates."
+		},
+		{
+			"item": "task",
+			"id": "DENY DECL-POL"
+		},
+		{
+			"item": "task",
+			"id": "QUESTION DECL-POL"
+		},
+		{
+			"item": "task",
+			"id": "DENY DECL-WH"
+		},
+		{
+			"item": "task",
+			"id": "QUESTION DECL-WH"
+		},
+
+
+
+		
+		{
+			"item":"set",
+			"title":"COMMENT with Answerhood Readings",
+			"content":"This set of tasks serves the function capturing data related to how the availability of answerhood readings interacts with the event-theme (explanans-explanandum) distinction."
+		},
+		{
+			"item": "task",
+			"id": "P COMMENT DECL-POL THEME"
+		},
+		{
+			"item": "task",
+			"id": "P COMMENT DECL-WH THEME"
+		},
+		{
+			"item": "task",
+			"id": "P COMMENT DECL-POL EVENT"
+		},
+		{
+			"item": "task",
+			"id": "P COMMENT DECL-WH EVENT"
+		}
+	]
+}

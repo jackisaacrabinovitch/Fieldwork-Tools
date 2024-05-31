@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <script src="surveyread.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro">
+        <h1>Introduction</h1>
+        <p>This is the outline of a survey to be performed on multiple languages. This outline is not the final product that will be shown to participants of the survey, but rather a guide for the interviewer (me) to collect data. The only materials which should be presented directly to consultants are contexts and templates, NOT references to set, task, or subtask names, checklist, or references to minimal pairs.</p>
+        <p>The survey is used as follows: for a given consultant, each session should take approximately an hour long and should be done on a different day. Small (~1 min long) breaks should happen between tasks, with no breaks between subtasks. For each subtask, the context will be provided, and the consultant will be asked to translate the template into their language, filling in the blank with whatever predicate (verb, verb + preposition, verb + DP, etc.) allows the verb-clause combination to make sense in the context. The predicate and complement choice which the consultant chooses will take up the "DEFAULT" column and "default" row in the checklist respectively. After recording the consultant's translation of the template, the interviewer will ask the consultant for judgments of each predicate-complement combination corresponding to each cell with a check box. Recording the template translation and subsequent judgments should be done in a separate text file, which the consultant should be able to see (and verbally comment on).</p>
+    </div>
+    <div id="buttons">
+        <p>Each language has its own checklists corresponding to the kinds of complements and predicates being investigated. Contexts and templates are unchanged.</p>
+        <button onclick="performAll('Catalan');">Catalan</button>
+        <button onclick="performAll('Korean');">Korean</button>
+        <button onclick="performAll('Georgian');">Georgian</button>
+        <button onclick="performAll('Hindi');">Hindi</button>
+    </div>
+    <div id="toc"></div>
+    <div id="main"></div>
+</body>
+</html>
+
+

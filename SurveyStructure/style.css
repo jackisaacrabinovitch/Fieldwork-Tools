@@ -1,0 +1,21 @@
+.contextbox{
+    border:1px solid black;
+    padding:0em 1em;
+}
+.stepbox{
+    border:1px solid black;
+    padding:0em 1em 1em 1em;
+    margin:1em;
+}
+.verbinput{
+    display:inline;
+}
+th, td {
+    border: 1px solid black;
+    padding: 1px 5px;
+    text-align: center;
+    min-width: 70px;
+}
+td.comptype{
+    text-align: left;
+}
