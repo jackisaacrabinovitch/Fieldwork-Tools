@@ -111,7 +111,7 @@ async function performAll(language){
 
     let res = []
     let tasknumber = 0
-    let pausenumber = 0
+    let notenumber = 0
     let setnumber = 0
     let stepnumber = 0
     let idmap = {
@@ -144,9 +144,9 @@ async function performAll(language){
     taskarr.forEach(task => {
         if (task.item === "session"){
             res.push(`<h1>${task.title}</h1><p>${task.content}</p>`)
-        } else if (task.item === "pause"){
-            pausenumber++
-            res.push(`<h3>Pause ${pausenumber}: ${task.title}</h3><p>${task.content}</p>`)
+        } else if (task.item === "note"){
+            notenumber++
+            res.push(`<h3>Note ${notenumber}: ${task.title}</h3><p>${task.content}</p>`)
         } else if (task.item === "set"){
             setnumber++
             res.push(`<h2>Set ${setnumber}: ${task.title}</h2><p>${task.content}</p>`)
@@ -345,4 +345,3 @@ function makeTOC(){
 
 
 performAll("Catalan");
-performAll("Korean");

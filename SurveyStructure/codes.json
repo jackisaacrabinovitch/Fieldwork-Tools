@@ -8,10 +8,10 @@
 			"predicates": [
 				{
 					"predicate": "SAY",
-					"justification": "as a default verb for representing an assertion."
+					"justification": "as a possible verb for representing an assertion."
 				}
 			],
-			"context": "The context of this subtask introduces a assertion, which the consultant is then prompted to report directly."
+			"context": "The context of this subtask introduces an assertion, which the consultant is then prompted to report directly."
 		},
 		"plain_query": {
 			"report_of": "a query",
@@ -21,7 +21,7 @@
 			"predicates": [
 				{
 					"predicate": "ASK",
-					"justification": "as a default verb for representing a query."
+					"justification": "as a possible verb for representing a query."
 				},
 				{
 					"predicate": "SAY",
@@ -42,7 +42,7 @@
 			"predicates": [
 				{
 					"predicate": "SAY",
-					"justification": "as a default verb for representing an assertion."
+					"justification": "as a possible verb for representing an assertion."
 				}
 			],
 			"context": "This subtask takes the previously reported assertion and forms a context in which the consultant is prompted to report a description of the assertion being uttered, without identifying the exact truth conditions of the assertion; this context promotes using an interrogative to refer to a set of possible propositional contents which the reported assertion may have."
@@ -55,7 +55,7 @@
 			"predicates": [
 				{
 					"predicate": "SAY",
-					"justification": "as a default verb for representing an assertion."
+					"justification": "as a possible verb for representing an assertion."
 				},
 				{
 					"predicate": "SAY-ALT",
@@ -72,7 +72,7 @@
 			"predicates": [
 				{
 					"predicate": "ASK",
-					"justification": "as a default verb for representing a query."
+					"justification": "as a possible verb for representing a query."
 				},
 				{
 					"predicate": "ASK-ALT",
@@ -97,7 +97,7 @@
 			"predicates": [
 				{
 					"predicate": "SAY",
-					"justification": "as a default verb for representing an assertion."
+					"justification": "as a possible verb for representing an assertion."
 				},
 				{
 					"predicate": "SAY-ALT",
@@ -114,14 +114,14 @@
 			"predicates": [
 				{
 					"predicate": "SAY",
-					"justification": "as a default verb for representing an assertion."
+					"justification": "as a possible verb for representing an assertion."
 				},
 				{
 					"predicate": "SAY-ALT",
 					"justification": "to form minimal pairs with other SAY-ALT forms."
 				}
 			],
-			"context": "The context of this subtask introduces a assertion, which the consultant is then prompted to report directly. The assertion contains an indefinite to prompt a low scope reading of an indefinite in the resulting report."
+			"context": "The context of this subtask introduces an assertion, which the consultant is then prompted to report directly. The assertion contains an indefinite to prompt a low scope reading of an indefinite in the resulting report."
 		},
 		"plain_query_low_indef": {
 			"report_of": "a query",
@@ -131,7 +131,7 @@
 			"predicates": [
 				{
 					"predicate": "ASK",
-					"justification": "as a default verb for representing a query."
+					"justification": "as a possible verb for representing a query."
 				},
 				{
 					"predicate": "ASK-ALT",
@@ -156,7 +156,7 @@
 			"predicates": [
 				{
 					"predicate": "SAY",
-					"justification": "as a default verb for representing an assertion."
+					"justification": "as a possible verb for representing an assertion."
 				},
 				{
 					"predicate": "SAY-ALT",
@@ -173,7 +173,7 @@
 			"predicates": [
 				{
 					"predicate": "ANSWER",
-					"justification": "as a default verb for representing an answering event."
+					"justification": "as a possible verb for representing an answering event."
 				},
 				{
 					"predicate": "EXPLAIN",
@@ -194,7 +194,7 @@
 			"predicates": [
 				{
 					"predicate": "ANSWER",
-					"justification": "as a default verb for representing an answering event."
+					"justification": "as a possible verb for representing an answering event."
 				},
 				{
 					"predicate": "EXPLAIN",
@@ -215,7 +215,7 @@
 			"predicates": [
 				{
 					"predicate": "QUESTION",
-					"justification": "as a default verb for representing an questioning event."
+					"justification": "as a possible verb for representing an questioning event."
 				},
 				{
 					"predicate": "ASK",
@@ -236,7 +236,7 @@
 			"predicates": [
 				{
 					"predicate": "QUESTION",
-					"justification": "as a default verb for representing an questioning event."
+					"justification": "as a possible verb for representing an questioning event."
 				}
 			],
 			"context": "This subtask continues the previous context, by prompting the consultant to further provide the actual (question) content of the second character's query."
@@ -249,7 +249,7 @@
 			"predicates": [
 				{
 					"predicate": "DENY",
-					"justification": "as a default verb for representing an denying event."
+					"justification": "as a possible verb for representing an denying event."
 				}
 			],
 			"context": "The context of this subtask introduces a character making a claim, followed by a second character denying the claim. The consultant is prompted to report on the second character's speech by making reference to the claim which the second character denies."
@@ -262,7 +262,7 @@
 			"predicates": [
 				{
 					"predicate": "DENY",
-					"justification": "as a default verb for representing an denying event."
+					"justification": "as a possible verb for representing an denying event."
 				}
 			],
 			"context": "This subtask continues the previous context, by prompting the consultant to use an interrogative clause to refer to the claim being denied. Because of the difficulty of finding situations which are both i. formal enough that speakers of some languages (e.g. Hindi) will use a verb with the meaning of DENY,and ii. are ambiguous enough that one could felicitously deny multiple answers to an interrogative clause (e.g. deny stealing bread AND deny not stealing bread), I do not try to create such a context, and simply prompt the consultant to use the interrogative through the template."
@@ -275,7 +275,7 @@
 			"predicates": [
 				{
 					"predicate": "DENY",
-					"justification": "as a default verb for representing an denying event."
+					"justification": "as a possible verb for representing an denying event."
 				}
 			],
 			"context": "This subtask continues the previous context, by prompting the consultant to further provide the actual (propositional) content of the second character's denial."
@@ -288,7 +288,7 @@
 			"predicates": [
 				{
 					"predicate": "EXPLAIN",
-					"justification": "as a default verb for representing an explaining event."
+					"justification": "as a possible verb for representing an explaining event."
 				},
 				{
 					"predicate": "ANSWER",
@@ -305,7 +305,7 @@
 			"predicates": [
 				{
 					"predicate": "EXPLAIN",
-					"justification": "as a default verb for representing an explaining event."
+					"justification": "as a possible verb for representing an explaining event."
 				},
 				{
 					"predicate": "ANSWER",
@@ -322,7 +322,7 @@
 			"predicates": [
 				{
 					"predicate": "EXPLAIN",
-					"justification": "as a default verb for representing an explaining event."
+					"justification": "as a possible verb for representing an explaining event."
 				},
 				{
 					"predicate": "ANSWER",
@@ -339,7 +339,7 @@
 			"predicates": [
 				{
 					"predicate": "EXPLAIN",
-					"justification": "as a default verb for representing an explaining event."
+					"justification": "as a possible verb for representing an explaining event."
 				},
 				{
 					"predicate": "ANSWER",
@@ -356,7 +356,7 @@
 			"predicates": [
 				{
 					"predicate": "EXPLAIN",
-					"justification": "as a default verb for representing an explaining event."
+					"justification": "as a possible verb for representing an explaining event."
 				},
 				{
 					"predicate": "EXPLAIN-ALT",
@@ -377,7 +377,7 @@
 			"predicates": [
 				{
 					"predicate": "EXPLAIN",
-					"justification": "as a default verb for representing an explaining event."
+					"justification": "as a possible verb for representing an explaining event."
 				},
 				{
 					"predicate": "EXPLAIN-ALT",
@@ -398,7 +398,7 @@
 			"predicates": [
 				{
 					"predicate": "COMMENT",
-					"justification": "as a default verb for representing an commenting event."
+					"justification": "as a possible verb for representing an commenting event."
 				},
 				{
 					"predicate": "COMMENT-ALT",
@@ -415,7 +415,7 @@
 			"predicates": [
 				{
 					"predicate": "COMMENT",
-					"justification": "as a default verb for representing an commenting event."
+					"justification": "as a possible verb for representing an commenting event."
 				},
 				{
 					"predicate": "COMMENT-ALT",
@@ -432,7 +432,7 @@
 			"predicates": [
 				{
 					"predicate": "COMMENT",
-					"justification": "as a default verb for representing an commenting event."
+					"justification": "as a possible verb for representing an commenting event."
 				},
 				{
 					"predicate": "COMMENT-ALT",
@@ -449,7 +449,7 @@
 			"predicates": [
 				{
 					"predicate": "COMMENT",
-					"justification": "as a default verb for representing an commenting event."
+					"justification": "as a possible verb for representing an commenting event."
 				},
 				{
 					"predicate": "COMMENT-ALT",
@@ -466,7 +466,7 @@
 			"predicates": [
 				{
 					"predicate": "COMMENT",
-					"justification": "as a default verb for representing an commenting event."
+					"justification": "as a possible verb for representing an commenting event."
 				}
 			],
 			"context": "The context of this subtask introduces a character who asks a question, followed by a second character who makes an assertion commenting on the question. The consultant is prompted to report on the second character's speech by making reference to question which the first character utters."
@@ -479,7 +479,7 @@
 			"predicates": [
 				{
 					"predicate": "COMMENT",
-					"justification": "as a default verb for representing an commenting event."
+					"justification": "as a possible verb for representing an commenting event."
 				}
 			],
 			"context": "The context of this subtask introduces a character making a claim, followed by a second character asking a question as a means of commenting on this claim. The consultant is prompted to report on the second character's speech by making reference to the question which the second character uses as a comment."
@@ -507,7 +507,7 @@
 			"id": "ASSERT DECL-WH"
 		},
 		{
-			"item":"pause",
+			"item":"note",
 			"title":"Defining SAY-ALT",
 			"content":"If the consultant has predominantly used a predicate other than the one labelled as SAY, then label the predominant predicate SAY-ALT. Otherwise, ignore the SAY-ALT label in future sets."
 		},
@@ -520,7 +520,7 @@
 			"id": "ASK WH"
 		},
 		{
-			"item":"pause",
+			"item":"note",
 			"title":"Defining ASK-ALT",
 			"content":"If the consultant has predominantly used a predicate other than the one labelled as ASK, then label the predominant predicate ASK-ALT. Otherwise, ignore the ASK-ALT label in future sets."
 		},
@@ -547,7 +547,7 @@
 			"id": "P EXPLAIN DECL-WH EVENT"
 		},
 		{
-			"item":"pause",
+			"item":"note",
 			"title":"Defining EXPLAIN-ALT",
 			"content":"If the consultant has predominantly used a predicate other than the one labelled as EXPLAIN, then label the predominant predicate EXPLAIN-ALT. Otherwise, ignore the EXPLAIN-ALT label in future sets."
 		},
@@ -641,7 +641,7 @@
 			"id": "ANSWER WH"
 		},
 		{
-			"item":"pause",
+			"item":"note",
 			"title":"Defining COMMENT-ALT",
 			"content":"If the consultant has predominantly used a predicate other than the one labelled as COMMENT, then label the predominant predicate COMMENT-ALT. Otherwise, ignore the COMMENT-ALT label in future sets."
 		},
