@@ -134,7 +134,7 @@
 				"id": "assert_decl_wh_with_wh_indefinite_high_scope",
 				"minimal_class": 5,
 				"context_type":"plain_assertion_int_high_indef",
-				"context": "Finally, another friend Bill comes up to you and and asks you the same question. At this point you don't even remember who John's older sister met. You respond:",
+				"context": "Finally, another friend Bill comes up to you and asks you the same question. At this point you don't even remember who John's older sister met. You respond:",
 				"template": "John ___ who his older sister met at a cafe, but I forget which person, and which cafe.",
 				"clause_type": "wh",
 				"theme_event": "both",
