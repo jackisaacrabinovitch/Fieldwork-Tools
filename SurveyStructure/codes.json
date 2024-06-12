@@ -728,11 +728,11 @@
 		},
 		"group9": {
 			"tasks":["DENY DECL-WH"],
-			"naming": "3 8 1 6 11 4"
+			"naming": "8 1 6 11 4 3"
 		},
 		"group10": {
 			"tasks":["QUESTION DECL-WH"],
-			"naming": "9 2 7 0 5 10"
+			"naming": "2 7 0 5 10 9"
 		}
 	},
 	"names":{
