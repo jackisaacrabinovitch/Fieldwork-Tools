@@ -96,6 +96,7 @@ let languages = {
         }
     }
 }
+let originalnames = ["John", "Mary", "Bill", "Sue", "Harold", "Fiona"]
 
 async function performAll(language){
 	let survey = await fetch("survey.json")
@@ -104,8 +105,8 @@ async function performAll(language){
     let codes = await fetch("codes.json")
 		.then(returnJSON)
 
-
-
+    let names = codes.names[language]
+    console.log(names)
 
     
 
@@ -121,9 +122,11 @@ async function performAll(language){
     }
 
     let taskarr = codes.Task_Order
-
+    let taskids = []
+    
     taskarr.forEach((task) => {
         if (task.item === "task"){
+            let p = []
             survey.find((x)=>{return x.Task_Name === task.id}).steps.forEach(step => {
                 stepnumber ++
                 idmap.id2num[step.id] = stepnumber
@@ -133,12 +136,16 @@ async function performAll(language){
                         idmap.minclass2ids[step.minimal_class] = []
                     }
                     idmap.minclass2ids[step.minimal_class].push(step.id)
+                    p.push(step.minimal_class)
                 }
             });
+            taskids.push({
+                task: task.id,
+                minimal_sets: p
+            })
         }
     });
 
-    console.log(idmap)
 
     let subtaskgroups = []
     taskarr.forEach(task => {
@@ -153,11 +160,12 @@ async function performAll(language){
         } else if (task.item === "task"){
             tasknumber ++
             let thetask = survey.find((x)=>{return x.Task_Name === task.id})
-            res.push(`<h3>Task ${tasknumber}: ${thetask.Task_Name}</h3>`)
+            res.push(`<h3>Task ${tasknumber}: ${thetask.Task_Name}</h3><div id="task-content-${task.id}">`)
             thetask.steps.forEach((step) => {
                 res.push(formatStep2(step,languages[language],idmap,codes.Context_Types[step.context_type]))
                 subtaskgroups.push(step)
             });
+            res.push(`</div>`)
         }
     });
 
@@ -172,6 +180,20 @@ async function performAll(language){
     }) )
     document.getElementById("main").innerHTML = res.join("")
     makeTOC() 
+
+    Object.keys(codes.naming_system).forEach(group => {
+        codes.naming_system[group].tasks.forEach(task => {
+            let html = document.getElementById(`task-content-${task}`).innerHTML
+            let indices = codes.naming_system[group].naming.split(" ").map((x)=>{return Number(x)})
+            for (let i = 0; i< 6; i++){
+                html = html.replaceAll(originalnames[i],names.Given[indices[i]])
+                console.log(originalnames[i])
+                console.log(indices[i])
+            }
+            html = html.replaceAll("Smith",names.Smith)
+            document.getElementById(`task-content-${task}`).innerHTML = html
+        });
+    });
 
     // rewriteVerbChecks(survey,clausekinds)
 
@@ -344,4 +366,4 @@ function makeTOC(){
 };
 
 
-performAll("Catalan");
+performAll("Georgian");

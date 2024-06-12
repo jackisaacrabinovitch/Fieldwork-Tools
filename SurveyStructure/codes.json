@@ -56,10 +56,6 @@
 				{
 					"predicate": "SAY",
 					"justification": "as a possible verb for representing an assertion."
-				},
-				{
-					"predicate": "SAY-ALT",
-					"justification": "to form minimal pairs with other SAY-ALT forms."
 				}
 			],
 			"context": "This subtasks takes a DP referred to directly in the original assertion, and creates a context where the consultant has \"forgotten\" the exact identity of the DP. This allows the consultant to replace the DP with an indefinite in their report, which must be interpreted with high scope, as the consultant acknowledges that the original assertion made specific reference to the DP."
@@ -73,10 +69,6 @@
 				{
 					"predicate": "ASK",
 					"justification": "as a possible verb for representing a query."
-				},
-				{
-					"predicate": "ASK-ALT",
-					"justification": "to form minimal pairs with other ASK-ALT forms."
 				},
 				{
 					"predicate": "SAY",
@@ -98,10 +90,6 @@
 				{
 					"predicate": "SAY",
 					"justification": "as a possible verb for representing an assertion."
-				},
-				{
-					"predicate": "SAY-ALT",
-					"justification": "to form minimal pairs with other SAY-ALT forms."
 				}
 			],
 			"context": "This subtask includes further \"forgetting\", such that the consultant is prompted to use both an indefinite for the \"forgotten\" DP, as well as form an interrogative to express that the reported speech had the propositional content of one of the alternative answers to the question denoted by the interrogative."
@@ -704,5 +692,72 @@
 			"item": "task",
 			"id": "P COMMENT DECL-WH EVENT"
 		}
-	]
+	],
+	"naming_system":{
+		"group1": {
+			"tasks":["ASSERT DECL-POL","ASK POL","ASK POL INDEFINITE","ASSERT DECL-POL INDEFINITE"],
+			"naming": "0 1 2 3 4 5"
+		},
+		"group2": {
+			"tasks":["ASSERT DECL-WH","ASK WH","ASK WH INDEFINITE","ASSERT DECL-WH INDEFINITE"],
+			"naming": "6 7 8 9 10 11"
+		},
+		"group3": {
+			"tasks":["Q COMMENT WH EVENT","Q COMMENT WH THEME","P COMMENT DECL-WH THEME", "P COMMENT DECL-WH EVENT"],
+			"naming": "8 3 10 5 0 7"
+		},
+		"group4": {
+			"tasks":["P EXPLAIN DECL-POL THEME","P EXPLAIN DECL-POL EVENT","Q EXPLAIN POL EVENT","Q EXPLAIN POL THEME","ANSWER POL"],
+			"naming": "10 5 6 1 2 9"
+		},
+		"group5": {
+			"tasks":["P EXPLAIN DECL-WH THEME","P EXPLAIN DECL-WH EVENT","Q EXPLAIN WH EVENT","Q EXPLAIN WH THEME","ANSWER WH"],
+			"naming": "4 11 0 7 8 3"
+		},
+		"group6": {
+			"tasks":["Q COMMENT POL EVENT","Q COMMENT POL THEME","P COMMENT DECL-POL THEME", "P COMMENT DECL-POL EVENT"],
+			"naming": "2 9 4 11 6 1"
+		},
+		"group7": {
+			"tasks":["DENY DECL-POL"],
+			"naming": "0 5 10 3 8 1"
+		},
+		"group8": {
+			"tasks":["QUESTION DECL-POL"],
+			"naming": "6 11 4 9 2 7"
+		},
+		"group9": {
+			"tasks":["DENY DECL-WH"],
+			"naming": "3 8 1 6 11 4"
+		},
+		"group10": {
+			"tasks":["QUESTION DECL-WH"],
+			"naming": "9 2 7 0 5 10"
+		}
+	},
+	"names":{
+		"Georgian":{
+			"Smith":"Burduli",
+			"Given":["Shota","Maia","Otar","Nino","Giorgi","Mariam",
+			"Tamaz","Natela","Irakli","Ketevan","Zurab","Sopiko"]
+		},
+		"Catalan":{
+			"Smith":"Graells",
+			"Given":["Lluís","Jana","Isidre","Laia","Oriol","Montserrat",
+			"Joan", "Martina", "Antonio","Sofia","Marc","Isabel"
+		]
+		},
+		"Hindi":{
+			"Smith":"Santokhi",
+			"Given":["Ravi","Sruti","Akaash","Jyoti","Deepak","Priya",
+			"Vihaan", "Aadhya", "Hiranya","Chandani","Surya","Daksha"
+		]
+		},
+		"Korean":{
+			"Smith":"Kim",
+			"Given":["Inho","Seohyun","Jaehun","Eunhye","Sangwook","Mina",
+			"Seungjun","Dohee","Kyehoon","Tae-eun","Hyonho","Naehyeon"
+		]
+		}
+	}
 }

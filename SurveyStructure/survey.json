@@ -773,7 +773,7 @@
 				"id": "p_comment_decl_wh_theme_decl",
 				"minimal_class": 7,
 				"context_type":"reporting_claim_commented_on",
-				"context": "You at a party hosted by Mary and notice that John's kids appear to really enjoy Mary's cooking. You tell John <p>You: Wow your children enjoy Mary's cooking the most!</p>John responds to you: <p>John: It's because she adds butter to her rice.</p> Your friend Bill walks in, having only heard what John said, and asks you what the context was for John saying that. You respond:",
+				"context": "You are at a party hosted by Mary and notice that John's kids appear to really enjoy Mary's cooking. You tell John <p>You: Wow your children enjoy Mary's cooking the most!</p>John responds to you: <p>John: It's because she adds butter to her rice.</p> Your friend Bill walks in, having only heard what John said, and asks you what the context was for John saying that. You respond:",
 				"template": "John ___ that his children enjoy Mary's cooking the most.",
 				"clause_type": "decl",
 				"theme_event": "theme",
