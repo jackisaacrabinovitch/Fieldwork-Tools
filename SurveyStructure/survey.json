@@ -524,7 +524,7 @@
 				"id": "p_explain_decl_pol_theme_decl",
 				"minimal_class": 9,
 				"context_type":"reporting_claim_explained",
-				"context": "You are a teacher. This semester, John's daughter, who is your student, has been struggling in class, and it seems like she would fail. However, she got a passing grade on her final test. In a meeting with John, you ask him how it is possible that she got the score. John shyly replies. <p>John: Well, I hired a tutor.</p> Later, you meet with your friend Mary. She asks you if John told you how his daughter got a perfect score.",
+				"context": "You are a teacher. This semester, John's daughter, who is your student, has been struggling in class, and it seems like she will fail. However, she got a passing grade on her final test. In a meeting with John, you ask him how it is possible that she got the score. John shyly replies. <p>John: Well, I hired a tutor.</p> Later, you meet with your friend Mary. She asks you if John told you how his daughter got a perfect score.",
 				"template": "John ___ that his daughter got a passing grade on her final test. But I'm not sure if he'd want me to tell you how.",
 				"clause_type": "decl",
 				"theme_event": "theme",

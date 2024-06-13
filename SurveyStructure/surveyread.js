@@ -106,7 +106,6 @@ async function performAll(language){
 		.then(returnJSON)
 
     let names = codes.names[language]
-    console.log(names)
 
     
 
@@ -146,6 +145,7 @@ async function performAll(language){
         }
     });
 
+    let markdown = []
 
     let subtaskgroups = []
     taskarr.forEach(task => {
@@ -159,25 +159,56 @@ async function performAll(language){
             res.push(`<h2>Set ${setnumber}: ${task.title}</h2><p>${task.content}</p>`)
         } else if (task.item === "task"){
             tasknumber ++
+            markdown.push(`## Task ${tasknumber}`)
             let thetask = survey.find((x)=>{return x.Task_Name === task.id})
             res.push(`<h3>Task ${tasknumber}: ${thetask.Task_Name}</h3><div id="task-content-${task.id}">`)
             thetask.steps.forEach((step) => {
                 res.push(formatStep2(step,languages[language],idmap,codes.Context_Types[step.context_type]))
                 subtaskgroups.push(step)
+                markdown.push(`**Subtask ${idmap.id2num[step.id]}**`)
+                markdown.push(`**Context:**`)
+                markdown.push({
+                    content: step.context,
+                    id: thetask.Task_Name
+                })
+                markdown.push(``)
+                markdown.push(`**Template:**`)
+                markdown.push({
+                    content: step.template,
+                    id: thetask.Task_Name
+                })
             });
             res.push(`</div>`)
         }
     });
 
-    console.log(subtaskgroups.map((x)=>{
-        return [x.id , ... ifUndefined(x.minimal_pairs,[])]}
-    ).map((x)=>{
-        return x.sort()
-    }).filter((x)=>{
-        return x.length != 1
-    }).filter((x,id,arr)=>{
-        return arr.findIndex((z)=>{return arraysEqual(z,x)}) === id
-    }) )
+    markdown = markdown.map((x)=>{
+        let res = x.content
+        if (x.id){
+            for (let i = 0; i < Object.keys(codes.naming_system).length; i++){
+                if (codes.naming_system[Object.keys(codes.naming_system)[i]].tasks.includes(x.id)){
+                    let indices = codes.naming_system[Object.keys(codes.naming_system)[i]].naming.split(" ").map((x)=>{return Number(x)})
+                    for (let j = 0; j < 6; j++){
+                        res = res.replaceAll(originalnames[j],names.Given[indices[j]])
+                    }
+                    return res
+                }
+            }
+        }
+        return x
+    })
+
+
+    console.log(markdown.join("\n\n"))
+    // console.log(subtaskgroups.map((x)=>{
+    //     return [x.id , ... ifUndefined(x.minimal_pairs,[])]}
+    // ).map((x)=>{
+    //     return x.sort()
+    // }).filter((x)=>{
+    //     return x.length != 1
+    // }).filter((x,id,arr)=>{
+    //     return arr.findIndex((z)=>{return arraysEqual(z,x)}) === id
+    // }) )
     document.getElementById("main").innerHTML = res.join("")
     makeTOC() 
 
@@ -187,8 +218,6 @@ async function performAll(language){
             let indices = codes.naming_system[group].naming.split(" ").map((x)=>{return Number(x)})
             for (let i = 0; i< 6; i++){
                 html = html.replaceAll(originalnames[i],names.Given[indices[i]])
-                console.log(originalnames[i])
-                console.log(indices[i])
             }
             html = html.replaceAll("Smith",names.Smith)
             document.getElementById(`task-content-${task}`).innerHTML = html
