@@ -191,6 +191,7 @@ async function performAll(language){
                     for (let j = 0; j < 6; j++){
                         res = res.replaceAll(originalnames[j],names.Given[indices[j]])
                     }
+                    res = res.replaceAll("Smith",names.Smith)
                     return res
                 }
             }
