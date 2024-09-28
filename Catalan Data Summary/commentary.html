@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Commentary</title>
+	<script src="commentary.js"></script>
+	<script src="Sheets.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Terminology</h1>
+
+	<h2>Levels of Structure and Meaning</h2>
+
+	<p>I adopt a three-level divide between question-like objects and non-question-like objects as discussed in Rudin (Under Review).</p>
+
+	<ol>
+		<li>Descriptions of Syntactic Objects
+			<ol>
+				<li>
+					Declarative: having the morpho-syntax of declarative clauses for a given language (e.g. indicative mood, using no interrogative particles or subject-auxiliary inversion)
+				</li>
+				<li>
+					Interrogative: having the morpho-syntax of interrogative clauses for a given language (e.g. indicative mood, using interrogative particles, subject-auxiliary inversion, or-not constructions)
+				</li>
+			</ol>
+		</li>
+		<li>Descriptions of Semantic Objects
+			<ol>
+				<li>
+					Proposition(al content): The content objects which are compatible or true in a set of possible worlds (standard content of beliefs, knowledge, etc.)
+				</li>
+				<li>
+					Question (content): The content of objects which can be answered by a set of possible propositions (standard content of questions, wondering, etc.)
+				</li>
+			</ol>
+		</li>
+		<li>Descriptions of Illocutionary Acts/Objects
+			<ol>
+				<li>
+					Assertive (utterance): an utterance which proposes that the interlocutor accept some information as accurately representing the world.
+				</li>
+				<li>
+					Inquisitive (utterance): an utterance which requests that the interlocutor provide some information regarding the state of the world.
+				</li>
+			</ol>
+		</li>
+	</ol>
+
+	<h2>Syntactic-Semantic Correspondences</h2>
+
+	<p>Ignoring for now the contribution of the assertive-inquisitive divide in illocutionary acts, I take there to be three possible combinations of the above syntactic and semantic categories. I assume that declarative clauses have an underlying propositional denotation, and that interrogative clauses have an underlying question denotation. This provides us with the most direct two combinations (declarative-propositional and interrogative-question). In addition, interrogative clauses are also sometimes interpreted as referring to a possible answer to the question which they canonically denote. For example, the interrogative clause in <span class="references" data-refs="john-asked-who-left"></span> has a question reading, as it is used to describe the question content of a question. However, in <span class="references" data-refs="john-said-who-left"></span>, the (superficially) same clause is used to describe a statement which provides an answer to the question it canonically denotes.</p>
+
+	<div class="example" data-key="english-who-left">
+		<div class="subexample" data-key="john-asked-who-left">
+			John asked who left = John asked a question whose content is [[who left]]
+		</div>
+		<div class="subexample" data-key="john-said-who-left">
+			John said who left = John said a statement whose content is an answer to [[who left]] (e.g. he said that Mary left)
+		</div>
+	</div>
+
+	<p>I will call the propositional readings of interrogative clauses "answer" readings, as opposed to "question" readings.</p>
+
+	<h1>Subordinate Clause Types</h1>
+
+	<p>The study focus on five kinds of subordinate clauses in Catalan. The first is the subordinate declarative clause, which is headed by the complementizer <span class="ts">que</span> and contains fully finite inflection and indicative mood on its embedded predicate <span class="references" data-refs="decl-que"></span>.</p>
+
+	<div class="example" data-key="decl-que">
+		<div>A sentence containing a subordinate declarative clause.</div>
+		<div class="sentence_ref" data-sent="CIC14"></div>
+	</div>
+
+	<p>The next two are polar clauses, what I will call the "bare" polar and "<span class="ts">que</span>-marked" polar clauses. Bare polar clauses are headed by an interrogative complementizer <span class="ts">si</span> <span class="tl">if</span> and contains fully finite inflection and indicative mood on their embedded predicate <span class="references" data-refs="pol-bare"></span>. The <span class="ts">que</span>-marked clause is identical to their bare counterpart, except that they additionally contain the complementizer <span class="ts">que</span> before their interrogative complementizer <span class="ts">si</span> <span class="references" data-refs="pol-que"></span>.</p>
+
+	<div class="example" data-key="pol-examples">
+		<div class="subexample" data-key="pol-bare">
+			<div>A sentence containing a subordinate bare polar clause.</div>
+			<div class="sentence_ref" data-sent="CIC24"></div>
+		</div>
+		<div class="subexample" data-key="pol-que">
+			<div>A sentence containing a subordinate <span class="ts">que</span>-marked polar clause.</div>
+			<div class="sentence_ref" data-sent="CIC25"></div>
+		</div>
+	</div>
+
+	<p>The last two are wh-clauses, what I will similarly call the "bare" wh and "<span class="ts">que</span>-marked" wh clauses. Bare wh- clauses have no overt complementizer and contain a wh-item which has undergone movement to the left periphery of the clause and often subject-auxiliary inversion; like other clauses mentioned here, these "bare" wh- clauses have full finite inflection and indicative mood on their embedded predicate <span class="references" data-refs="wh-bare"></span>. <span class="ts">Que</span>-marked wh-clauses are identical, except that they additionally include the complementizer <span class="ts">que</span> before their wh-item <span class="references" data-refs="wh-que"></span>.</p>
+
+	<div class="example" data-key="pol-examples">
+		<div class="subexample" data-key="wh-bare">
+			<div>A sentence containing a subordinate bare wh- clause.</div>
+			<div class="sentence_ref" data-sent="CIC127"></div>
+		</div>
+		<div class="subexample" data-key="wh-que">
+			<div>A sentence containing a subordinate <span class="ts">que</span>-marked wh- clause.</div>
+			<div class="sentence_ref" data-sent="CIC125"></div>
+		</div>
+	</div>
+
+	<p>In this way, the polar and wh-clauses form analagous pairs: those with and without <span class="ts">que</span>.</p>
+
+	<h1>Subordinate Clauses under Various Verbs</h1>
+
+	<p>This section discusses the possible interpretations of the five subordinate clauses under various predicates. Each subsection discusses a different predicate, first introducing the hypothesis space of what kinds of meanings we may assume are associated with embedded clauses, and then demonstrating how each clause type fits into that hypothesis space. Each subsection is summarized with a table describing the felicity/grammaticality of various complement-meaning combinations under that predicate.</p>
+
+	<h2><span class="ts">Dir</span> <span class="tl">Say</span></h2>
+
+	<p>The verb <span class="ts">dir</span>, typically translated as <span class="tl">say</span>, denotes a speech event. Because of this generic meaning, there are two possible interpretations we will fill our hypothesis space with: specifically that a clause may represent i. the propositional content of the speech event <span class="references" data-refs="dir-hypothesis-proposition"></span>, or ii. the question content of the speech event <span class="references" data-refs="dir-hypothesis-question"></span>.</p>
+
+	<div class="example" data-key="dir-hypotheses">
+		<div>Under <span class="ts">dir</span>, an embedded clause may potentially describe: </div>
+		<div class="subexample" data-key="dir-hypothesis-proposition">
+			<div>"Propositional content of Speech": the propositional content of an assertive speech event described by <span class="ts">dir</span>.<br>
+			E.g. John utters "It is raining", Mary forms a speech report of the form [<span class="ts">dir</span> CP], where CP describes the propositional content of "It is raining"
+			</div>
+		</div>
+		<div class="subexample" data-key="dir-hypothesis-question">
+			<div>"Question content of Speech": the question content of an inquisitive speech event described by <span class="ts">dir</span>.<br>
+			E.g. John utters "Is it raining?", Mary forms a speech report of the form [<span class="ts">dir</span> CP], where CP describes the question content of "Is it raining?"
+			</div>
+		</div>
+	</div>
+
+	<p>A summary of the findings is found in <span class="references" data-refs="dir-summary"></span>. Under <span class="ts">dir</span>, bare polar, and bare wh clauses all can describe propositional content of speech but not question content of speech, while <span class="ts">que</span>-marked polar and <span class="ts">que</span>-marked wh clauses can describe question content of speech. Within both polar and wh-clause types, there is complementary distribution, with bare forms describing propositional content, and <span class="ts">que</span>-marked forms describing question content.</p>
+	
+	<div class="example" data-key="dir-summary">
+		<div>Summary table for the interpretation of clauses under <span class="ts">dir</span> <span class="tl">say</span></div>
+		<div class="table">
+			! Propositional content of Speech ! Question content of Speech !!
+			Declarative 								! OK <span class="references" data-refs="dir-decl-que-prop-speech"></span>! — !!
+			Bare Polar 									! OK <span class="references" data-refs="dir-answer-bare-pol"></span>! * <span class="references" data-refs="dir-question-bare-pol"></span>!!
+			<span class="ts">Que</span>-Marked Polar  	! * <span class="references" data-refs="dir-answer-que-pol"></span>! OK <span class="references" data-refs="dir-question-que-pol"></span>!!
+			Bare Wh 									! OK <span class="references" data-refs="dir-answer-bare-wh"></span>! * <span class="references" data-refs="dir-question-bare-wh"></span>!!
+			<span class="ts">Que</span>-Marked Wh 		! * <span class="references" data-refs="dir-answer-que-wh"></span>! OK <span class="references" data-refs="dir-question-que-wh"></span>
+		</div>
+	</div>
+
+	<div class="hider" data-desc="Declarative Data">
+
+	<p>For declarative clauses, we only expect propositional interpretations, and so we will only look at the propositional content of speech reading. Under <span class="ts">dir</span>, an embedded declarative clause may represent propositional content of speech <span class="references" data-refs="dir-decl-que-prop-speech"></span>.</p>
+
+	<div class="example" data-key="dir-decl-que-prop-speech">
+		<div>Under <span class="ts">dir</span>, an embedded declarative clause may represent propositional content of speech.</div>
+		<div class="sentence_ref" data-sent="CIC1"></div>
+	</div>
+
+	</div>
+	<div class="hider" data-desc="Polar Data">
+	
+	<p>For interrogative clauses (polar and wh-), we can assume that both question and propositional (ie. answer) readings may be possible. In <span class="references" data-refs="dir-question-of-pol"></span>, a context is provided which encourages the speaker to form a speech report of Jana's original inquisitive utterance. Under such a context, an embedded clause must describe question content of the inquisitive utterance in order to be felicitous. Such an interpretation is impossible for the bare polar clause <span class="references" data-refs="dir-question-bare-pol"></span>, but is acceptable for the <span class="ts">que</span>-marked polar <span class="references" data-refs="dir-question-que-pol"></span>.</p>
+
+	<div class="example" data-key="dir-question-of-pol">
+		Context: You have been helping Jana's brother in school, as well as teaching him how to drive. Today you took him to take his driving test and he passed. Jana calls you asks you: "Did my younger brother pass his driving test?" Later, your friend Isidre asks you what Jana said. You respond:
+		<div class="subexample" data-key="dir-question-bare-pol">
+			<div>Under <span class="ts">dir</span>, an embedded bare polar clause cannot represent question content of speech.</div>
+			<div class="sentence_ref" data-sent="CIC26"></div>
+		</div>
+		<div class="subexample" data-key="dir-question-que-pol">
+			<div>Under <span class="ts">dir</span>, an embedded <span class="ts">que</span>-marked polar clause can represent question content of speech.</div>
+			<div class="sentence_ref" data-sent="CIC27"></div>
+		</div>
+	</div>
+
+	<p>The other possible interpretation is one where the embedded interrogative describes the propositional content of the reported assertive speech act this can be done through an "answer" interpretation, where the embedded clause is understood as representing an answer to the question it typically represents. In <span class="references" data-refs="dir-answer-of-pol"></span>, a context is created in which the speaker is encouraged to report Jana's assertion without making reference to the actual truth conditions of what Jana said. This is a kind of environment where an "answer" reading should be expected, as an embedded interrogative can represent the kind of assertion which Jana made (it is about passing a test) without making explicit reference to its truth conditions. Here the bare polar is acceptable while the <span class="ts">que</span>-marked polar is not.</p>
+
+	<div class="example" data-key="dir-answer-of-pol">
+		Context: You are hanging out with your friend Jana. Jana tells you that her younger brother passed his driving test, and tells you that her younger brother wants to personally tell your friend Isidre that he passed his driving test. Later you see Isidre, and he asks you: "Hey, did you hear if Jana's younger brother passed his driving test?" You don't want to lie to Isidre, but also don't want to tell him. So you say:
+		<div class="subexample" data-key="dir-answer-bare-pol">
+			<div>Under <span class="ts">dir</span>, an embedded bare polar clause can represent proposition content of speech.</div>
+			<div class="sentence_ref" data-sent="CIC4"></div>
+		</div>
+		<div class="subexample" data-key="dir-answer-que-pol">
+			<div>Under <span class="ts">dir</span>, an embedded <span class="ts">que</span>-marked polar clause cannot represent proposition content of speech.</div>
+			<div class="sentence_ref" data-sent="CIC5"></div>
+		</div>
+	</div>
+
+	<p>What we have seen so far is that, under the predicate <span class="ts">dir</span>, <span class="ts">que</span>-marked polar clauses can describe question content of reported speech, but not propositional content of reported speech, which bare polar clauses are the opposite, capable of describing propositional content of reported speech (answer-reading) but not question content of reported speech.</p>
+
+	</div>
+
+	<div class="hider" data-desc="Wh Data">
+
+	<p>Analagously to the context in <span class="references" data-refs="dir-question-of-pol"></span>, the context in <span class="references" data-refs="dir-question-of-wh"></span> encourages the speaker to form a speech report of a wh-question using an embedded wh-clause. The result is similarly analagous to <span class="references" data-refs="dir-question-of-pol"></span>: embedded bare wh-clauses cannot felicitously describe the the question content of the reported query <span class="references" data-refs="dir-question-bare-wh"></span>, while <span class="ts">que</span>-marked clauses can <span class="references" data-refs="dir-question-que-wh"></span>.</p>
+
+	<div class="example" data-key="dir-question-of-wh">
+		Context: You are friends with Joan's older sister Isabel. Isabel has been secretive about who she has been meeting with recently. One day, Joan asks you: "Who did my older sister meet at a cafe?" Your friend Sofia asks you what Joan said. You respond:
+		<div class="subexample" data-key="dir-question-bare-wh">
+			<div>Under <span class="ts">dir</span>, an embedded bare polar clause cannot represent question content of speech.</div>
+			<div class="sentence_ref" data-sent="CIC128"></div>
+		</div>
+		<div class="subexample" data-key="dir-question-que-wh">
+			<div>Under <span class="ts">dir</span>, an embedded <span class="ts">que</span>-marked wh- clause can represent question content of speech.</div>
+			<div class="sentence_ref" data-sent="CIC129"></div>
+		</div>
+	</div>
+
+	<p>Analagously to the context in <span class="references" data-refs="dir-answer-of-pol"></span>, the context in <span class="references" data-refs="dir-answer-of-wh"></span> encourages the speaker to form a speech report of a wh-question using an embedded wh-clause. The result is similarly analagous to <span class="references" data-refs="dir-answer-of-pol"></span>: embedded bare wh-clauses can felicitously describe the propositional content of a reported assertion <span class="references" data-refs="dir-answer-bare-wh"></span>, while <span class="ts">que</span>-marked clauses cannot <span class="references" data-refs="dir-question-que-wh"></span>.</p>
+
+	<div class="example" data-key="dir-answer-of-wh">
+		Context: You are hanging out with your friend Joan. Joan tells you that his older sister met the King of Bhutan at Starbucks, and that his older sister wants to personally tell Martina that she met the King of Bhutan. Later, you see Martina. She asks you: "Hey, Joan's older sister called me and said she met someone really important yesterday, but she won't tell me who yet. Do you know?" You don't want to lie to Martina, but also don't want to tell her. So you say:
+		<div class="subexample" data-key="dir-answer-bare-wh">
+			<div class="sentence_ref" data-sent="CIC16"></div>
+		</div>
+		<div class="subexample" data-key="dir-answer-que-wh">
+			<div class="sentence_ref" data-sent="CIC17"></div>
+		</div>
+	</div>
+
+	</div>
+
+	<h2><span class="ts">Preguntar</span> <span class="tl">Ask</span></h2>
+	
+	<p>The verb <span class="ts">preguntar</span>, typically translated as <span class="tl">ask</span>, denotes a speech event which produces inquisitive utterance. This narrows down the hypothesis space to only one where a question interpretation is allowed: the question content of the speech event <span class="references" data-refs="preguntar-hypothesis-question"></span>.</p>
+
+	<div class="example" data-key="preguntar-hypotheses">
+		<div>Under <span class="ts">preguntar</span>, an embedded clause may potentially describe: </div>
+		<div class="subexample" data-key="preguntar-hypothesis-question">
+			<div>"Question content of Speech": the question content of an inquisitive speech event described by <span class="ts">preguntar</span>.<br>
+			E.g. John utters "Is it raining?", Mary forms a speech report of the form [<span class="ts">preguntar</span> CP], where CP describes the question content of "Is it raining?"
+			</div>
+		</div>
+	</div>
+
+	<p>A summary of the findings is found in <span class="references" data-refs="preguntar-summary"></span>. Under <span class="ts">preguntar</span>, all interrogative clauses can describe question content of speech. This contrasts with <span class="ts">dir</span>, where only <span class="ts">que</span>-marked interrogatives could have such meaning.</p>
+
+	<div class="example" data-key="preguntar-summary">
+		<div>Summary table for the interpretation of clauses under <span class="ts">preguntar</span> <span class="tl">ask</span></div>
+		<div class="table">
+			! Question content of Speech !!
+			Declarative 								! — !!
+			Bare Polar 									! OK <span class="references" data-refs="preguntar-bare-pol"></span>!!
+			<span class="ts">Que</span>-Marked Polar  	! OK <span class="references" data-refs="preguntar-que-pol"></span>!!
+			Bare Wh 									! OK <span class="references" data-refs="preguntar-bare-wh"></span>!!
+			<span class="ts">Que</span>-Marked Wh 		! OK <span class="references" data-refs="preguntar-que-wh"></span>
+		</div>
+	</div>
+
+	<p>There is no discussion of declarative clauses under <span class="ts">preguntar</span>, as <span class="ts">preguntar</span> is incapable of having propositional readings of embedded clauses.</p>
+
+	<div class="hider" data-desc="Polar Data">
+
+	<p>The same context used to prompt a "Question content of Speech" reading under <span class="ts">dir</span> is shown here.</p>
+
+	<div class="example" data-key="preguntar-pol">
+		Context: You have been helping Jana's brother in school, as well as teaching him how to drive. Today you took him to take his driving test and he passed. Jana calls you asks you: "Did my younger brother pass his driving test?" Later, your friend Isidre asks you what Jana said. You respond:
+		<div class="subexample" data-key="preguntar-bare-pol">
+			<div class="sentence_ref" data-sent="CIC24"></div>
+		</div>
+		<div class="subexample" data-key="preguntar-que-pol">
+			<div class="sentence_ref" data-sent="CIC25"></div>
+		</div>
+	</div>
+
+	</div>
+
+	<div class="hider" data-desc="Wh Data">
+
+	<p>The same context used to prompt a "Question content of Speech" reading under <span class="ts">dir</span> is shown here.</p>
+
+	<div class="example" data-key="preguntar-wh">
+		Context: You are friends with Joan's older sister Isabel. Isabel has been secretive about who she has been meeting with recently. One day, Joan asks you who Isabel met with at some cafe. Much later, your friend Martina comes up to you and asks you what Joan said to you. You remember that Joan asked you about who his older sister met at a cafe, but it's been so long ago that you forget which cafe. You respond:
+		<div class="subexample" data-key="preguntar-bare-wh">
+			<div class="sentence_ref" data-sent="CIC37"></div>
+		</div>
+		<div class="subexample" data-key="preguntar-que-wh">
+			<div class="sentence_ref" data-sent="CIC38"></div>
+		</div>
+	</div>
+
+	</div>
+
+	<h2><span class="ts">Explicar</span> <span class="tl">Explain</span></h2>
+
+	<p>The verb <span class="ts">explicar</span>, typically translated as <span class="tl">explain</span>, denotes a speech event which provides explanation for something else such as a claim or fact. This complex meaning of explicar means that the embedded clause could possible describe two things: the content of the speech event itself, or the content of the thing being explained. These two readings, typically called "explanans" and "explanandum" are discussed in <span class="references" data-refs="explicar-hypotheses-1"></span></p>
+
+	<div class="example" data-key="explicar-hypotheses-1">
+		<div>Under <span class="ts">explicar</span>, an embedded clause may potentially describe: </div>
+		<div class="subexample" data-key="explicar-hypothesis-event-proposition">
+			<div>
+				"Propositional content of Speech" (explanans): the propositional content of an assertive speech event (the explanation) described by <span class="ts">explicar</span>.
+				<br>
+				E.g. Mary asks for an explanation of the fact that her car was towed, John utters "There is street cleaning today", explaining that fact. Mary forms a speech report of the form [<span class="ts">explicar</span> CP], where CP describes the question content of "There is street cleaning today."
+			</div>
+		</div>
+		<div class="subexample" data-key="explicar-hypothesis-theme-proposition">
+			<div>
+				"Propositional content of Thing Being Explained" (explanandum): the propositional content of an claim or fact explained by the utterance described by <span class="ts">explicar</span>.
+				<br>
+				E.g. Mary asks for an explanation of the fact that her car was towed, John utters "There is street cleaning today", Mary forms a speech report of the form [<span class="ts">explicar</span> CP], where CP describes the question content of the fact "Mary's car was towed".
+			</div>
+		</div>
+	</div>
+
+	<p>While the explanans/explanandum distinction has been discussed much for propositional content, this division cuts across the propositional-question content division discussed for <span class="ts">dir</span>. Thus we should expect two other readings: a "question-explanans" reading, where the embedded clause describes an explanation which has question content <span class="references" data-refs="explicar-hypothesis-event-question"></span>, and a "question-explanandum" reading, where the embedded clause describes the thing being explained, which itself has question content <span class="references" data-refs="explicar-hypothesis-theme-question"></span>.</p>
+
+	<div class="example" data-key="explicar-hypotheses-2">
+		<div>Under <span class="ts">explicar</span>, an embedded clause may potentially describe: </div>
+		<div class="subexample" data-key="explicar-hypothesis-event-question">
+			<div>
+				"Question content of Speech" (question-explanans): the question content of a speech event which provides explanation, as described by <span class="ts">explicar</span>.
+				<br>
+				E.g. Mary asks for an explanation of the fact that her car was towed, John utters "Was there street cleaning today?", explaining that fact. Mary forms a speech report of the form [<span class="ts">explicar</span> CP], where CP describes the question content of "Was there street cleaning today?"
+			</div>
+		</div>
+		<div class="subexample" data-key="explicar-hypothesis-theme-question">
+			<div>
+				"Question content of Thing Being Explained" (question-explanandum): the question content of something explained by the utterance described by <span class="ts">explicar</span>. In order for this thing to have question content, it cannot be a claim or fact, but rather an issue or question.
+				<br>
+				E.g. Mary asks for an explanation of the issue of who won the race, John utters "The camera broke and the race was so close, it's still up for debate.", explaining the issue. Mary forms a speech report of the form [<span class="ts">explicar</span> CP], where CP describes the question content of the issue "Who won the race?"
+			</div>
+		</div>	
+	</div>
+
+	<p>Though originally not within the scope of the survey, a fifth reading came up naturally when forming responses: this reading is one where <span class="ts">explicar</span> acts sort of like the verb <span class="ts">respondre</span> <span class="tl">answer</span>, where the embedded clause describes the question content of a question for which an explanation for its answer was provided. This is different from the "question-explanandum" reading because the issue described by the embedded clause is not explained, but rather its answer is provided.</p>
+
+	<div class="example" data-key="explicar-hypotheses-2">
+		<div>Under <span class="ts">explicar</span>, an embedded clause may potentially describe: </div>
+		<div class="subexample" data-key="explicar-hypothesis-answered-question">
+			<div>
+				"Content of Resolved Question": the question content of some question or issue which the speech event described by <span class="ts">explicar</span> answers/resolves.
+				<br>
+				E.g. Mary asks who won the race, John utters "Susie won the race", answering that fact. Mary forms a speech report of the form [<span class="ts">explicar</span> CP], where CP describes the question which Mary asked (and was answered) of "Who won the race?"
+			</div>
+		</div>
+	</div>
+
+	<p>A summary of the findings is found in <span class="references" data-refs="explicar-summary"></span>. Under <span class="ts">explicar</span>, propositional content of speech readings are available for declarative,bare polar, and bare wh clauses, but not for <span class="ts">que</span>-marked polar and <span class="ts">que</span>-marked wh clauses. This mirrors the availability of propositional content of speech readings under <span class="ts">dir</span>. Propositional content of thing being explained (propositional explanandum) readings are available for declarative clauses and for bare wh clauses, but not <span class="ts">que</span>-marked wh clauses or any polar clauses. Question content of speech and question content of thing being explained readings are both unexpressable under <span class="ts">explicar</span> with bare or <span class="ts">que</span>-marked polar or wh- clauses. Content of resolved question readings are available for bare polar and bare wh clauses, and are marginal for <span class="ts">que</span>-marked polar and <span class="ts">que</span>-marked wh-clauses.</p>
+
+	<div class="example" data-key="explicar-summary">
+		<div>Summary table for the interpretation of clauses under <span class="ts">explicar</span> <span class="tl">explain</span></div>
+		<div class="table">
+			!	Propositional Content of Speech	!	Propositional Content of Thing Being Explained!Question Content of Speech!Question Content of Thing Being Explained!Content of Resolved Question !!
+			!	Propositional Explanans!Propositional Explanandum!Question Explanans!Question Explanandum!—!!
+			Declarative!OK <span class="references" data-refs="explicar-decl-speech"></span>!OK <span class="references" data-refs="explicar-decl-claim"></span>!—!—!—!!
+			Bare Polar!OK <span class="references" data-refs="explicar-pol-bare-prop-speech"></span>!# <span class="references" data-refs="explicar-pol-bare-claim"></span>!# <span class="references" data-refs="explicar-pol-bare-question-speech"></span>!# <span class="references" data-refs="explicar-pol-bare-justification"></span>!OK <span class="references" data-refs="explicar-pol-bare-answer"></span>!!
+			<span class="ts">Que</span>-Marked Polar!# <span class="references" data-refs="explicar-pol-que-prop-speech"></span>!# <span class="references" data-refs="explicar-pol-que-claim"></span>!# <span class="references" data-refs="explicar-pol-que-question-speech"></span>!# <span class="references" data-refs="explicar-pol-que-justification"></span>!? <span class="references" data-refs="explicar-pol-que-answer"></span>!!
+			Bare Wh!OK <span class="references" data-refs="explicar-wh-bare-prop-speech"></span>!OK <span class="references" data-refs="explicar-wh-bare-claim"></span>!# <span class="references" data-refs="explicar-wh-bare-question-speech"></span>!# <span class="references" data-refs="explicar-wh-bare-justification"></span>!OK <span class="references" data-refs="explicar-wh-bare-answer"></span>!!
+			<span class="ts">Que</span>-Marked Wh!# <span class="references" data-refs="explicar-wh-que-prop-speech"></span>!# <span class="references" data-refs="explicar-wh-que-claim"></span>!# <span class="references" data-refs="explicar-wh-que-question-speech"></span>!# <span class="references" data-refs="explicar-wh-que-justification"></span>! ? <span class="references" data-refs="explicar-wh-que-answer"></span>
+		</div>
+	</div>
+
+	<div class="hider" data-desc="Declarative Data">
+
+	Only the two propositional readings were tested with declarative clauses. In <span class="references" data-refs="explicar-decl-speech"></span>, a context is formed where the speaker is encouraged to form a speech report describing the content of an explanation (an explanation for the fact that Laia is upset). A declarative clause can felicitously refer to the explanation under <span class="ts">explicar.</span> 
+
+	<div class="example" data-key="explicar-decl-speech">
+		Context: Recently your friend Laia has seemed upset. You approach her friend Isabel and ask: "Why is Laia so upset?" Isabel responds: "My father fired Martina." Later, Oriol comes to you and asks you why Laia seems upset. You respond:
+		<div class="sentence_ref" data-sent="CIC78"></div>
+	</div>
+
+	<p>In <span class="references" data-refs="explicar-decl-claim"></span>, the context prompts a speech report using the propositional content of thing being explained (explanandum). The speaker is prompted to form a report of an explaining event, without making reference to what the explanation was. This encourages the speaker to form a report where the embedded clause refers to the thing being explained rather than the explanation. The propositional content of thing being explained reading is possible: "that her father fired Martina" describes the fact that required explanantion, rather than what Isabel said.</p>
+
+	<div class="example" data-key="explicar-decl-claim">
+		Context: You work for the father of your friend Isabel. Your boss recently fired a coworker named Martina. You confront Isabel and ask her: "Why did your father fire Martina?" Isabel responds: "Don't tell anyone, but she was caught stealing money from the store." Later your manager Lluís asks you if Isabel told you anything why Martina got fired.
+		<div class="sentence_ref" data-sent="CIC56"></div>
+	</div>
+
+	</div>
+
+	<div class="hider" data-desc="Polar Data">
+
+	<p>We first look at the propositional content of speech reading. In <span class="references" data-refs="explicar-pol-prop-speech"></span>, a context is provided where the speaker is encouraged to report the content of speech of an explaining event, but is unable to recall the exact truth conditions of the explanation. This prompts the speaker to form a speech report in which they use an interrogative clause to describe what the content of the explaination is "about" without making reference to its exact truth conditions. In this scenario, a bare polar clause can felicitously form such a report <span class="references" data-refs="explicar-pol-bare-prop-speech"></span>, but a <span class="ts">que</span>-marked polar cannot <span class="references" data-refs="explicar-pol-que-prop-speech"></span>.</p>
+
+	<div class="example" data-key="explicar-pol-prop-speech">
+		Context: One day your friend friend Jana comes up to you and says to you: "I heard you saw Marc crying a week ago. Why was he crying?" You remember him crying a week ago and talking to him about it. Your remember him saying something about his daughter's final test, but you forget if he was crying happily because she passed, or crying sadly because she failed. You respond:
+		<div class="subexample" data-key="explicar-pol-bare-prop-speech">
+			<div class="sentence_ref" data-sent="CIC70"></div>
+		</div>
+		<div class="subexample" data-key="explicar-pol-que-prop-speech">
+			<div class="sentence_ref" data-sent="CIC74"></div>
+		</div>
+	</div>
+
+	<p>To prompt a propositional content of thing being explained (propositional explanandum) reading, the context of <span class="references" data-refs="explicar-pol-claim"></span> prompts the speaker to report an explanation event without making reference to the content of the explanation at all (the speaker cannot disclose what the explanation for the grade was), and without making reference to the truth conditions of the thing being explained (the speaker cannot disclose whether the grade was passing or not). Under such a scenario, neither the bare nor <span class="ts">que</span>-marked polar clauses are felicitous. In English, the target meaning may be paraphrased by something like: "I won't tell you if Marc's daughter passed her final test, but if she did, then Marc explained this fact to me; if she didn't, then Marc explained that fact to me."</p>
+
+	<div class="example" data-key="explicar-pol-claim">
+		Context: You are a teacher. This semester, Marc's daughter, who is your student, has been struggling in class, and it seems like she will fail. However, she got a passing grade on her final test. In a meeting with Marc, you ask him how it is possible that she got the score. Marc shyly replies. "Well, I hired a tutor." Another teacher who teaches Marc's daughter is suspicious that she cheated on her other exam. The teacher asks you: "Did Marc's daughter get a passing grade for your final test?" You tell her that you cannot disclose your student's grades to other teachers. She responds: "Well can you at least tell me if Marc told you how she got her grade in your class?" You respond:
+		<div class="subexample" data-key="explicar-pol-bare-claim">
+			<div class="sentence_ref" data-sent="CIC48"></div>
+		</div>
+		<div class="subexample" data-key="explicar-pol-que-claim">
+			<div class="sentence_ref" data-sent="CIC52"></div>
+		</div>
+	</div>
+
+	<p>The question content of speech reading is one where the embedded clause describes the question content of an utterance. <span class="references" data-refs="explicar-pol-question-speech"></span> provides such a context, in which Marc uses a (rhetorical) question to explain that the speaker shouldn't be too upset. In this context, neither a bare polar, nor a <span class="ts">que</span>-marked polar are felicitous.</p>
+
+	<div class="example" data-key="explicar-pol-question-speech">
+		Context: You are talking with your friend Marc. Recently you have been upset because your son got a failing grade on a test. Marc reassures you: "Well, did my daughter get a passing grade on her final test?" You know that his daughter failed her final test in high school, but became a great surgeon anyway, so his question comforts you. Later your friend Montserrat asks you if you feel better. You say that Marc helped you feel better. She asks you how. You respond:
+		<div class="subexample" data-key="explicar-pol-bare-question-speech">
+			<div class="sentence_ref" data-sent="CIC92"></div>
+		</div>
+		<div class="subexample" data-key="explicar-pol-que-question-speech">
+			<div class="sentence_ref" data-sent="CIC93"></div>
+		</div>
+	</div>
+
+	<p>The question content of thing being explained (question explanandum) reading is one where the embedded clause describes the question content of an issue which some speech act provides explanation for. <span class="references" data-refs="explicar-pol-justification"></span> provides such a context, in which the speaker is encouraged to report Marc's explanation for the speaker's question. In this context, neither a bare polar, nor a <span class="ts">que</span>-marked polar are felicitous.</p>
+
+	<div class="example" data-key="explicar-pol-justification">
+		Context (Subtask 31): You are a tutor, being interviewed by Marc and Jana about their daughter. You ask them: "Did your daughter pass her final exam this year?" Jana asks: "How is that an issue?" Before you answer, Marc responds: "Because if she didn't pass, she will need to repeat the year." Later your friend asks you how Jana and Marc reacted to your questions. You tell them:
+		<div class="subexample" data-key="explicar-pol-bare-justification">
+			<div class="sentence_ref" data-sent="CIC144"></div>
+		</div>
+		<div class="subexample" data-key="explicar-pol-que-justification">
+			<div class="sentence_ref" data-sent="CIC145"></div>
+		</div>
+	</div>
+
+	<p>The intended interpretation can be provided via paraphrase, as in <span class="references" data-refs="explicar-paraphrase-justification"></span>.</p>
+
+	<div class="example" data-key="explicar-paraphrase-justification">
+		<div class="sentence_ref" data-sent="CIC142"></div>
+	</div>
+
+	<p>The "Content of Resolved Question" came up during tasks that were aimed at prompting reports using the verb <span class="ts">respondre</span> <span class="tl">answer</span>. As such, these contexts are simply ones where the speaker reports what questions were answered by a speech act. Under these contexts, the bare polar clause is felicitous under <span class="ts">explicar</span> <span class="references" data-refs="explicar-pol-bare-answer"></span>, while <span class="ts">que</span>-marked polar clauses are marginal <span class="references" data-refs="explicar-pol-que-answer"></span>.</p>
+
+	<div class="example" data-key="explicar-pol-answer">
+		Context: You are listening in on a conversation between Montserrat and Marc. Montserrat asks Marc: "Did your daughter get a passing grade on her final test?" Marc responds, saying yes. Montserrat then asks Marc: "Did your son get a passing grade on his final test?" Marc doesn't respond. Later, Joan comes up to you and asks you what Marc said in response to Montserrat's questions. You respond:
+		<div class="subexample" data-key="explicar-pol-bare-answer">
+			<div class="sentence_ref" data-sent="CIC207"></div>
+		</div>
+		<div class="subexample" data-key="explicar-pol-que-answer">
+			<div class="sentence_ref" data-sent="CIC212"></div>
+		</div>
+	</div>
+
+	<p>In summary, it appears that <span class="ts">que</span>-marked polars are never felicitous under <span class="ts">explicar</span>, regardless of their potential reading, while bare polars are felicitous only with propositional content of speech readings and maringal with content of resolved question readings.</p>
+
+	</div>
+	<div class="hider" data-desc="Wh Data">
+
+	<p>We first look at the propositional content of speech reading. In <span class="references" data-refs="explicar-wh-prop-speech"></span>, a context is provided where the speaker is encouraged to report the content of speech of an explaining event, but is unable to recall the exact truth conditions of the explanation. This prompts the speaker to form a speech report in which they use an interrogative clause to describe what the content of the explaination is "about" without making reference to its exact truth conditions. In this scenario, a bare wh clause can felicitously form such a report <span class="references" data-refs="explicar-wh-bare-prop-speech"></span>, but a <span class="ts">que</span>-marked wh cannot <span class="references" data-refs="explicar-wh-que-prop-speech"></span>.</p>
+
+	<div class="example" data-key="explicar-wh-prop-speech">
+		Context (Subtask 20): Your friend Lluís comes to you and asks you why your friend Laia seems upset. You remember asking her, and she told you that she was upset that her father fired someone, but you forget who was actually fired. You respond:
+		<div class="subexample" data-key="explicar-wh-bare-prop-speech">
+			<div class="sentence_ref" data-sent="CIC81"></div>
+		</div>
+		<div class="subexample" data-key="explicar-wh-que-prop-speech">
+			<div class="sentence_ref" data-sent="CIC84"></div>
+		</div>
+	</div>
+
+	<p>To prompt a propositional content of thing being explained (propositional explanandum) reading, the context of <span class="references" data-refs="explicar-wh-claim"></span> prompts the speaker to report an explanation event without making reference to the content of the explanation at all (the speaker cannot disclose what the explanation for why someone was fired), and without making reference to the truth conditions of the thing being explained (the speaker cannot disclose who got fired). In English, the target meaning may be paraphrased by something like: "I won't tell you who got fired, but whoever it was, Isabel explained to me why her father fired that person." Such a reading is possible for bare wh-clauses under <span class="ts">explicar</span>, but not for <span class="ts">que</span>-marked clauses under explicar.</p>
+
+	<div class="example" data-key="explicar-wh-claim">
+		Context (Subtask 16): You work for the father of your friend Isabel. Your boss recently fired a coworker named Martina. You confront Isabel and ask her: "Why did your father fire Martina?" Isabel responds: "Don't tell anyone, but she was caught stealing money from the store." Later, when working a customer comes up to you and asks: "I heard from Isabel that her father fired someone recently. Do you know who?" You say that you do know who, but company policy prevents you from talking to customers about it. The customer responds: "Well, can you at least tell me if Isabel told you how the person got fired?" You respond:
+		<div class="subexample" data-key="explicar-wh-bare-claim">
+			<div class="sentence_ref" data-sent="CIC60"></div>
+		</div>
+		<div class="subexample" data-key="explicar-wh-que-claim">
+			<div class="sentence_ref" data-sent="CIC64"></div>
+		</div>
+	</div>
+
+	<p>This result is different from the result for polar clauses: recall that bare polar clauses cannot form propositional explanandum readings under <span class="ts">explicar</span> <span class="references" data-refs="explicar-pol-bare-claim"></span>, while bare wh clauses can <span class="references" data-refs="explicar-wh-bare-claim"></span>. This turns out to be the only difference under <span class="ts">explicar</span> between polar and bare clause analogues.</p>
+
+	<p>The question content of speech reading is one where the embedded clause describes the question content of an utterance. <span class="references" data-refs="explicar-wh-question-speech"></span> provides such a context, in which Isabel uses a (rhetorical) question to explain who she thinks might break into the store. In this context, neither a bare wh clause, nor a <span class="ts">que</span>-marked wh clause are felicitous.</p>
+
+	<div class="example" data-key="explicar-wh-question-speech">
+		Context (Subtask 22) One day you and your coworker Isabel are closing the shop you work at. Isabel turns to you and says: "We need to change the passcode for the lock or someone we don't want might get in." You ask her who would possibly come in. Isabel responds: "Well, who did my father fire?" You know that Isabel's father recently fired Oriol, and so you understand that she is worried about Oriol breaking into the shop. Later your friend Laia asks you why the passcode was changed. You respond:
+		<div class="subexample" data-key="explicar-wh-bare-question-speech">
+			<div class="sentence_ref" data-sent="CIC100"></div>
+		</div>
+		<div class="subexample" data-key="explicar-wh-que-question-speech">
+			<div class="sentence_ref" data-sent="CIC101"></div>
+		</div>
+	</div>
+
+	<p>The question content of thing being explained (question explanandum) reading is one where the embedded clause describes the question content of an issue which some speech act provides explanation for. <span class="references" data-refs="explicar-pol-justification"></span> provides such a context, in which the speaker is encouraged to report Isabel's explanation for the speaker's question. In this context, neither a bare wh-clause, nor a <span class="ts">que</span>-marked wh-clause are felicitous.</p>
+
+	<div class="example" data-key="explicar-wh-justification">
+		Context (Subtask 32): You are a police officer, asking Isabel and Oriol some questions after they report a break in in their business. Oriol and Isabel are both children of the owner of the business. You ask Isabel: "Who did your father most recently fire?" Oriol asks: "How is that an issue?" Isabel interjects: "It's an issue because whoever was fired may be a suspect." Later your supervisor asks you how the questioning went, you respond:
+		<div class="subexample" data-key="explicar-wh-bare-justification">
+			<div class="sentence_ref" data-sent="CIC161"></div>
+		</div>
+		<div class="subexample" data-key="explicar-wh-que-justification">
+			<div class="sentence_ref" data-sent="CIC162"></div>
+		</div>
+	</div>
+
+	<p>The "Content of Resolved Question" came up during tasks that were aimed at prompting reports using the verb <span class="ts">respondre</span> <span class="tl">answer</span>. As such, these contexts are simply ones where the speaker reports what questions were answered by a speech act. Under these contexts, the bare wh clause is felicitous under <span class="ts">explicar</span> <span class="references" data-refs="explicar-wh-bare-answer"></span>, while <span class="ts">que</span>-marked wh clauses are marginal <span class="references" data-refs="explicar-wh-que-answer"></span>. The marginal nature of content of resolved question readings with <span class="ts">que</span>-marked wh clauses mirrors that of <span class="ts">que</span>-marked polars <span class="references" data-refs="explicar-wh-que-answer"></span>.</p>
+
+	<div class="example" data-key="explicar-wh-answer">
+		Context (Subtast 37): You are listening in on a conversation between Oriol and Isabel. Oriol asks Isabel: "Who did your father fire?" Isabel responds, saying that her father fired Martina. Oriol then asks Isabel: "Who did your father hire to replace her?" Isabel doesn't respond. Later, Laia comes up to you and asks you what Isabel said in response to Oriol's questions. You respond:
+		<div class="subexample" data-key="explicar-wh-bare-answer">
+			<div class="sentence_ref" data-sent="CIC223"></div>
+		</div>
+		<div class="subexample" data-key="explicar-wh-que-answer">
+			<div class="sentence_ref" data-sent="CIC225"></div>
+		</div>
+	</div>
+
+	<p>In summary, it appears that <span class="ts">que</span>-marked wh clauses are never felicitous under <span class="ts">explicar</span>, regardless of their potential reading, while bare wh-clauses are felicitous with propositional content of speech and propositional content of thing being explained, and marginal with content of resolved question readings.</p>
+
+	</div>
+	
+	<!-- <h2><span class="ts">Respondre</span> <span class="tl">Answer</span></h2>
+	
+
+
+	<h1>Quotation</h1>
+
+	<h1>Argument Structure</h1> -->
+</body>
+</html>

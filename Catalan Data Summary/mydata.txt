@@ -1,0 +1,1142 @@
+===SCRIBS===
+text	format	description
+S	S	S
+the		
+fem	a	
+Jana		
+have		
+3	a	
+sg	a	
+prs	a	
+ind	a	
+say		
+pst	a	
+ptcp	a	
+comp	a	
+masc	a	
+poss	a	
+brother		
+small		
+pass		
+test		
+of		
+drive		
+inf	a	
+.		
+«		
+1	a	
+»		
+obj	a	
+cl	a	
+if		
+ipf	a	
+,		
+but		
+do	a	
+loc	a	
+2	a	
+cond	a	
+ask		
+subj	a	
+refl	a	
+go		
+one		
+no		
+remember		
+which		
+nor		
+or		
+def	a	
+Joan		
+sister		
+older		
+meet		
+king		
+Bhutan		
+prep	a	
+Starbucks		
+!		
+with		
+who		
+io	a	
+want		
+explain		
+in		
+person		
+bar		
+be		
+be.about		
+Marc		
+confirm		
+daughter		
+final		
+know		
+like		
+sjv	a	
+how		
+fact		
+answer		
+believe		
+deserve		
+grade		
+yes		
+Isabel		
+father		
+fire		
+Martina		
+able		
+why		
+and		
+seem		
+justify		
+when		
+so		
+happy		
+pl	a	
+tear		
+joy		
+what		
+sadness		
+finish		
+pres	a	
+today		
+clear		
+feel		
+better		
+understand		
+for		
+:		
+Sofia		
+summer		
+especially		
+hot		
+comment		
+Toni		
+children		
+more		
+cooking		
+prefer		
+cook		
+of.the		
+cafe		
+boss		
+correspond		
+park		
+anything		
+npi	a	
+this		
+year		
+important		
+surprise		
+think		
+question		
+issue		
+Oriol		
+confuse		
+ger	a	
+about		
+son		
+substitute		
+fut	a	
+Lluís		
+deny		
+steal		
+car		
+accusation		
+sure		
+well		
+much		
+house		
+receive		
+damage		
+during		
+storm		
+inspector		
+come		
+first		
+time		
+really		
+new		
+take		
+money		
+Sr.		
+Graells		
+prosecutor		
+where		
+doubt		
+speak		
+aunt		
+late		
+night		
+any		
+week		
+enter		
+suppose		
+can.be.inferred		
+lie		
+affirm		
+drought		
+kill		
+good		
+part		
+harvest		
+love		
+Laia		
+put		
+butter		
+rice		
+?		
+make		
+===MORPHOLOGY===
+text	clitic	scribs
+S	S	R0[,]
+la		0,1
+Jana		2
+ha		3,4,5,6,7
+d		8
+it		9,10
+QUE		11
+el		0,5,12
+seu		4,5,12,13
+germà		14
+petit		15,12
+pass		16
+at		9,10,5,12
+test		17
+de		18
+condu		19
+ir		20
+.		21
+«		22
+meu		23,5,13,12
+»		24
+m’	c	23,5,25,26
+ha		3,4,5,6,7
+si		27
+hav		3
+ia		4,5,28,7
+,		29
+però		30
+l’	c	4,5,31,26
+hi	c	32,26
+hau		3
+ries		33,5,34
+pregunt		35
+ar		20
+tu		33,5,36
+mateix		37,13
+em		23,5,25
+va		38,4,5,6,7
+un		39,12
+no		40
+record		41
+o		23,5,6,7
+quin		42
+ni		43
+o		44
+en		45,12
+Joan		46
+seva		4,5,1,13
+germana		47
+gran		48
+trob		49
+ar		20
+se	c	37
+rei		50
+Bhutan		51
+a		52
+l’	c	0
+Starbucks		53
+meva		23,5,13,1
+!		54
+amb		55
+qui		56
+s’	c	37
+at		9,10
+ella		4,5,1
+t’	c	33,5,57,26
+ho	c	4,5,31,26
+vol		58,4,5,6,7
+explic		59
+en		60
+persona		61
+bar		62
+hav		3
+era		63,4,5,28,7
+l’	c	0
+examen		17
+examen		17
+es		37
+tract		64
+ava		4,5,28,7
+Marc		65
+confirm		66
+filla		67
+aprov		16
+final		68
+sé		69,23,5,6,7
+li		4,5,31,26
+agrad		70
+aria		4,5,34
+expli		59
+qui		23,5,6,71
+com		72
+fet		73
+respo		74
+st		9,10
+cre		75
+c		23,5,6,7
+mereix		76
+nota		77
+sí		78
+Isabel		79
+pare		80
+despatx		81
+Martina		82
+et		33,5,25
+puc		83,23,5,6,7
+perquè		84
+i		85
+sembl		86
+a		4,5,6,7
+justific		87
+quan		88
+he		3,23,5,6,7
+deman		35
+estava		63,4,5,28,7
+tan		89
+content		90
+eren		63,4,91,28,7
+llàgrim		92
+es		91
+d’	c	18
+alegria		93
+va		38
+ig		23,5,6,7
+què		94
+joia		93
+tristesa		95
+acab		96
+o		23,5,97,7
+avui		98
+clar		99
+sent		100
+millor		101
+és		63,4,5,6,7
+entè		102
+s		9,10
+per		103
+ho		4,5,31,26
+de		8
+:		104
+Sofia		105
+estiu		106
+ser		63,20
+especialment		107
+calorós		108
+coment		109
+Toni		110
+als		52,45,12,91
+seus		4,91,12,13
+fills		111
+els		4,91,25
+a		4,5,97,7
+més		112
+cuina		113
+prefer		114
+eixen		4,91,6,7
+cuiner		115,5,12
+dels		116,91,12
+exàmen		17
+s		91
+cafè		117
+cap		118
+correspo		119
+n		4,5,97,7
+mi		23,5,25
+ir		20
+t’	c	33,5,57,26
+parc		120
+res		121,122
+un		39,12
+aquest		123
+any		124
+enten		102
+tant		89
+important		125
+sorprèn		126,4,5,6,7
+hi		32,26
+pens		127
+és		4,5,28,71
+jo		23,5,36
+teva		33,5,1,13
+pregunta		128
+qüestió		129
+Oriol		130
+conf		131
+ós		9,10
+gués		4,5,28,71
+teu		33,5,12,13
+respon		74
+ent		132
+ant		132
+teus		33,91,12,13
+sobre		133
+fill		134
+substitu		135
+irà		4,5,136,7
+Lluís		137
+neg		138
+hag		3
+ués		4,5,28,71
+rob		139
+cotxe		140
+del		116,5,12
+ha		3
+s		33,5,6,7
+accusació		141
+estic		63,23,5,97,7
+segur		142
+bé		143
+gaire		144,122
+casa		145
+reb		146
+ut		9,10,5,12
+dany		147
+durant		148
+tempesta		149
+qüestion		128
+inspector		150
+n		4,91,6,7
+ven		151
+primer		152
+a		5,1
+vegada		153
+question		128
+realment		154
+i		4,5,6,71
+nou		155
+agaf		156
+diners		157
+Sr.		158
+Graells		159
+tre		156
+t		9,10
+fiscal		160
+u		4,5,97,7
+on		161
+dubt		162
+estigués		63,4,5,28,71
+parl		163
+tieta		164
+tard		165
+nit		166
+gens		167,122
+setmana		168
+ada		9,10,5,1
+ben		143
+entr		169
+supos		170
+dev		171
+ment		172
+afirm		173
+er		20
+una		39,1
+drought		174
+mat		175
+bona		176,1,5
+part		177
+collita		178
+estim		179
+essin		4,91,28,71
+cuin		115
+Laia		180
+aven		4,91,28,7
+sa		69
+p		4,5,6,7
+it		9,10,5,12
+di		8
+u		4,5,6,7
+pos		181
+mantega		182
+arròs		183
+estat		63,9,10
+respond		74
+re		20
+en		4,91,97,7
+ats		9,10,91,12
+ell		4,5,12
+ien		4,91,28,7
+que		11
+?		184
+fe		185
+===WORDS===
+text	morphemes
+S	R1[,]
+La	0
+Jana	1
+ha	2
+dit	3,4
+que	277
+el	6
+seu	7
+germà	8
+petit	9
+passat	10,11
+test	12
+de	13
+conduir	14,15
+.	16
+«	17
+El	6
+meu	18
+»	19
+m’ha	20,21
+si	22
+havia	23,24
+,	25
+però	26
+l’hi	27,28
+hauries	29,30
+preguntar	31,32
+tu	33
+mateix	34
+Que	277
+?	278
+em	35
+va	36
+dir	3,15
+un	37
+no	38
+recordo	39,40
+quin	41
+ni	42
+passar	10,32
+o	43
+l’ha	27,21
+En	44
+Joan	45
+la	0
+seva	46
+germana	47
+gran	48
+trobar-se	49,50,51
+rei	52
+Bhutan	53
+a	54
+l’Starbucks	55,56
+meva	57
+!	58
+amb	59
+qui	60
+s’ha	61,21
+trobat	49,62
+ella	63
+t’ho	64,65
+vol	66
+explicar	67,32
+en	68
+persona	69
+Amb	59
+bar	70
+s’havia	61,71,24
+era	72
+preguntat	31,11
+l’examen	73,74
+examen	75
+es	76
+tractava	77,78
+Marc	79
+confirmat	80,62
+filla	81
+aprovat	82,62
+final	83
+Però	26
+sé	84
+li	85
+agradaria	86,87
+t’expliqui	64,88,89
+com	90
+explicat	67,62
+fet	91
+respost	92,93
+Crec	94,95
+mereixia	96,24
+nota	97
+Sí	98
+Isabel	99
+pare	100
+despatxat	101,62
+Martina	102
+et	103
+puc	104
+perquè	105
+i	106
+sembla	107,108
+justificat	109,62
+Quan	110
+he	111
+demanat	112,62
+en	44
+Estava	113
+tan	114
+content	115
+eren	116
+llàgrimes	117,118
+d’alegria	119,120
+vaig	121,122
+demanar	112,32
+No	38
+què	123
+joia	124
+tristesa	125
+Li	85
+acabo	126,127
+avui	128
+aprovar	82,32
+Clar	129
+sentir	130,15
+millor	131
+És	132
+clar	129
+despatxar	101,32
+entès	133,134
+per	135
+ho	136
+deia	137,24
+Qui	60
+:	138
+Sofia	139
+l’estiu	73,140
+ser	141
+especialment	142
+calorós	143
+comentat	144,62
+Toni	145
+als	146
+seus	147
+fills	148
+els	149
+agrada	86,150
+més	151
+cuina	152
+prefereixen	153,154
+cuiner	155
+dels	156
+exàmens	157,158
+cafè	159
+cap	160
+correspon	161,162
+mi	163
+dir-t’ho	3,164,165,65
+trobar	49,32
+parc	166
+res	167
+d’un	119,168
+Els	149
+d’aquest	119,169
+any	170
+entenia	171,24
+demanava	112,78
+tant	172
+important	173
+Em	35
+sorprèn	174
+hi	175
+pensés	176,177
+jo	178
+teva	179
+pregunta	180
+qüestió	181
+He	111
+l'Oriol	55,182
+L'Oriol	55,182
+semblava	107,78
+confós	183,184
+entengués	171,185
+A	54
+teu	186
+responia	187,24
+estava	113
+responent	187,188
+explicava	67,78
+explicant	67,189
+teus	190
+sobre	191
+fill	192
+QUE	5
+substituirà	193,194
+Lluís	195
+negat	196,62
+hagués	197,198
+robat	199,62
+cotxe	200
+del	201
+Has	202,203
+l’accusació	73,204
+estic	205
+segur	206
+crec	94,95
+Bé	207
+gaire	208
+creia	94,24
+casa	209
+rebut	210,211
+danys	212,158
+durant	213
+tempesta	214
+qüestionava	215,78
+preguntava	31,78
+inspectors	216,158
+van	121,217
+venir	218,15
+primera	219,220
+vegada	221
+questionar	222,32
+realment	223
+bé	207
+hagi	197,224
+nou	225
+agafat	226,62
+diners	227
+Sr.	228
+Graells	229
+tret	230,231
+fiscal	232
+creu	94,233
+agafar	226,32
+d’on	119,234
+dubtava	235,78
+estigués	236
+parlant	237,189
+tieta	238
+tard	239
+nit	240
+gens	241
+setmana	242
+passada	10,243
+ben	244
+entrada	245,243
+Suposo	246,40
+devia	247,24
+mentir	248,15
+quan	110
+parlava	237,78
+confirmava	80,78
+afirmava	249,78
+comentava	144,78
+Va	36
+haver	23,250
+una	251
+sequera	252
+matar	253,32
+bona	254
+part	255
+collita	256
+comentar	144,32
+justificava	109,78
+s’estimessin	61,257,258
+cuinava	259,78
+Laia	260
+s’estimaven	61,257,261
+sap	262,263
+és	132
+preferit	153,264
+Diu	265,266
+posa	267,108
+mantega	268
+l’arròs	73,269
+estat	270
+respondre	271,272
+s’estimen	61,257,273
+cuinats	259,274
+ell	275
+preferien	153,276
+fet	279,231
+===SUBTASKS===
+order	id	context_type	context	template	clause_type	theme_event	proposition_question	force_predicates	minimal_class
+N	S	S	S	S	S	S	S	S[,]	S
+0									
+1	assert_decl_pol_with_decl	plain_assertion	You are hanging out with your friend Mary. Mary tells you: <p>Mary: My younger brother just passed his driving test!</p>Later, you see your friend John. John asks you if there is any news from Mary, so you tell him:	Mary ___ that her younger brother passed his driving test.	decl	both	proposition	SAY	
+2	assert_decl_pol_with_pol	plain_assertion_int	Later, you see another friend Bill. In your earlier conversation with Mary, she told you that her younger brother wants to personally tell Bill that he passed his driving test. Bill asks you: <p>Bill: Hey, did you hear if Mary's younger brother passed his driving test?</p> You don't want to lie to Bill, but also don't want to tell him. So you say:	Mary ___ whether her younger brother passed his driving test, but you should ask him yourself!	pol	both	proposition	SAY	0
+3	assert_decl_pol_with_decl_indefinite_high_scope	plain_assertion_high_indef	Even later, another friend Sue comes up to you and asks you what Mary told you. You remember that Mary told you about her younger brother passing some test, but it's been so long ago that you forget which test. You respond:	Mary ___ that her younger brother passed a test, but I forget which test.	decl	both	proposition	SAY	1
+4	assert_decl_pol_with_pol_indefinite_high_scope	plain_assertion_int_high_indef	Finally, another friend Harold comes up to you and asks you the same question. At this point you don't even remember if Mary's younger brother passed the test. You respond:	Mary ___ whether her younger brother passed a test, but I forget which test, and whether he passed it.	pol	both	proposition	SAY	2
+5	assert_decl_wh_with_decl	plain_assertion	You meet with your friend John. He excitedly tells you:<p>John: My older sister met the King of Bhutan at Starbucks yesterday!</p> Later you see your friend Sue, and she asks you if you've heard anything new from John.	John ___ that his older sister met the King of Bhutan at Starbucks!	decl	both	proposition	SAY	
+6	assert_decl_wh_with_wh	plain_assertion_int	Later, you see another friend Mary. In your earlier conversation with John, he told you that his older sister wants to personally tell Mary that he met the King of Bhutan. Mary asks you: <p>Mary: Hey, John's older sister called me and said she met someone really important yesterday, but she won't tell me who yet. Do you know?</p> You don't want to lie to Mary, but also don't want to tell her. So you say:	John ___ who his older sister met at Starbucks, but she wants to tell you in person!	wh	both	proposition	SAY	3
+7	assert_decl_wh_with_decl_indefinite_high_scope	plain_assertion_high_indef	Even later, another friend Harold comes up to you and asks you what John told you. You remember that John told you about his older sister meeting the King of Bhutan at some cafe, but it's been so long ago that you forget which cafe.	John ___ that his older sister met the King of Bhutan at a cafe, but I forget which cafe.	decl	both	proposition	SAY	4
+8	assert_decl_wh_with_wh_indefinite_high_scope	plain_assertion_int_high_indef	Finally, another friend Bill comes up to you and asks you the same question. At this point you don't even remember who John's older sister met. You respond:	John ___ who his older sister met at a cafe, but I forget which person, and which cafe.	wh	both	proposition	SAY	5
+9	ask_pol_specific	plain_query	You have been helping Mary's brother in school, as well as teaching him how to drive. Today you took him to take his driving test and he passed. Mary calls you asks you: <p>Mary: Did my younger brother pass his driving test?</p> Later, your friend Bill asks you what Mary said. You respond:	Mary ___ whether her younger brother passed his driving test.	pol	both	question	ASK,SAY,SAY-ALT	0
+10	ask_pol_indefinite_high_scope	plain_query_high_indef	Even later, another friend Sue comes up to you and asks you what Mary said to you. You remember that Mary asked you about whether her younger brother passed some test, but it's been so long ago that you forget which test. You respond:	Mary ___ whether her younger brother passed a test, but I forget which test.	pol	both	question	ASK,SAY,SAY-ALT	2
+11	ask_wh_specific	plain_query	You are friends with John's older sister Fiona. Fiona has been secretive about who she has been meeting with recently. One day, John asks you: <p>John: Who did my older sister meet at Starbucks?</p> Later, your friend Sue asks you what John said. You respond:	John ___ who his older sister met at Starbucks.	wh	both	question	ASK,SAY,SAY-ALT	3
+12	ask_wh_indefinite_high_scope	plain_query_high_indef	Even later, another friend Mary comes up to you and asks you what John said to you. You remember that John asked you about who his older sister met at a cafe, but it's been so long ago that you forget which cafe. You respond:	John ___ who his older sister met at a cafe, but I forget which cafe.	wh	both	question	ASK,SAY,SAY-ALT	5
+13	p_explain_decl_pol_theme_decl	reporting_claim_explained	You are a teacher. This semester, John's daughter, who is your student, has been struggling in class, and it seems like she will fail. However, she got a passing grade on her final test. In a meeting with John, you ask him how it is possible that she got the score. John shyly replies. <p>John: Well, I hired a tutor.</p> Later, you meet with your friend Mary. She asks you if John told you how his daughter got a perfect score.	John ___ that his daughter got a passing grade on her final test. But I'm not sure if he'd want me to tell you how.	decl	theme	proposition	EXPLAIN	9
+14	p_explain_decl_pol_theme_pol	reporting_claim_explained_int	Another teacher who teaches John's daughter is suspicious that she cheated on her other exam. The teacher asks you:<p>Other teacher: Did John's daughter get a passing grade for your final test?</p> You tell her that you cannot disclose your student's grades to other teachers. She responds: <p>Other teacher: Well can you at least tell me if John told you how she got her grade in your class?</p> You respond:	Yes, John ___ whether his daughter got a passing grade on her final test (in my class). I think the grade is deserved.	pol	theme	proposition	EXPLAIN	8
+15	p_explain_decl_wh_theme_decl	reporting_claim_explained	You work for the father of your friend Mary. Your boss recently fired a coworker named Sue. You confront Mary and ask her: <p>You: Why did your father fire Sue?</p> Mary responds: <p>Mary: Don't tell anyone, but she was caught stealing money from the store.</p> Later your manager Bill asks you if Mary told you anything why Sue got fired.	Yes, Mary ___ that her father fired Sue. But I can't tell you his reasoning.	decl	theme	proposition	EXPLAIN	11
+16	p_explain_decl_wh_theme_wh	reporting_claim_explained_int	Later, when working a customer comes up to you and asks: <p>Customer: I heard from Mary that her father fired someone recently. Do you know who?</p> You say that you do know who, but company policy prevents you from talking to customers about it. The customer responds: <p>Customer: Well, can you at least tell me if Mary told you how the person got fired?</p> You respond:	Mary ___ who her father fired. It seemed justified to me.	wh	theme	proposition	EXPLAIN	10
+17	p_explain_decl_pol_event_decl	reporting_explanation	One day, you see your friend John crying. You ask him if he is okay, and why he is crying. John responds: <p>John: My daughter got a passing grade for her final test. I am just so happy.</p> Later, Bill comes up to you and tells you he saw John crying, he asks: <p>Bill: Why was John crying?</p> You respond:	When I asked him, John ___ that his daughter got a passing grade on her final test. He was so happy there were tears of joy.	decl	event	proposition	EXPLAIN,ANSWER	9
+18	p_explain_decl_pol_event_pol	reporting_explanation_int	A week later, your friend Sue comes up to you and says to you <p>Sue: I heard you saw John crying a week ago. Why was he crying?</p> You remember him saying something about his daughter's final test, but you forget if he was crying happily because she passed, or crying sadly because she failed. You respond:	When I asked him, John ___ whether his daughter got a passing grade on her final test. I forget what he said, and if it was tears of joy or of sadness.	pol	event	proposition	EXPLAIN,ANSWER	8
+19	p_explain_decl_wh_event_decl	reporting_explanation	Recently your friend Fiona has seemed upset. You approach her friend Mary and ask: <p>You: Why is Fiona so upset?</p> Mary responds: <p>Mary: My father fired Sue.</p> Later, John comes to you and asks you why Fiona seems upset. You respond:	I just asked Mary, and Mary ___ that her father fired Sue.	decl	event	proposition	EXPLAIN,ANSWER	11
+20	p_explain_decl_wh_event_wh	reporting_explanation_int	A week later, Bill asks you why Fiona was so upset. You remember that she was upset that someone was fired, but you forget who was actually fired.	I asked Mary a week ago, and Mary ___ who her father fired. I forget who it was though.	wh	event	proposition	EXPLAIN,ANSWER	10
+21	q_explain_pol_event	reporting_question_explanation	You are talking with your friend John. Recently you have been upset because your son got a failing grade on a test. John reassures you: <p>John: Well, did my daughter get a passing grade on her final test?</p> You know that his daughter failed her final test in high school, but became a great surgeon anyway, so his question comforts you. Later your friend Mary asks you if you feel better. You say that John helped you feel better. She asks you how. You respond:	John ___ whether his daughter got a passing grade on her final test. Of course, I know what happened with her, and it made me feel better about my son.	pol	event	question	EXPLAIN,ANSWER	8
+22	q_explain_wh_event	reporting_question_explanation	One day you and your coworker Mary are closing the shop you work at. Mary turns to you and says: <p>Mary: We need to change the passcode for the lock or someone we don't want might get in.</p> You ask her who would possibly come in. Mary responds: <p>Mary: Well, who did my father fire?</p> You know that Mary's father recently fired John, and so you understand that she is worried about John breaking into the shop. Later your friend Fiona asks you why the passcode was changed. You respond:	When I asked Mary, Mary ___ who her father fired. Of course, I knew who, and understood her concern!	wh	event	question	EXPLAIN,ANSWER	10
+23	q_comment_pol_event	reporting_question_comment	You and John are listening to Fiona and Mary having a conversation. Fiona says to Mary: <p>Fiona: The climate has been getting more extreme over time.</p> Mary then asks Fiona: <p>Mary: Was last summer especially hot?</p> John turns to you and says he couldn't hear what Mary said in response to Fiona. You respond:	Mary ___ whether last summer was especially hot.	pol	event	question	COMMENT,ANSWER,QUESTION	13
+24	q_comment_wh_event	reporting_question_comment	You and Sue are listening to Bill and John have a conversation. Bill says to John: <p>Bill: Your children have been telling me all about which home-made food they like.</p> John then asks Bill: <p>John: Whose cooking do my children enjoy the most?</p> Sue turns to you and says she couldn't hear what John said in response to Bill. You respond:	John ___ whose cooking his children enjoy the most.	wh	event	question	COMMENT,ANSWER,QUESTION	6
+25	ask_pol_indefinite_low_scope	plain_query_low_indef	Mary's brother John wants to become an astronaut. In order to be an astronaut, one must complete a physical test. There are three tests, and each of the tests are very hard, but one only needs to pass one of them to become an astronaut. You and your friend Sue watch John complete the tests, passing all of them. Later, Mary calls you and says: <p>Mary: Did my younger brother pass a test?</p> Sue cannot hear Mary and so she asks you what Mary said, and you respond:	Mary ___ whether her younger brother passed a test.	pol	both	question	ASK,SAY,SAY-ALT	2
+26	ask_wh_indefinite_low_scope	plain_query_low_indef	You are friends with John's older sister Fiona. Fiona has been secretive about who she has been meeting with recently. One day, John asks you: our friend John asks you: <p>John: Who did my older sister meet at a cafe?</p> Later, your friend Mary asks you what John said. You respond:	John ___ who his older sister met at a cafe.	wh	both	question	ASK,SAY,SAY-ALT	5
+27	assert_decl_pol_with_decl_indefinite_low_scope	plain_assertion_low_indef	Your friend Mary is asking you and Sue for advice about her younger brother, who is struggling in school. Sue asks whether Mary's younger brother has failed all of his tests. Mary responds: <p>Mary: My younger brother passed a test.</p> Sue couldn't hear clearly and asks you what Mary just said. You respond:	Mary ___ that her younger brother passed a test.	decl	both	proposition	SAY	1
+28	assert_decl_pol_with_pol_indefinite_low_scope	plain_assertion_low_indef	Later, Bill asks you if Mary's younger brother passed any tests. You don't think you should be the one talking to Bill about Mary's younger brother. So you say:	Mary ___ whether her younger brother passed a test, but it is not my place to tell you.	pol	both	proposition	SAY	2
+29	assert_decl_wh_with_decl_indefinite_low_scope	plain_assertion_low_indef	Your friend John comes up to you one day and says: <p>John: My older sister met the King of Bhutan at a cafe!</p> Just after this, your friend Sue comes up to you and asks you: <p>Did I just hear correctly? That John's older sister met the King of Bhutan at a park?</p> You correct her:	John ___ that his older sister met the King of Bhutan at a cafe, not a park.	decl	both	proposition	SAY	4
+30	assert_decl_wh_with_wh_indefinite_low_scope	plain_assertion_int_low_indef	Later, you see another friend Bill. Bill asks you: <p>Bill: Hey, did John tell you who his older sister met at a park?</p> You say to Bill:	John ___ who his older sister met at a cafe, he didn't mention a park.	wh	both	proposition	SAY	5
+31	q_explain_pol_theme	reporting_question_explained	You are a tutor, being interviewed by John and Sue about their daughter. <p>You: Did your daughter pass her final exam this year?</p> Sue asks: <p>Sue: How is that an issue?</p> Before you answer, John responds: <p>John: Because if she didn't pass, she will need to repeat the year.</p> Later your friend asks you how Sue and John reacted to your questions.	I asked them if their daughter passed her final exam this year. Sue was confused, and so John ___ whether his daughter got a passing grade on her final test. I'm surprised Sue couldn't guess why I asked.	pol	theme	question	EXPLAIN	8
+32	q_explain_wh_theme	reporting_question_explained	You are a police officer, asking Mary and John some questions after they report a break in in their business. John and Mary are both children of the owner of the business. You ask Mary: <p>You: Who did your father most recently fire?</p> John asks: <p>John: How is that an issue?</p> Mary interjects: <p>Mary: It's an issue because whoever was fired may be a suspect.</p> Later your supervisor asks you how the questioning went, you respond:	I asked who Mary's father fired. John was confused, and so Mary ___ who her father fired. I'm surprised John couldn't guess why I asked.	wh	theme	question	EXPLAIN	10
+33	q_comment_pol_theme	reporting_question_commented_on	You are listening in on a conversation between Sue and Mary. Sue asks Mary: <p>Sue: Was last summer especially hot?</p> Mary responds: <p>Mary: Some people are more bothered by humidity than dry heat.</p> Your friend Fiona walks in, having only heard what Mary said, and asks you what the context was for Mary saying that. You respond:	Mary ___ whether last summer was especially hot.	pol	theme	question	COMMENT,ANSWER	13
+34	q_comment_wh_theme	reporting_question_commented_on	You are listening in on a conversation between Harold and John. Harold asks John: <p>Harold: Whose cooking does your children most enjoy?</p> John responds: <p>John: What they enjoy isn't necessarily what is best for them.</p> Your friend Bill walks in, having only heard what John said, and asks you what the context was for John saying that. You respond:	John ___ whose cooking his children enjoy the most.	wh	theme	question	COMMENT,ANSWER	6
+35	answer_pol_theme	reporting_question_answered	You are listening in on a conversation between Mary and John. Mary asks John: <p>Mary: Did your daughter get a passing grade on her final test?</p> John responds, saying yes. Mary then asks John: <p>John: Did your son get a passing grade on his final test?</p> John doesn't respond. Later, Bill comes up to you and asks you what John said in response to Mary's questions. You respond:	John ___ whether his daughter got a passing grade on her final test, but didn't say anything about his son.	pol	theme	question	ANSWER,EXPLAIN	8
+36	answer_pol_event	reporting_answer	Bill then asks you how John responded to the question about his daughter.	John ___ that his daughter got a passing grade on her final test.	decl	event	question	ANSWER,EXPLAIN	9
+37	answer_wh_theme	reporting_question_answered	You are listening in on a conversation between John and Mary. John asks Mary: <p>John: Who did your father fire?</p> Mary responds, saying that her father fired Sue. John then asks Mary: <p>John: Who did your father hire to replace her?</p> Mary doesn't respond. Later, Fiona comes up to you and asks you what Mary said in response to John's questions. You respond:	Mary ___ who her father fired, but didn't say anything about finding a replacement.	wh	theme	question	ANSWER,EXPLAIN	10
+38	answer_wh_event	reporting_answer	Fiona then asks you how Mary responded to the question about who her father fired.	Mary ___ that her father fired Sue.	decl	event	question	ANSWER,EXPLAIN	11
+39	deny_decl_pol_decl_theme	reporting_claim_denied	You are watching a court case, where John is the defendant. The Judge says to John: <p>Judge: You are accused of stealing your younger brother's car.</p> John replies: <p>John: I did not steal my younger brother's car!</p> Your friend Mary asks you what has happened in the court case. You reply:	John ___ that he had stolen his younger brother's car.	decl	theme	proposition	DENY	
+40	deny_decl_pol_pol_theme	reporting_deny_int	Later your friend Sue comes to you and asks you if you've heard about John's court case, and what you think. You reply:	John ___ whether he had stolen his younger brother's car, but I'm not sure if I believe him.	pol	theme	proposition	DENY	
+41	deny_decl_pol_decl_event	reporting_denial	Sue asks you how John refuted the Judge's claims. You respond:	Well, John ___ that he had not stolen his younger brother's car. He didn't say much else.	decl	event	proposition	DENY	
+42	question_decl_pol_decl_theme	reporting_claim_questioned	After a large storm happens in your town, inspectors assess the damage at each house. You are at John's house when the inspectors come; they find that the house is in perfect condition. The inspector says to John: <p>Inspector: Your house wasn't damaged at all during the storm.</p> John, still nervous, and somewhat paranoid, replies: <p>John: Is my house really okay? Can you check again?</p> Later, Bill asks you what John's reaction to the news of his house was. You respond:	John ___ that his house wasn't damaged in the storm.	decl	theme	proposition	QUESTION,ASK,ASK-ALT	
+43	question_decl_pol_pol_event	reporting_question	A week later, your friend Mary is telling you that John has called the inspectors out to see his house a second time. You are not surprised, as you remember him being so nervous. You respond:	When the inspectors first came, John ___ whether his house was really okay. I'm not surprised he called them back.	pol	event	both	QUESTION	
+44	deny_decl_wh_decl_theme	reporting_claim_denied	You are watching a court case, where Fiona is the defendant. Fiona is accused of stealing money from Mr. Smith. Fiona's sister, Mary is on the stand, the Judge says to Mary: <p>Judge: Your sister has a million dollars in her account that she didn't have a month ago. The prosecution states that she stole the money from Mr. Smith.</p> Mary responds to the Judge: <p>Mary: My sister did not get the money from Mr. Smith!</p> Your friend Sue asks you what Mary said about her sister. You reply:	Mary ___ that her younger sister got the money from Mr. Smith.	decl	theme	proposition	DENY	
+45	deny_decl_wh_wh_theme	reporting_deny_int	Later, your friend Bill comes to you and asks you about the case. You explain that Mary mysteriously acquired a lot of money. Bill asks you what she said about how she got the money.	Well, Mary ___ who her younger sister got the money from, but the prosecution thinks she got it from Mr. Smith.	wh	theme	proposition	DENY	
+46	deny_decl_wh_decl_event	reporting_denial	Bill asks you how Mary refuted the prosecution's claims. You respond:	Well, Mary ___ that her younger sister did not get the money from Mr. Smith. She didn't say much else.	decl	event	proposition	DENY	
+47	question_decl_wh_decl_theme	reporting_claim_questioned	You are with your friend Mary late at night. Mary hears her brother talking loudly on the phone. Mary looks at her brother, and her brother says: <p>Mary's brother: I'm talking to aunt Jill.</p> Mary responds: <p>Mary: That's hard to believe, who were you really talking to so late at night? A friend from school? Maybe a girlfriend?</p> Later, Sue asks you what Mary's reaction to what her brother said. You respond:	Mary ___ that her younger brother was really talking to their aunt so late at night.	decl	theme	proposition	QUESTION,ASK,ASK-ALT	
+48	question_decl_wh_wh_event	reporting_question	A week later, your friend Bill tells you that Mary's brother has a new girlfriend.	I'm not surprised. Last week Mary ___ who her younger brother was really talking to so late at night. I guess he must have lied when he said it was his aunt.	wh	event	both	QUESTION	
+49	p_comment_decl_pol_theme_decl	reporting_claim_commented_on	You are listening to your friends John and Mary having a conversation. John says: <p>John: Last summer was especially hot.</p> Mary responds to John: <p>Mary: Yeah, the heat caused a drought that killed many of the crops.</p>Your friend Sue walks in, having only heard what Mary said, and asks you what the context was for Mary saying that. You respond:	Mary ___ that last summer was especially hot.	decl	theme	proposition	COMMENT	12
+50	p_comment_decl_pol_theme_pol	reporting_claim_commented_on_int	Later, your friend Bill comes up to you and asks you if you know if anyone has an opinion about the heat last summer. You respond:	Mary ___ whether last summer was especially hot. She said that the heat caused a drought that killed many of the crops.	pol	theme	proposition	COMMENT	13
+51	p_comment_decl_wh_theme_decl	reporting_claim_commented_on	You are at a party hosted by Mary and notice that John's kids appear to really enjoy Mary's cooking. You tell John <p>You: Wow your children enjoy Mary's cooking the most!</p>John responds to you: <p>John: It's because she adds butter to her rice.</p> Your friend Bill walks in, having only heard what John said, and asks you what the context was for John saying that. You respond:	John ___ that his children enjoy Mary's cooking the most.	decl	theme	proposition	COMMENT	7
+52	p_comment_decl_wh_theme_wh	reporting_claim_commented_on_int	Later, your friend Fiona comes up to you and asks you if you know if anyone has an opinion about whose cooking John's children like. You respond:	John ___ whose cooking his children enjoy the most. He said that Mary puts butter in her rice.	wh	theme	proposition	COMMENT	6
+53	p_comment_decl_pol_event_decl	reporting_comment	You and Bill are listening in on a conversation between John and Mary. John says to Mary: <p>John: Climate change makes weather more intense.</p> Mary responds: <p>Mary: That's true, last summer was especially hot!</p> Bill turns to you and says he couldn't hear what Mary said in response to John. You respond:	Mary ___ that last summer was especially hot.	decl	event	proposition	COMMENT	12
+54	p_comment_decl_pol_event_pol	reporting_comment_int	A week later, your friend Sue comes up to you and says to you <p>Sue: I heard John and Mary were talking about climate change. How did Mary react to what John said?</p> You remember Mary saying something about the temperature last summer, but you forget if she said it was especially hot, or not especially hot. You respond:	Mary ___ whether last summer was especially hot. I forget if she said that it was hot or that it wasn't.	pol	event	proposition	COMMENT	13
+55	p_comment_decl_wh_event_decl	reporting_comment	You and Sue are listening in on a conversation between Fiona and John. Fiona says to John: <p>Fiona: Your children say they like your cooking!</p> John responds: <p>John: Well, they enjoy Mary's cooking the most.</p> Sue turns to you and says he couldn't hear what John said in response to Fiona. You respond:	John ___ that his children enjoy Mary's cooking the most.	decl	event	proposition	COMMENT	7
+56	p_comment_decl_wh_event_wh	reporting_comment_int	A week later, your friend Bill comes up to you and says to you <p>Bill: I heard Fiona and John were talking about John's children's favorite food, how did John react to what Fiona said?</p> You remember John saying something about his kids liking someone else's cooking the most, but you forget who he said specifically. You respond:	John ___ whose cooking his children enjoy the most. I forget who, but it wasn't John.	wh	event	proposition	COMMENT	6
+===SENTENCES===
+id	Doc	Date	Language	Subtask	Line	Judgment	Nat	Speaker Comments	PRED	COMP	My Comments	TimeStamp (if nec)	Speaker Meta-Comments	Indices	Translation	Demonstrates	Justification for ignoring
+S	S	S	S	R3	N	S	S	S	S	S	S	S	S	R2[,]	S	S[, ]	S
+CIC1	irene_catalan_session_1.txt	D2024-06-18	Catalan	1	13	OK	x	-	dir	que DECL				0,1,2,3,4,5,6,7,8,2,9,5,10,11,12,13	Jana said that her younger brother passed his driving test.	OK ~ Content of Assertive Speech	
+CIC2	irene_catalan_session_1.txt	D2024-06-18	Catalan	1	15	OK		-	dir	QUOT DECL				0,1,2,3,14,15,16,7,8,2,9,5,10,11,12,13,17,13	Jana said "My younger brother passed his driving test."	OK ~ Content of Assertive Speech	
+CIC3	irene_catalan_session_1.txt	D2024-06-18	Catalan	2	26	OK	x	-	dir	si POL	imperfect havia			0,1,18,3,19,5,6,7,8,20,9,5,10,21,22,23,24,11,25,26,27,13	Jana told me whether her younger brother passed his driving test, but you should ask him yourself!	OK ~ Content of Assertive Speech	
+CIC4	irene_catalan_session_1.txt	D2024-06-18	Catalan	2	28	OK		-	dir	si POL	present ha			0,1,18,3,19,5,6,7,8,2,9,5,10,21,22,23,24,11,25,26,27,13	Jana told me whether her younger brother passed his driving test, but you should ask him yourself!	OK ~ Content of Assertive Speech	
+CIC5	irene_catalan_session_1.txt	D2024-06-18	Catalan	2	30	*		With the continuation it cannot make sense (he asked...)	dir	que si POL				0,1,18,3,4,19,5,6,7,8,2,9,5,10,21,22,23,24,11,25,26,27,13	Jana told me whether her younger brother passed his driving test, but you should ask him yourself!	* ~ Content of Assertive Speech, OK ~ Content of Inquisitive Speech	
+CIC6	irene_catalan_session_1.txt	D2024-06-18	Catalan	2	33	#		Same issue as above (With the continuation it cannot make sense e.g. he asked...)	dir	QUOT POL				0,1,18,3,14,28,5,16,7,8,2,9,5,10,29,17,21,22,23,24,11,25,26,27,13	Jana said to me: "Did my younger brother pass his driving test?", but you should ask him yourself!	* ~ Content of Assertive Speech, OK ~ Content of Inquisitive Speech	
+CIC7	irene_catalan_session_1.txt	D2024-06-18	Catalan	3	43	OK	x	--	dir	que DECL				0,1,30,31,32,4,5,6,7,8,20,9,33,10,21,22,34,35,36,13	Jana told me that her younger brother passed a test, but I don't remember which.	OK ~ Content of Assertive Speech, OK ~ High Indefinite	
+CIC8	irene_catalan_session_1.txt	D2024-06-18	Catalan	3	45	OK		Also fine (in terms of indefinite in embedded quotation).	dir	QUOT DECL				0,1,30,31,32,14,15,16,7,8,2,9,33,10,13,17,21,22,34,35,36,13	Jana told me, "my younger brother passed a test", but I don't remember which.	OK ~ Content of Assertive Speech	Does not necessarily demonstrate ability for high indefinite reading, context ambiguously allows the actual speech act to be "my younger brother passed a test" with
+CIC9	irene_catalan_session_1.txt	D2024-06-18	Catalan	4	56	OK	x	-	dir	si POL				0,1,30,31,32,19,5,6,7,8,20,9,33,10,21,22,34,35,36,37,19,5,31,38,39,34,13	Jana told me whether her younger brother passed a test, but I forget which test, and whether he passed it.	OK ~ High Indefinite, OK ~ High Indefinite	
+CIC10	irene_catalan_session_1.txt	D2024-06-18	Catalan	4	58	#		No because it was so long ago.	dir	si POL				0,1,30,31,32,19,5,6,7,8,2,9,33,10,21,22,34,35,36,37,19,5,31,38,39,34,13	Jana told me whether her younger brother passed a test, but I forget which test, and whether he passed it.		This is wrong for independent reasons (tense and aspect given context)
+CIC11	irene_catalan_session_1.txt	D2024-06-18	Catalan	4	60	OK		For the context, if it is too long ago, it wouldn’t be what you say	dir	si POL				0,1,18,3,19,5,6,7,8,2,9,33,10,21,22,34,35,36,37,19,40,9,39,34,13	Jana told me whether her younger brother passed a test, but I forget which test, and whether he passed it.	OK ~ High Indefinite, OK ~ High Indefinite	
+CIC12	irene_catalan_session_1.txt	D2024-06-18	Catalan	4	63	OK		-	dir	que si POL	I did not stress emphasis on que	t24:10		0,1,18,3,4,19,5,6,7,8,2,9,33,10,21,22,34,35,36,37,19,40,9,39,34,13			
+CIC13	irene_catalan_session_1.txt	D2024-06-18	Catalan	4	65	*		-	dir	QUOT POL				0,1,18,3,14,28,5,16,7,8,2,9,33,10,29,17,21,22,34,35,36,37,19,40,9,39,34,13			
+CIC14	irene_catalan_session_1.txt	D2024-06-18	Catalan	5	77	OK	x	-	dir	que DECL				41,42,18,3,4,43,44,45,46,31,47,5,48,11,49,50,51,13	Joan told me that his older sister met the king of Bhutan at Starbucks.		
+CIC15	irene_catalan_session_1.txt	D2024-06-18	Catalan	5	79	OK		-	dir	QUOT DECL				41,42,18,3,14,0,52,45,46,31,47,5,48,11,49,50,51,53,17,13	Joan told me, "My older sister met the king of Bhutan at Starbucks!"		
+CIC16	irene_catalan_session_1.txt	D2024-06-18	Catalan	6	90	OK	x	-	dir	BARE WH				41,42,18,3,54,55,56,57,43,44,45,50,51,21,22,58,59,60,61,62,63,13	Joan told me who his sister met at Starbucks, but she wants to tell you in person.		
+CIC17	irene_catalan_session_1.txt	D2024-06-18	Catalan	6	92	*		Probably means that he is asking, so not appropriate in this context	dir	que WH				41,42,18,3,4,54,55,56,57,43,44,45,50,51,21,22,58,59,60,61,62,63,13	Joan told me who his sister met at Starbucks, but she wants to tell you in person.		
+CIC18	irene_catalan_session_1.txt	D2024-06-18	Catalan	6	95	*		-	dir	QUOT WH				41,42,18,3,14,64,55,56,57,43,52,45,50,51,29,17,21,22,58,59,60,61,62,63,13			
+CIC19	irene_catalan_session_1.txt	D2024-06-18	Catalan	7	104	OK	x	-	dir	que DECL				41,42,30,31,32,4,43,44,45,46,31,47,5,48,11,49,62,33,65,21,22,34,35,50,36,65,13			
+CIC20	irene_catalan_session_1.txt	D2024-06-18	Catalan	7	106	OK		Noticeably more comfortable here because Starbucks and a cafe can be interchangeable.	dir	QUOT DECL				41,42,30,31,32,14,0,52,45,46,31,47,5,48,11,49,62,33,65,53,17,21,22,34,35,50,36,65,13			
+CIC21	irene_catalan_session_1.txt	D2024-06-18	Catalan	8	117	OK	x	-	dir	BARE WH				41,42,30,31,32,54,55,66,57,43,44,45,62,33,65,21,22,34,35,55,67,37,50,36,65,13			
+CIC22	irene_catalan_session_1.txt	D2024-06-18	Catalan	8	119	*		-	dir	que WH				41,42,30,31,32,4,54,55,66,57,43,44,45,62,33,65,21,22,34,35,55,67,37,50,36,65,13			
+CIC23	irene_catalan_session_1.txt	D2024-06-18	Catalan	8	121	*		-	dir	QUOT WH				41,42,30,31,32,14,64,55,66,57,43,52,45,62,33,65,29,17,21,22,34,35,55,67,37,50,36,65,13			
+CIC24	irene_catalan_session_1.txt	D2024-06-18	Catalan	9	133	OK	x	-	preguntar	si POL				0,1,18,68,19,5,6,7,8,2,9,69,11,12,13	Jana asked me if her younger brother passed his driving test.		
+CIC25	irene_catalan_session_1.txt	D2024-06-18	Catalan	9	135	OK		-	preguntar	que si POL				0,1,18,68,4,19,5,6,7,8,2,9,69,11,12,13	Jana asked me if her younger brother passed his driving test.		
+CIC26	irene_catalan_session_1.txt	D2024-06-18	Catalan	9	136	*		-	dir	si POL				0,1,18,3,19,5,6,7,8,2,9,69,11,12,13	Jana said to me: did her younger brother pass his driving test?		
+CIC27	irene_catalan_session_1.txt	D2024-06-18	Catalan	9	137	OK		-	dir	que si POL				0,1,18,3,4,19,5,6,7,8,2,9,69,11,12,13	Jana said to me: did her younger brother pass his driving test?		
+CIC28	irene_catalan_session_1.txt	D2024-06-18	Catalan	9	139	OK		-	preguntar	QUOT POL				0,1,18,68,14,28,2,9,69,11,12,5,16,7,8,29,17,13	Jana asked me, "Did my younger brother pass his driving test?"		
+CIC29	irene_catalan_session_1.txt	D2024-06-18	Catalan	9	140	OK		-	dir	QUOT POL				0,1,18,3,14,28,2,9,69,11,12,5,16,7,8,29,17,13	Jana said to me: "Did my younger brother pass his driving test?"		
+CIC30	irene_catalan_session_1.txt	D2024-06-18	Catalan	10	149	OK	x	-	preguntar	si POL				0,1,30,31,25,19,5,6,7,8,20,9,33,70,21,22,34,35,36,13			
+CIC31	irene_catalan_session_1.txt	D2024-06-18	Catalan	10	151	OK		-	preguntar	que si POL				0,1,30,31,25,4,19,5,6,7,8,20,9,33,70,21,22,34,35,36,13			
+CIC32	irene_catalan_session_1.txt	D2024-06-18	Catalan	10	152	#		-	preguntar	QUOT POL				0,1,30,31,25,14,28,2,9,33,70,5,16,7,8,29,17,21,22,34,35,36,13			
+CIC33	irene_catalan_session_1.txt	D2024-06-18	Catalan	10	153	OK		-	preguntar	QUOT POL			test === examen, perfectly interchangeable	0,1,30,31,25,14,28,2,9,69,5,16,7,8,29,17,21,22,34,35,11,36,70,71,72,13			
+CIC34	irene_catalan_session_1.txt	D2024-06-18	Catalan	11	167	OK	x	-	preguntar	BARE WH				41,42,30,31,25,54,55,66,57,43,44,45,50,51,13			
+CIC35	irene_catalan_session_1.txt	D2024-06-18	Catalan	11	169	*		-	preguntar	que WH				41,42,30,31,25,4,54,55,66,57,43,44,45,50,51,13			
+CIC36	irene_catalan_session_1.txt	D2024-06-18	Catalan	11	171	OK		-	preguntar	QUOT WH				41,42,30,31,25,14,64,55,56,57,43,52,45,50,51,29,17,13			
+CIC37	irene_catalan_session_1.txt	D2024-06-18	Catalan	12	180	OK	x	-	preguntar	BARE WH				41,42,30,31,25,54,55,66,57,43,44,45,50,33,65,21,22,34,35,50,36,65,13	Joan asked me who his sister met at a bar, but I forget which bar.		
+CIC38	irene_catalan_session_1.txt	D2024-06-18	Catalan	12	182	OK		-	preguntar	que WH				41,42,30,31,25,4,54,55,66,57,43,44,45,50,33,65,21,22,34,35,50,36,65,13	Joan asked me who his sister met at a bar, but I forget which bar.		
+CIC39	irene_catalan_session_1.txt	D2024-06-18	Catalan	12	184	OK		-	preguntar	QUOT WH				41,42,30,31,25,14,64,55,56,57,43,52,45,50,33,65,29,17,21,22,34,35,50,36,65,13			
+CIC40	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	198	?		confirming it only by presupposition	confirmar	que DECL		t10:16		41,73,18,74,4,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC41	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	201	OK	x	-	dir	com (HOW)				41,73,18,3,83,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC42	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	203	#		-	dir	que DECL				41,73,18,3,4,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC43	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	205	OK		-	explicar	com (HOW)				41,73,18,84,83,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC44	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	207	#		-	explicar	que DECL				41,73,18,84,4,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC45	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	209	#		-	explicar	el fet que DECL				41,73,18,84,5,85,4,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC46	irene_catalan_session_1.txt	D2024-06-20	Catalan	13	211	#		-	respondre	que DECL				41,73,18,86,4,43,44,75,2,76,5,6,70,77,13,78,34,79,19,80,81,4,82,83,13			
+CIC47	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	224	#		-	dir	si POL		t16:11		41,73,18,3,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13			
+CIC48	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	226	#		-	explicar	si POL				41,73,18,84,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13	Marc explained to me whether his daughter has passed her final exam. I believe that she deserved the grade (she got).		
+CIC49	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	228	#		-	respondre	si POL				41,73,18,86,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13			
+CIC50	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	230	#		-	confirmar	si POL				41,73,18,74,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13			
+CIC51	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	232	#		-	dir	que si POL				41,73,18,3,4,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13			
+CIC52	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	234	#		-	explicar	que si POL				41,73,18,84,4,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13	Marc explained to me whether his daughter has passed her final exam. I believe that she deserved the grade (she got).		
+CIC53	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	236	#		-	respondre	que si POL				41,73,18,86,4,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13			
+CIC54	irene_catalan_session_1.txt	D2024-06-20	Catalan	14	238	#		-	confirmar	que si POL				41,73,18,74,4,19,43,44,75,2,76,5,6,70,77,13,87,4,71,88,43,89,13			
+CIC55	irene_catalan_session_1.txt	D2024-06-20	Catalan	15	252	OK	x	-	dir	que DECL				90,21,43,91,18,3,4,5,6,92,2,93,43,94,21,22,34,95,96,61,97,13			
+CIC56	irene_catalan_session_1.txt	D2024-06-20	Catalan	15	253	OK		-	explicar	que DECL				90,21,43,91,18,84,4,5,6,92,2,93,43,94,21,22,34,95,96,61,97,13	Yes, Isabel explained to me that her father fired Martina, but I cannot explain why.		
+CIC57	irene_catalan_session_1.txt	D2024-06-20	Catalan	15	254	#		-	respondre	que DECL				90,21,43,91,18,86,4,5,6,92,2,93,43,94,21,22,34,95,96,61,97,13			
+CIC58	irene_catalan_session_1.txt	D2024-06-20	Catalan	15	255	OK		-	confirmar	que DECL				90,21,43,91,18,74,4,5,6,92,2,93,43,94,21,22,34,95,96,61,97,13			
+CIC59	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	268	OK	x	-	dir	BARE WH				0,91,18,3,55,2,93,5,6,92,21,98,30,99,100,13			
+CIC60	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	269	OK		-	explicar	BARE WH				0,91,18,84,55,2,93,5,6,92,21,98,30,99,100,13	Isabel explained to me who her father fired, it seemed justified to me.		
+CIC61	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	270	#		-	respondre	BARE WH				0,91,18,86,55,2,93,5,6,92,21,98,30,99,100,13			
+CIC62	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	271	??		-	confirmar	BARE WH				0,91,18,74,55,2,93,5,6,92,21,98,30,99,100,13			
+CIC63	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	272	#		ok if que is filler	dir	que WH				0,91,18,3,4,55,2,93,5,6,92,21,98,30,99,100,13			
+CIC64	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	274	#		ok if que is filler	explicar	que WH				0,91,18,84,4,55,2,93,5,6,92,21,98,30,99,100,13	Isabel explained to me who her father fired, it seemed justified to me.		
+CIC65	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	277	#		-	respondre	que WH				0,91,18,86,4,55,2,93,5,6,92,21,98,30,99,100,13			
+CIC66	irene_catalan_session_1.txt	D2024-06-20	Catalan	16	278	#		-	confirmar	que WH				0,91,18,74,4,55,2,93,5,6,92,21,98,30,99,100,13			
+CIC67	irene_catalan_session_1.txt	D2024-06-20	Catalan	17	291	OK	x	-	explicar	que DECL				101,80,102,103,21,104,73,18,84,4,43,44,75,2,76,69,77,13,105,106,107,4,108,109,110,13			
+CIC68	irene_catalan_session_1.txt	D2024-06-20	Catalan	17	293	OK		-	dir	que DECL				101,80,102,103,21,104,73,18,3,4,43,44,75,2,76,69,77,13,105,106,107,4,108,109,110,13			
+CIC69	irene_catalan_session_1.txt	D2024-06-20	Catalan	17	295	OK		-	respondre	que DECL				101,80,102,103,21,104,73,18,86,4,43,44,75,2,76,69,77,13,105,106,107,4,108,109,110,13			
+CIC70	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	306	OK		You can still use it but it doesn’t work as well w/ respect to the context	explicar	si POL				101,80,111,112,21,104,73,30,31,61,19,43,44,75,20,76,69,77,13,113,35,114,30,31,32,21,19,108,109,11,115,39,11,116,13	When I asked him, Marc explained to me whether his daughter passed her final exam, I don't remember what he had said, if the were tears of joy or of sadness.		
+CIC71	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	309	OK	x	Cannot be a week later, but same day OK (only the same day, tomorrow you cannot), it is weird to forget so fast, but if he is distracted/on phone, more beleiovable that he would forget	explicar	si POL				101,80,102,103,21,104,73,18,84,19,43,44,75,20,76,69,77,13,113,35,114,30,18,3,21,19,108,109,11,115,39,11,116,13			
+CIC72	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	312	OK		same level as previous	dir	si POL				101,80,102,103,21,104,73,18,3,19,43,44,75,20,76,69,77,13,113,35,114,30,18,3,21,19,108,109,11,115,39,11,116,13			
+CIC73	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	315	OK		it makes sense because the answer to the question is what makes Marc cry, but you are still not answering the question.	respondre	si POL				101,80,102,103,21,104,73,18,86,19,43,44,75,20,76,69,77,13,113,35,114,30,18,3,21,19,108,109,11,115,39,11,116,13			
+CIC74	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	319	#			explicar	que si POL				101,80,102,103,21,104,73,18,84,4,19,43,44,75,20,76,69,77,13,113,35,114,30,18,3,21,19,108,109,11,115,39,11,116,13	When I asked him, Marc explained to me whether his daughter passed her final exam, I don't remember what he had said, if the were tears of joy or of sadness.		
+CIC75	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	322	#		Only works if que has no meaning (like like)	dir	que si POL				101,80,102,103,21,104,73,18,3,4,19,43,44,75,20,76,69,77,13,113,35,114,30,18,3,21,19,108,109,11,115,39,11,116,13			
+CIC76	irene_catalan_session_1.txt	D2024-06-20	Catalan	18	325	#		Means he answered with a question.	respondre	que si POL				101,80,102,103,21,104,73,18,86,4,19,43,44,75,20,76,69,77,13,113,35,114,30,18,3,21,19,108,109,11,115,39,11,116,13			
+CIC77	irene_catalan_session_1.txt	D2024-06-20	Catalan	19	340	OK		again this is implied reasoning, not a direct answer	dir	que DECL				117,118,11,112,50,43,91,98,18,3,4,5,6,92,2,93,43,94,13			
+CIC78	irene_catalan_session_1.txt	D2024-06-20	Catalan	19	343	OK		still indirect, but okay	explicar	que DECL				117,118,11,112,50,43,91,98,18,84,4,5,6,92,2,93,43,94,13	I just asked Isabel that, and she explained to me that her father fired Martina.		
+CIC79	irene_catalan_session_1.txt	D2024-06-20	Catalan	19	346	OK		still indirect, but okay	respondre	que DECL				117,118,11,112,50,43,91,98,18,86,4,5,6,92,2,93,43,94,13			
+CIC80	irene_catalan_session_1.txt	D2024-06-20	Catalan	20	358	OK	x	-	dir	BARE WH				117,102,103,50,43,91,119,21,98,18,3,50,55,2,93,5,6,92,13,78,34,35,55,67,13			
+CIC81	irene_catalan_session_1.txt	D2024-06-20	Catalan	20	360	OK		Even better than dit	explicar	BARE WH				117,102,103,50,43,91,119,21,98,18,84,50,55,2,93,5,6,92,13,78,34,35,55,67,13	I asked that to Isabel today, and she explained to me who her father fired. But I don't remember who.		
+CIC82	irene_catalan_session_1.txt	D2024-06-20	Catalan	20	363	>		Only sounds okay with emphasis on RESPOST, emphasizing that she told you, but you forgot	respondre	BARE WH				117,102,103,50,43,91,119,21,98,18,86,50,55,2,93,5,6,92,13,78,34,35,55,67,13			
+CIC83	irene_catalan_session_1.txt	D2024-06-20	Catalan	20	366	*		Bad for the same reasons as the previous set of three (only works if que has no meaning)	dir	que WH				117,102,103,50,43,91,119,21,98,18,3,4,50,55,2,93,5,6,92,13,78,34,35,55,67,13			
+CIC84	irene_catalan_session_1.txt	D2024-06-20	Catalan	20	368	*		Bad for the same reasons as the previous set of three (only works if que has no meaning)	explicar	que WH				117,102,103,50,43,91,119,21,98,18,84,4,50,55,2,93,5,6,92,13,78,34,35,55,67,13	I asked that to Isabel today, and she explained to me who her father fired. But I don't remember who.		
+CIC85	irene_catalan_session_1.txt	D2024-06-20	Catalan	20	370	*		Bad for the same reasons as the previous set of three (only works if que has no meaning)	respondre	que WH				117,102,103,50,43,91,119,21,98,18,86,4,50,55,2,93,5,6,92,13,78,34,35,55,67,13			
+CIC86	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	13	OK	x	-	demanar	si POL			preguntat would be fine here as well	41,73,18,103,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13			
+CIC87	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	13	OK	x	-	demanar	que si POL			preguntat would be fine here as well	41,73,18,103,4,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13			
+CIC88	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	17	OK		More likely to use preguntar or demanar, because while you can use dir, it is imprecise here.	dir	que si POL				41,73,18,3,4,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13			
+CIC89	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	19	*		Doesn’t make sense in the context	dir	si POL				41,73,18,3,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13			
+CIC90	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	24	*		-	respondre	si POL				41,73,18,86,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13			
+CIC91	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	24	*		-	respondre	que si POL				41,73,18,86,4,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13			
+CIC92	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	26	*		with que is just bad, without que would mean something else	explicar	si POL				41,73,18,84,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13	Marc explained to me: did his daughter get a passing grade on her final test? Of course, I know what happened with her, and it made me feel better.		
+CIC93	irene_catalan_session_2.txt	D2024-06-27	Catalan	21	26	*		with que is just bad, without que would mean something else	explicar	que si POL				41,73,18,84,4,19,43,44,75,31,120,5,6,70,77,13,121,21,83,4,79,114,80,31,38,21,18,279,122,123,13	Marc explained to me: did his daughter get a passing grade on her final test? Of course, I know what happened with her, and it made me feel better.		
+CIC94	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	49	OK	x	que preferred over no que	demanar	que WH			Preguntat is okay, but it would be awkward, because it is used earlier in the sentence– you can change out each for the other.	101,80,102,68,50,43,91,21,18,103,4,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC95	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	53	OK		que preferred over no que	demanar	BARE WH			Preguntat is okay, but it would be awkward, because it is used earlier in the sentence– you can change out each for the other.	101,80,102,68,50,43,91,21,18,103,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC96	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	57	OK		-	dir	BARE WH				101,80,102,68,50,43,91,21,18,3,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC97	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	57	*		-	dir	que WH				101,80,102,68,50,43,91,21,18,3,4,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC98	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	60	OK		-	respondre	BARE WH				101,80,102,68,50,43,91,21,18,86,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC99	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	60	#		-	respondre	que WH				101,80,102,68,50,43,91,21,18,86,4,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC100	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	62	#		-	explicar	BARE WH				101,80,102,68,50,43,91,21,18,84,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13	When I asked Isabel that, she explained to me: who did her father fire? Of course, I knew who got fired, and understood why she said that.		
+CIC101	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	62	*		-	explicar	que WH				101,80,102,68,50,43,91,21,18,84,4,55,20,93,5,6,92,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13	When I asked Isabel that, she explained to me: who did her father fire? Of course, I knew who got fired, and understood why she said that.		
+CIC102	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	64	OK		Definite difference between quotation and non-quotation.	respondre	QUOT WH				101,80,102,68,50,43,91,21,18,86,14,131,2,93,5,16,92,29,17,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC103	irene_catalan_session_2.txt	D2024-06-27	Catalan	22	66	?		Definite difference between quotation and non-quotation.	explicar	QUOT WH				101,80,102,68,50,43,91,21,18,84,132,14,131,2,93,5,16,92,29,17,13,124,125,21,83,4,79,55,31,126,21,102,127,128,114,129,130,13			
+CIC104	irene_catalan_session_2.txt	D2024-06-27	Catalan	23	85	OK	x	I would probably say it with que	demanar	si POL			Preguntar is also okay here	0,133,2,103,19,134,9,31,135,136,137,13			
+CIC105	irene_catalan_session_2.txt	D2024-06-27	Catalan	23	85	OK	x	I would probably say it with que	demanar	que si POL			Preguntar is also okay here	0,133,2,103,4,19,134,9,31,135,136,137,13			
+CIC106	irene_catalan_session_2.txt	D2024-06-27	Catalan	23	89	OK		-	comentar	si POL				0,133,2,138,19,134,9,31,135,136,137,13			
+CIC107	irene_catalan_session_2.txt	D2024-06-27	Catalan	23	92	OK		Prosody 1: rhetorical	comentar	que si POL	Prosody Matters			0,133,2,138,4,19,134,9,31,135,136,137,13			
+CIC108	irene_catalan_session_2.txt	D2024-06-27	Catalan	23	95	?		Prosody 2: genuine question	comentar	que si POL	Prosody Matters			0,133,2,138,4,19,134,9,31,135,136,137,13			
+CIC109	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	111	OK		-	demanar	que WH				41,139,2,103,4,21,140,141,142,21,11,55,143,144,145,43,146,13			
+CIC110	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	111	OK		-	preguntar	que WH				41,139,2,68,4,21,140,141,142,21,11,55,143,144,145,43,146,13			
+CIC111	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	112	OK	x	-	demanar	BARE WH				41,139,2,103,55,147,143,141,142,83,50,148,13			
+CIC112	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	112	OK	x	-	preguntar	BARE WH				41,139,2,68,55,147,143,141,142,83,50,148,13			
+CIC113	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	112	OK	x	-	demanar	que WH				41,139,2,103,4,55,147,143,141,142,83,50,148,13			
+CIC114	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	112	OK	x	-	preguntar	que WH				41,139,2,68,4,55,147,143,141,142,83,50,148,13			
+CIC115	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	114	#		feels like it should be a rhetorical question	comentar	que WH				41,139,2,138,4,55,147,143,141,142,83,50,148,13			
+CIC116	irene_catalan_session_2.txt	D2024-06-27	Catalan	24	117	#		just giving the answer	comentar	BARE WH				41,139,2,138,55,147,143,141,142,83,50,148,13			
+CIC117	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	132	OK	x	If you have to repeat yourself multiple times, then go with the one using “que”	demanar	que si POL				0,1,2,103,4,19,5,6,7,8,2,9,33,149,150,13			
+CIC118	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	136	?		less natural because you would want to use partitive, because the tests are salient	preguntar	que si POL				0,1,2,68,4,19,5,6,7,8,2,9,33,70,13			
+CIC119	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	136	?		less natural because you would want to use partitive, because the tests are salient	demanar	que si POL				0,1,2,103,4,19,5,6,7,8,2,9,33,70,13			
+CIC120	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	139	OK		-	demanar	si POL				0,1,2,103,19,5,6,7,8,2,9,33,149,150,13			
+CIC121	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	139	OK		-	preguntar	si POL				0,1,2,68,19,5,6,7,8,2,9,33,149,150,13			
+CIC122	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	141	#		-	dir	si POL				0,1,2,3,19,5,6,7,8,2,9,33,149,150,13			
+CIC123	irene_catalan_session_2.txt	D2024-06-27	Catalan	25	142	OK		-	dir	que si POL				0,1,2,3,4,19,5,6,7,8,2,9,33,149,150,13			
+CIC124	irene_catalan_session_2.txt	D2024-06-27	Catalan	26	157	OK	x	-	demanar	que WH				41,42,18,103,4,54,55,66,57,43,44,45,50,33,151,13			
+CIC125	irene_catalan_session_2.txt	D2024-06-27	Catalan	26	157	OK	x	-	preguntar	que WH				41,42,18,68,4,54,55,66,57,43,44,45,50,33,151,13	Joan asked me who his sister met at a cafe.		
+CIC126	irene_catalan_session_2.txt	D2024-06-27	Catalan	26	157	OK	x	-	demanar	BARE WH				41,42,18,103,54,55,66,57,43,44,45,50,33,151,13			
+CIC127	irene_catalan_session_2.txt	D2024-06-27	Catalan	26	157	OK	x	-	preguntar	BARE WH				41,42,18,68,54,55,66,57,43,44,45,50,33,151,13	Joan asked me who his sister met at a cafe.		
+CIC128	irene_catalan_session_2.txt	D2024-06-27	Catalan	26	159	*		-	dir	BARE WH				41,42,18,3,54,55,66,57,43,44,45,50,33,151,13	Joan said to me: who did his sister meet at a cafe?		
+CIC129	irene_catalan_session_2.txt	D2024-06-27	Catalan	26	159	OK		-	dir	que WH				41,42,18,3,4,54,55,66,57,43,44,45,50,33,151,13	Joan said to me: who did his sister meet at a cafe?		
+CIC130	irene_catalan_session_2.txt	D2024-06-27	Catalan	27	174	OK	x	-	dir	que DECL				0,1,2,3,4,5,6,7,8,2,9,33,70,13			
+CIC131	irene_catalan_session_2.txt	D2024-06-27	Catalan	28	186	OK	x	-	explicar	si POL				0,1,18,84,19,5,6,7,8,20,9,152,70,21,22,34,30,153,50,154,11,155,13			
+CIC132	irene_catalan_session_2.txt	D2024-06-27	Catalan	28	186	OK	x	-	dir	si POL				0,1,18,3,19,5,6,7,8,20,9,152,70,21,22,34,30,153,50,154,11,155,13			
+CIC133	irene_catalan_session_2.txt	D2024-06-27	Catalan	28	188	OK		either this means “one test”, or it means “there is a specific test that she told me about”	explicar	si POL				0,1,18,84,19,5,6,7,8,20,9,33,70,21,22,34,30,153,50,154,11,155,13			
+CIC134	irene_catalan_session_2.txt	D2024-06-27	Catalan	28	188	OK		either this means “one test”, or it means “there is a specific test that she told me about”	dir	si POL				0,1,18,3,19,5,6,7,8,20,9,33,70,21,22,34,30,153,50,154,11,155,13			
+CIC135	irene_catalan_session_2.txt	D2024-06-27	Catalan	28	191	>?		Not “standard” but is fine (maybe this is a filler que, not sure)	explicar	que si POL				0,1,18,84,4,19,5,6,7,8,20,9,152,70			
+CIC136	irene_catalan_session_2.txt	D2024-06-27	Catalan	28	195	>		you need prosody otherwise it means she asked a question	dir	que si POL				0,1,18,3,4,19,5,6,7,8,20,9,152,70			
+CIC137	irene_catalan_session_2.txt	D2024-06-27	Catalan	29	212	OK	x	-	dir	que DECL				41,42,2,3,4,43,44,45,71,31,156,5,48,11,49,62,33,65,21,34,62,33,157,13			
+CIC138	irene_catalan_session_2.txt	D2024-06-27	Catalan	30	226	OK	x	-	dir	BARE WH				41,42,18,3,55,56,57,43,44,45,62,33,65,21,34,2,3,158,159,157,13			
+CIC139	irene_catalan_session_2.txt	D2024-06-27	Catalan	30	228	>		Que must be interpreted as a filler	dir	que WH				41,42,18,3,4,55,56,57,43,44,45,62,33,65,21,34,2,3,158,159,157,13			
+CIC140	irene_catalan_session_2.txt	D2024-06-27	Catalan	30	231	#>		Doesn’t feel sufficient enough to be an explanation, but sentence is fine	explicar	BARE WH				41,42,18,84,55,56,57,43,44,45,62,33,65,21,34,2,3,158,159,157,13			
+CIC141	irene_catalan_session_2.txt	D2024-06-27	Catalan	30	234	?>		Better than the last one. Maybe filler.	explicar	que WH				41,42,18,84,4,55,56,57,43,44,45,62,33,65,21,34,2,3,158,159,157,13			
+CIC142	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	256	OK	x	-	explicar	per què era important si POL				160,102,103,19,43,44,75,2,76,69,77,161,162,13,0,1,34,163,97,129,164,21,98,128,165,104,73,80,2,84,128,114,67,166,19,43,44,75,20,76,69,77,13,167,168,4,43,1,34,169,170,13	When I asked them if their daughter had passed her final exam this year. Jana did not understand why I asked that, and so Marc explained to her why it is important if their daughter passed her final exam. I'm surprised that Jana didn't think of it.		
+CIC143	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	258	OK	x	-	explicar	per què jo havia preguntat si POL				160,102,103,19,43,44,75,2,76,69,77,161,162,13,0,1,34,163,97,129,164,21,98,128,165,104,73,80,2,84,128,114,171,20,68,19,43,44,75,20,76,69,77,13,167,168,4,43,1,34,169,170,13			
+CIC144	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	260	#		Just doesn’t talk about what he said	explicar	si POL				73,80,2,84,19,43,44,75,20,76,69,77,13	Marc explained whether his daughter passed her final test.		
+CIC145	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	261	#		Just doesn’t talk about what he said, Want to turn this into: Mark explained that if her daughter passed…	explicar	que si POL				73,80,2,84,4,19,43,44,75,20,76,69,77,13	Marc explained whether his daughter passed her final test.		
+CIC146	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	267	#		-	explicar	QUOT POL				73,80,2,84,14,28,43,52,75,20,76,69,77,29,17,13			
+CIC147	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	269	OK		Very specific context where questions have a title	explicar	QUOT POL				73,80,2,84,14,28,43,172,75,20,76,69,77,29,17,13			
+CIC148	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	272	#		-	respondre	si POL				73,80,2,86,19,43,44,75,20,76,69,77,13			
+CIC149	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	274	#		-	respondre	que si POL				73,80,2,86,4,19,43,44,75,20,76,69,77,13			
+CIC150	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	276	#		-	respondre	QUOT POL				73,80,2,86,14,28,43,52,75,20,76,69,77,29,17,13			
+CIC151	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	278	#		-	respondre	QUOT POL				73,80,2,86,14,28,43,172,75,20,76,69,77,29,17,13			
+CIC152	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	280	*		-	explicar	la pregunta si POL				73,80,2,84,43,173,19,43,44,75,20,76,69,77,13			
+CIC153	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	280	OK		Hard to get	explicar	la pregunta de si POL				73,80,2,84,43,173,11,19,43,44,75,20,76,69,77,13			
+CIC154	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	280	OK		Hard to get	explicar	la pregunta que si POL				73,80,2,84,43,173,4,19,43,44,75,20,76,69,77,13			
+CIC155	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	282	#/?		Two meanings: common “issue” and more formal (maybe from French) meaning “question”. With the issue meaning, it is equivalent to dropping “la qüestió”	explicar	la qüestió si POL				73,80,2,84,43,174,19,43,44,75,20,76,69,77,13			
+CIC156	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	282	#/OK		Two meanings: common “issue” and more formal (maybe from French) meaning “question”. With the issue meaning, it is equivalent to dropping “la qüestió”	explicar	la qüestió de si POL				73,80,2,84,43,174,11,19,43,44,75,20,76,69,77,13			
+CIC157	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	282	#/marked		Two meanings: common “issue” and more formal (maybe from French) meaning “question”. With the issue meaning, it is equivalent to dropping “la qüestió”	explicar	la qüestió que si POL				73,80,2,84,43,174,4,19,43,44,75,20,76,69,77,13			
+CIC158	irene_catalan_session_2.txt	D2024-07-08	Catalan	31	286	OK>		This kind of context would work better if questions had names: like in a math test	explicar	la pregunta QUOT POL				73,80,2,84,43,173,14,28,20,76,69,77,43,172,75,29,17,13			
+CIC159	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	310	OK	x	-	explicar	per què (WHY)				175,103,55,20,93,5,92,11,43,91,98,11,176,13,177,178,179,128,43,173,21,98,128,165,43,91,80,2,84,128,114,164,50,55,20,93,5,6,92,13,167,168,4,176,34,129,180,13			
+CIC160	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	310	OK	x	-	explicar	per què (WHY)				175,103,55,20,93,5,92,11,43,91,98,11,176,13,177,34,163,128,114,129,164,21,98,128,165,43,91,80,2,84,128,114,164,50,55,20,93,5,6,92,13,167,168,4,176,34,129,180,13			
+CIC161	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	312	#		-	explicar	BARE WH				0,91,80,2,84,50,55,20,93,5,6,92	Isabel explained to him who her father fired.		
+CIC162	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	313	#		-	explicar	que WH				0,91,80,2,84,4,50,55,20,93,5,6,92	Isabel explained to him who her father fired.		
+CIC163	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	314	#		-	explicar	QUOT WH				0,91,80,2,84,14,181,55,2,93,5,16,92,29,17,13			
+CIC164	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	315	OK>		In this very specific context, no one would ever interpret it this way. Like you’re giving the title of a book	explicar	QUOT WH				0,91,80,2,84,14,181,55,2,93,5,182,92,29,17,13			
+CIC165	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	319	#		-	respondre	BARE WH				0,91,80,2,86,50,55,20,93,5,6,92			
+CIC166	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	320	#		Makes you want to do continuation “that whoever…”	respondre	que WH				0,91,80,2,86,4,50,55,20,93,5,6,92			
+CIC167	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	322	#		-	respondre	QUOT WH				0,91,80,2,86,14,181,55,2,93,5,16,92,29,17,13			
+CIC168	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	323	#		Doesn’t work because you must be giving an answer to the question	respondre	QUOT WH				0,91,80,2,86,14,181,55,2,93,5,182,92,29,17,13			
+CIC169	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	326	OK		It works because it feels like a kind of quote of the question.	explicar	la pregunta BARE WH				0,91,80,2,84,43,173,50,55,20,93,5,6,92			
+CIC170	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	328	#		-	explicar	la pregunta que WH				0,91,80,2,84,43,173,4,50,55,20,93,5,6,92			
+CIC171	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	329	OK		-	explicar	la pregunta QUOT WH				0,91,80,2,84,43,173,14,181,55,2,93,5,182,92,29,17,13			
+CIC172	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	331	#		-	explicar	la qüestió que WH				0,91,80,2,84,43,174,4,50,55,20,93,5,6,92			
+CIC173	irene_catalan_session_2.txt	D2024-07-08	Catalan	32	331	>		Without que sounds like explained it to the person who her father fired	explicar	la qüestió BARE WH				0,91,80,2,84,43,174,50,55,20,93,5,6,92			
+CIC174	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	349	OK	x	-	respondre	si POL				0,133,183,19,134,9,31,135,136,137,13			
+CIC175	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	349	OK	x	-	respondre	si POL				0,133,184,185,19,134,9,31,135,136,137,13			
+CIC176	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	351	*		-	respondre	la pregunta si POL				0,133,183,43,173,19,134,9,31,135,136,137,13			
+CIC177	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	351	OK		-	respondre	la pregunta de si POL				0,133,183,43,173,11,19,134,9,31,135,136,137,13			
+CIC178	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	351	OK		-	respondre	la pregunta que si POL				0,133,183,43,173,4,19,134,9,31,135,136,137,13			
+CIC179	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	351	*		-	respondre	la pregunta si POL				0,133,184,185,43,173,19,134,9,31,135,136,137,13			
+CIC180	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	351	OK		-	respondre	la pregunta de si POL				0,133,184,185,43,173,11,19,134,9,31,135,136,137,13			
+CIC181	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	351	OK		-	respondre	la pregunta que si POL				0,133,184,185,43,173,4,19,134,9,31,135,136,137,13			
+CIC182	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	353	OK		-	respondre	que si POL				0,133,183,4,19,134,9,31,135,136,137,13			
+CIC183	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	353	OK		-	respondre	que si POL				0,133,184,185,4,19,134,9,31,135,136,137,13			
+CIC184	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	355	OK		-	respondre	QUOT POL				0,133,183,14,28,31,135,136,137,134,9,29,17,13			
+CIC185	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	355	OK		-	respondre	QUOT POL				0,133,184,185,14,28,31,135,136,137,134,9,29,17,13			
+CIC186	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	356	OK		-	respondre	la pregunta QUOT POL				0,133,183,43,173,14,28,31,135,136,137,134,9,29,17,13			
+CIC187	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	356	OK		-	respondre	la pregunta QUOT POL				0,133,184,185,43,173,14,28,31,135,136,137,134,9,29,17,13			
+CIC188	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	358	OK		Technically, you could, because it can be interpreted as an explanation.	explicar	si POL				0,133,186,19,134,9,31,135,136,137,13			
+CIC189	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	358	OK		Technically, you could, because it can be interpreted as an explanation.	explicar	si POL				0,133,184,187,19,134,9,31,135,136,137,13			
+CIC190	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	360	OK		Technically, you could, because it can be interpreted as an explanation.	explicar	que si POL				0,133,186,4,19,134,9,31,135,136,137,13			
+CIC191	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	360	OK		Technically, you could, because it can be interpreted as an explanation.	explicar	que si POL				0,133,184,187,4,19,134,9,31,135,136,137,13			
+CIC192	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	362	???		A bit degraded, but can be rescued in some way, maybe accommodating by taking explicar to mean the same as respondre	explicar	QUOT POL				0,133,186,14,28,31,135,136,137,134,9,29,17,13			
+CIC193	irene_catalan_session_2.txt	D2024-07-08	Catalan	33	362	???		A bit degraded, but can be rescued in some way, maybe accommodating by taking explicar to mean the same as respondre	explicar	QUOT POL				0,133,184,187,14,28,31,135,136,137,134,9,29,17,13			
+CIC194	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	380	OK	x	-	respondre	la pregunta de BARE WH				41,139,2,86,43,173,11,55,147,143,141,142,83,50,148,13			
+CIC195	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	380	OK>	x	with the que is formally incorrect, but both are okay colloquially	respondre	la pregunta de que WH				41,139,2,86,43,173,11,4,55,147,143,141,142,83,50,148,13			
+CIC196	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	383	??>		without que is marginally okay as a kind of citation	respondre	BARE WH				41,139,2,86,55,147,143,141,142,83,50,148,13			
+CIC197	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	383	#		-	respondre	que WH				41,139,2,86,4,55,147,143,141,142,83,50,148,13			
+CIC198	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	386	OK		-	respondre	QUOT WH				41,139,2,86,14,131,147,143,188,142,83,50,148,29,17,13			
+CIC199	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	388	#		-	demanar	que WH				41,139,2,103,4,21,140,141,142,21,11,55,143,144,145,43,146,13			
+CIC200	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	388	#		-	preguntar	que WH				41,139,2,68,4,21,140,141,142,21,11,55,143,144,145,43,146,13			
+CIC201	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	389	#		-	demanar	BARE WH				41,139,2,103,55,147,143,141,142,83,50,148,13			
+CIC202	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	389	#		-	preguntar	BARE WH				41,139,2,68,55,147,143,141,142,83,50,148,13			
+CIC203	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	389	#		-	demanar	que WH				41,139,2,103,4,55,147,143,141,142,83,50,148,13			
+CIC204	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	389	#		-	preguntar	que WH				41,139,2,68,4,55,147,143,141,142,83,50,148,13			
+CIC205	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	391	#		this would be what he is saying – as in he made a comment and the comment was the question: “who do the children prefer as a cook?”	comentar	que WH				41,139,2,138,4,55,147,143,141,142,83,50,148,13			
+CIC206	irene_catalan_session_2.txt	D2024-07-18	Catalan	34	394	#		making a comment which is the answer to the question who they prefer.	comentar	BARE WH				41,139,2,138,55,147,143,141,142,83,50,148,13			
+CIC207	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	409	OK	x	-	explicar	si POL				41,73,2,84,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13	Marc explained whether his daughter passed her final exam, but did not say anything about his son.		
+CIC208	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	409	OK	x	-	respondre	si POL				41,73,2,86,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13			
+CIC209	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	409	OK	x	-	dir	si POL				41,73,2,3,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13			
+CIC210	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	411	OK		-	dir	que si POL*	must be a filler, see when QUE is emphasized			41,73,2,3,4,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13			
+CIC211	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	412	#		-	dir	que si POL				41,73,2,3,191,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13			
+CIC212	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	414	?		With explicat, the conditional use of si is expected, sounds like a garden path sentence	explicar	que si POL				41,73,2,84,4,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13	Marc explained whether his daughter passed her final exam, but did not say anything about his son.		
+CIC213	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	414	OK		-	respondre	que si POL*	must be a filler, see when QUE is emphasized			41,73,2,86,4,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13			
+CIC214	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	416	#		-	respondre	que si POL				41,73,2,86,191,19,43,44,75,20,76,69,21,22,34,2,3,158,189,5,6,190,13			
+CIC215	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	418	#		-	dir	QUOT POL				41,73,2,3,14,28,43,172,75,2,76,69,29,17,21,22,34,2,3,158,189,5,6,190,13			
+CIC216	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	419	OK		Seems uncooperative	respondre	QUOT POL				41,73,2,86,14,28,43,172,75,2,76,69,29,17,21,22,34,2,3,158,189,5,6,190,13			
+CIC217	irene_catalan_session_2.txt	D2024-07-18	Catalan	35	421	#		Only makes sense if he is explaining the question	explicar	QUOT POL				41,73,2,84,14,28,43,172,75,2,76,69,29,17,21,22,34,2,3,158,189,5,6,190,13			
+CIC218	irene_catalan_session_2.txt	D2024-07-18	Catalan	36	431	OK	x	-	dir	que DECL				41,73,2,3,4,43,44,75,20,76,69,13			
+CIC219	irene_catalan_session_2.txt	D2024-07-18	Catalan	36	431	OK	x	-	respondre	que DECL				41,73,2,86,4,43,44,75,20,76,69,13			
+CIC220	irene_catalan_session_2.txt	D2024-07-18	Catalan	36	431	OK	x	-	explicar	que DECL				41,73,2,84,4,43,44,75,20,76,69,13			
+CIC221	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	445	OK	x	-	dir	BARE WH				0,91,2,3,55,2,93,5,6,92,21,22,34,2,3,158,189,55,5,192,13			
+CIC222	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	446	OK		-	respondre	BARE WH				0,91,2,86,55,2,93,5,6,92,21,22,34,2,3,158,189,55,5,192,13			
+CIC223	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	446	OK		-	explicar	BARE WH				0,91,2,84,55,2,93,5,6,92,21,22,34,2,3,158,189,55,5,192,13	Isabel explained who her father fired, but did not say anything about who will replace them.		
+CIC224	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	447	??		borderline, not sure which side of the border	respondre	que WH				0,91,2,86,4,55,2,93,5,6,92,21,22,34,2,3,158,189,55,5,192,13			
+CIC225	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	449	?		-	explicar	que WH				0,91,2,84,4,55,2,93,5,6,92,21,22,34,2,3,158,189,55,5,192,13	Isabel explained who her father fired, but did not say anything about who will replace them.		
+CIC226	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	451	#		-	dir	QUOT WH				0,91,2,3,14,131,2,93,5,182,92,29,17,21,22,34,2,3,158,189,55,5,192,13			
+CIC227	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	452	OK		-	respondre	QUOT WH				0,91,2,86,14,131,2,93,5,182,92,29,17,21,22,34,2,3,158,189,55,5,192,13			
+CIC228	irene_catalan_session_2.txt	D2024-07-18	Catalan	37	453	#		must mean explained what the question means, not the answer	explicar	QUOT WH				0,91,2,84,14,131,2,93,5,182,92,29,17,21,22,34,2,3,158,189,55,5,192,13			
+CIC229	irene_catalan_session_2.txt	D2024-07-18	Catalan	38	463	OK	x	-	dir	que DECL				0,91,2,3,4,5,6,92,2,93,43,94,13			
+CIC230	irene_catalan_session_2.txt	D2024-07-18	Catalan	38	463	OK	x	-	respondre	que DECL				0,91,2,86,4,5,6,92,2,93,43,94,13			
+CIC231	irene_catalan_session_2.txt	D2024-07-18	Catalan	38	463	OK	x	-	explicar	que DECL				0,91,2,84,4,5,6,92,2,93,43,94,13	Isabel explained that her father fired Martina		
+CIC232	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	15	OK	x	-	negar	que DECL				41,193,2,194,4,195,196,5,197,198,6,7,8,13			
+CIC233	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	17	#		-	negar	QUOT DECL				41,193,2,194,14,199,196,5,197,198,182,7,8,13,17,13			
+CIC234	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	18	OK		-	negar	l’accusació que DECL				41,193,2,194,200,4,195,196,5,197,198,6,7,8,13			
+CIC235	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	20	*		-	negar	QUOT DECL				41,193,2,194,132,14,113,102,196,5,197,198,16,7,8,13,17,13			
+CIC236	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	20	OK		-	negar	QUOT DECL + ho				41,193,129,2,194,132,14,113,102,196,5,197,198,16,7,8,13,17,13			
+CIC237	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	21	OK		-	negar	que DECL + ho				41,193,129,2,194,4,195,196,5,197,198,6,7,8,13			
+CIC238	irene_catalan_session_3.txt	D2024-07-18	Catalan	39	21	OK		-	negar	que DECL				41,193,2,194,4,195,196,5,197,198,6,7,8,13			
+CIC239	irene_catalan_session_3.txt	D2024-07-18	Catalan	40	30	OK	x	-	dir	si POL				41,193,2,3,19,20,196,5,197,198,6,7,8,21,22,34,201,202,11,19,5,203,13			
+CIC240	irene_catalan_session_3.txt	D2024-07-18	Catalan	40	32	#?>		it doesn’t sound bad, but when I try to think of what it means it doesn’t make sense	negar	si POL				41,193,2,194,19,20,196,5,197,198,6,7,8,21,22,34,201,202,11,19,5,203,13			
+CIC241	irene_catalan_session_3.txt	D2024-07-18	Catalan	40	35	*		-	negar	si POL + o no				41,193,2,194,19,20,196,5,197,198,6,7,8,39,34,21,22,34,201,202,11,19,5,203,13			
+CIC242	irene_catalan_session_3.txt	D2024-07-18	Catalan	40	37	#?>		Taking into consideration that without que it is weird, it is not any weirder than that	negar	que si POL				41,193,2,194,4,19,20,196,5,197,198,6,7,8,21,22,34,201,202,11,19,5,203,13			
+CIC243	irene_catalan_session_3.txt	D2024-07-18	Catalan	41	45	OK	x	-	dir	que DECL				204,21,104,193,2,3,4,34,20,196,5,197,198,6,7,8,13,78,34,2,3,205,158,145,13			
+CIC244	irene_catalan_session_3.txt	D2024-07-18	Catalan	41	45	?		-	explicar	que DECL				204,21,104,193,2,84,4,34,20,196,5,197,198,6,7,8,13,78,34,2,3,205,158,145,13			
+CIC245	irene_catalan_session_3.txt	D2024-07-18	Catalan	41	45	OK	x	-	respondre	que DECL				204,21,104,193,2,86,4,34,20,196,5,197,198,6,7,8,13,78,34,2,3,205,158,145,13			
+CIC246	irene_catalan_session_3.txt	D2024-07-18	Catalan	41	49	#		-	negar	que DECL				204,21,104,193,2,194,4,34,20,196,5,197,198,6,7,8,13,78,34,2,3,205,158,145,13			
+CIC247	irene_catalan_session_3.txt	D2024-07-18	Catalan	42	63	OK	x	-	creia	que DECL				41,42,34,71,206,4,207,44,34,195,208,209,210,43,211,13			
+CIC248	irene_catalan_session_3.txt	D2024-07-18	Catalan	42	64	OK		-	qüestionar	que DECL (subjunctive)				41,42,212,4,207,44,34,195,208,209,210,43,211,13			
+CIC249	irene_catalan_session_3.txt	D2024-07-18	Catalan	42	65	#		-	preguntar	que DECL (subjunctive)				41,42,213,4,207,44,34,195,208,209,210,43,211,13			
+CIC250	irene_catalan_session_3.txt	D2024-07-18	Catalan	42	66	OK		-	preguntar	que si POL				41,42,213,4,19,207,44,34,20,208,209,210,43,211,13			
+CIC251	irene_catalan_session_3.txt	D2024-07-18	Catalan	43	77	OK		Questionar is not an immediately obvious choice, but it works well, it’s not rare, but not too common.	qüestionar	si POL				101,143,214,215,216,128,217,218,21,104,42,31,219,19,207,44,220,184,221,13,113,30,168,4,143,222,85,216,11,223,13			
+CIC252	irene_catalan_session_3.txt	D2024-07-18	Catalan	43	77	OK		Questionar is not an immediately obvious choice, but it works well, it’s not rare, but not too common.	qüestionar	que si POL				101,143,214,215,216,128,217,218,21,104,42,31,219,4,19,207,44,220,184,221,13,113,30,168,4,143,222,85,216,11,223,13			
+CIC253	irene_catalan_session_3.txt	D2024-07-18	Catalan	43	79	#>		That is not exactly what he did, he didn’t just ask, he was questioning.	preguntar	si POL				101,143,214,215,216,128,217,218,21,104,42,31,25,19,207,44,220,184,221,13,113,30,168,4,143,222,85,216,11,223,13			
+CIC254	irene_catalan_session_3.txt	D2024-07-18	Catalan	43	79	#>		That is not exactly what he did, he didn’t just ask, he was questioning.	preguntar	que si POL				101,143,214,215,216,128,217,218,21,104,42,31,25,4,19,207,44,220,184,221,13,113,30,168,4,143,222,85,216,11,223,13			
+CIC255	irene_catalan_session_3.txt	D2024-07-18	Catalan	44	94	OK	x	-	negar	que DECL				0,1,2,194,4,43,44,45,195,224,143,225,198,226,227,13			
+CIC256	irene_catalan_session_3.txt	D2024-07-18	Catalan	45	104	#		she didn’t deny who she got the money from, she denied that she got it from Mr. Graells	negar	BARE WH				204,21,43,1,2,194,11,55,2,228,143,225,43,44,45,21,22,5,229,230,4,143,31,231,198,226,227,13			
+CIC257	irene_catalan_session_3.txt	D2024-07-18	Catalan	45	107	#		She would be denying the question, which cannot be denied.	negar	que WH				204,21,43,1,2,194,4,11,55,2,228,143,225,43,44,45,21,22,5,229,230,4,143,31,231,198,226,227,13			
+CIC258	irene_catalan_session_3.txt	D2024-07-18	Catalan	46	118	#		-	negar	que DECL				204,21,43,1,2,194,4,43,44,45,34,20,224,143,225,198,226,227,21,22,34,2,3,205,158,189,232,143,2,228,13			
+CIC259	irene_catalan_session_3.txt	D2024-07-25	Catalan	47	134	OK	x	-	dubtar	que DECL				0,94,233,4,5,6,7,234,235,54,43,44,236,165,237,50,43,238,13			
+CIC260	irene_catalan_session_3.txt	D2024-07-25	Catalan	47	136	*		-	preguntar	que DECL (subjunctive)				0,94,213,4,5,6,7,234,235,54,43,44,236,165,237,50,43,238,13			
+CIC261	irene_catalan_session_3.txt	D2024-07-25	Catalan	47	137	OK>		More or less fine, means asking herself, wondering.	es preguntar	si POL				0,94,71,213,19,5,6,7,184,235,54,43,44,236,165,237,50,43,238,13			
+CIC262	irene_catalan_session_3.txt	D2024-07-25	Catalan	47	140	*		-	dubtar	que DECL				0,94,233,4,5,6,7,184,235,54,43,44,236,165,237,50,43,238,13			
+CIC263	irene_catalan_session_3.txt	D2024-07-25	Catalan	47	142	OK		-	qüestionar	que DECL (subjunctive)				0,94,212,4,5,6,7,234,235,54,43,44,236,165,237,50,43,238,13			
+CIC264	irene_catalan_session_3.txt	D2024-07-25	Catalan	47	143	*?		Slightly better than preguntava + indicative, but still not good	qüestionar	que DECL				0,94,212,4,5,6,7,184,235,54,43,44,236,165,237,50,43,238,13			
+CIC265	irene_catalan_session_3.txt	D2024-07-25	Catalan	48	153	OK	x	-	es preguntar	BARE WH				113,30,168,239,13,0,240,241,43,94,71,213,54,55,184,235,5,6,7,242,243,43,238,13,244,4,80,245,246,247,80,31,32,4,248,54,43,44,236,13			
+CIC266	irene_catalan_session_3.txt	D2024-07-25	Catalan	48	153	OK		I would probably say the other (first) one instead of this (second) one, this second one sounds more formal.	qüestionar	BARE WH				113,30,168,239,13,0,240,241,43,94,212,54,55,184,235,5,6,7,242,243,43,238,13,244,4,80,245,246,247,80,31,32,4,248,54,43,44,236,13			
+CIC267	irene_catalan_session_3.txt	D2024-07-25	Catalan	48	158	#/OK>		I guess it’s fine – Martina did not ask an innocent question, she is challenging, so preguntava isn’t flavorful enough, but qüestionava is fine, because she is challenging, and es preguntava is fine because she is asking herself	preguntar	BARE WH				113,30,168,239,13,0,240,241,43,94,213,54,55,184,235,5,6,7,242,243,43,238,13,244,4,80,245,246,247,80,31,32,4,248,54,43,44,236,13			
+CIC268	irene_catalan_session_3.txt	D2024-07-25	Catalan	48	161	OK		-	es preguntar	que WH				0,240,241,43,94,71,213,4,54,55,184,235,5,6,7,242,243,43,238,13			
+CIC269	irene_catalan_session_3.txt	D2024-07-25	Catalan	48	162	OK?>		I feel like using que makes it closer to pregunatava — it’s better for this context than the following one	qüestionar	que WH				0,240,241,43,94,212,4,54,55,184,235,5,6,7,242,243,43,238,13			
+CIC270	irene_catalan_session_3.txt	D2024-07-25	Catalan	48	164	#>		same issue: not really asking this question, but challenging it.	preguntar	que WH				0,240,241,43,94,213,4,54,55,184,235,5,6,7,242,243,43,238,13			
+CIC271	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	179	OK	x	-	confirmar	que DECL				0,133,249,4,134,9,31,135,136,137,13			
+CIC272	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	180	?		-	afirmar	que DECL				0,133,250,4,134,9,31,135,136,137,13			
+CIC273	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	183	OK		-	confirmar	que DECL				0,133,251,4,134,9,31,135,136,137,13			
+CIC274	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	185	#		Less good, not what she was saying	dir	que DECL				0,133,130,4,134,9,31,135,136,137,13			
+CIC275	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	187	OK		-	explicar	que DECL				0,133,186,4,134,9,31,135,136,137,13			
+CIC276	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	189	#		-	respondre	que DECL				0,133,183,4,134,9,31,135,136,137,13			
+CIC277	irene_catalan_session_3.txt	D2024-07-25	Catalan	49	190	OK		-	respondre	la pregunta si POL				0,133,183,43,173,19,134,9,31,135,136,137,13			
+CIC278	irene_catalan_session_3.txt	D2024-07-25	Catalan	50	199	>		It kind of feels forced, you wouldn’t say she answered the question, you’d say: yes, she thinks ….	explicar	si POL			!!! better context: whether she will have a boy – it is easier to make the answer more sensitive and therefore makes more sense to say that the question was answered, but not answer the question (other option, whether someone was hired).	0,133,31,61,19,134,9,31,135,136,137,13,252,32,4,169,31,253,254,255,4,31,256,257,258,11,43,259,13			
+CIC279	irene_catalan_session_3.txt	D2024-07-25	Catalan	50	202	OK>		Still kind of forced in the same way, instead of si, que	comentar	si POL			!!! better context: whether she will have a boy – it is easier to make the answer more sensitive and therefore makes more sense to say that the question was answered, but not answer the question (other option, whether someone was hired).	0,133,31,260,19,134,9,31,135,136,137,13,252,32,4,169,31,253,254,255,4,31,256,257,258,11,43,259,13			
+CIC280	irene_catalan_session_3.txt	D2024-07-25	Catalan	50	205	#		Prompts to think of a conditional (garden path)	explicar	que si POL			!!! better context: whether she will have a boy – it is easier to make the answer more sensitive and therefore makes more sense to say that the question was answered, but not answer the question (other option, whether someone was hired).	0,133,31,61,4,19,134,9,31,135,136,137,13,252,32,4,169,31,253,254,255,4,31,256,257,258,11,43,259,13			
+CIC281	irene_catalan_session_3.txt	D2024-07-25	Catalan	50	208	?		To save it mentally is to interpret it as a comment on the question, but the fact that there is a problem is related to the fact that the versions without que are also forced.	comentar	que si POL			!!! better context: whether she will have a boy – it is easier to make the answer more sensitive and therefore makes more sense to say that the question was answered, but not answer the question (other option, whether someone was hired).	0,133,31,260,4,19,134,9,31,135,136,137,13,252,32,4,169,31,253,254,255,4,31,256,257,258,11,43,259,13			
+CIC282	irene_catalan_session_3.txt	D2024-07-25	Catalan	51	225	OK	x	-	justificar	que DECL				41,139,261,4,143,141,142,262,145,83,263,43,264,13			
+CIC283	irene_catalan_session_3.txt	D2024-07-25	Catalan	51	226	OK >		Given the context, it seems like Toni is upset, and thus justifying (perhaps to himself) that Laia’s cooking is preferred, for unfair reasons, and so “explicava” and “comentava”, while they are true, they don’t capture the feeling of the context.	explicar	que DECL				41,139,186,4,143,141,142,265,145,83,263,43,264,13			
+CIC284	irene_catalan_session_3.txt	D2024-07-25	Catalan	51	227	OK >		Given the context, it seems like Toni is upset, and thus justifying (perhaps to himself) that Laia’s cooking is preferred, for unfair reasons, and so “explicava” and “comentava”, while they are true, they don’t capture the feeling of the context.	comentar	que DECL				41,139,251,4,143,141,142,265,145,83,263,43,264,13			
+CIC285	irene_catalan_session_3.txt	D2024-07-25	Catalan	51	231	OK		-	explicar	per què (WHY)			Using per què solves the problem that arises when you just use que. When you are asking a question per què is two words, and answering it is one word perquè: why vs because.	41,139,186,128,114,143,141,142,265,145,83,263,43,264,13			
+CIC286	irene_catalan_session_3.txt	D2024-07-25	Catalan	51	232	OK		-	comentar	per què (WHY)			Using per què solves the problem that arises when you just use que. When you are asking a question per què is two words, and answering it is one word perquè: why vs because.	41,139,251,128,114,143,141,142,265,145,83,263,43,264,13			
+CIC287	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	243	OK	>	-	saber	BARE WH				41,139,266,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC288	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	245	OK		-	explicar	BARE WH				41,139,186,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC289	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	246	OK		-	comentar	BARE WH				41,139,251,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC290	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	247	#		Not completely off but not true because a question of that kind wasn’t posed to Toni	respondre	BARE WH				41,139,183,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC291	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	250	OK		Feels fine, not sure if it is because que is meaningless here	saber	que WH*				41,139,266,4,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC292	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	252	OK		-	explicar	que WH				41,139,186,4,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC293	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	253	OK		-	comentar	que WH				41,139,251,4,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC294	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	254	#		Makes sense but run into the same issue – not true	respondre	que WH				41,139,183,4,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC295	irene_catalan_session_3.txt	D2024-07-25	Catalan	52	257	OK		-	saber	que WH + ho				41,139,129,266,21,4,55,267,5,148,268,149,141,142,13,269,4,43,264,270,271,50,272,13			
+CIC296	irene_catalan_session_3.txt	D2024-07-25	Catalan	53	271	OK	x	-	dir	que DECL				0,133,2,3,4,134,9,31,135,136,137,13			
+CIC297	irene_catalan_session_3.txt	D2024-07-25	Catalan	53	272	OK		-	explicar	que DECL				0,133,2,84,4,134,9,31,135,136,137,13			
+CIC298	irene_catalan_session_3.txt	D2024-07-25	Catalan	53	273	OK		-	comentar	que DECL				0,133,2,138,4,134,9,31,135,136,137,13			
+CIC299	irene_catalan_session_3.txt	D2024-07-25	Catalan	53	274	OK		-	respondre	que DECL				0,133,2,86,4,134,9,31,135,136,137,13			
+CIC300	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	285	OK	x	-	dir	si POL				0,133,31,32,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC301	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	286	OK		-	explicar	si POL				0,133,31,61,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC302	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	287	OK		-	comentar	si POL				0,133,31,260,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC303	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	288	OK		-	respondre	si POL				0,133,31,274,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC304	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	290	#		this would mean she uttered the question	dir	que si POL				0,133,31,32,4,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC305	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	292	#		there is a meaning where is explaining the question itself, but it feels less obvious, the intended meaning is not possible	explicar	que si POL				0,133,31,61,4,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC306	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	295	?		meaning of commenting on the question, and feels better than the last two in this context. You can comment on a question by answering, but not 100% fine.	comentar	que si POL				0,133,31,260,4,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC307	irene_catalan_session_3.txt	D2024-07-25	Catalan	54	297	#>		Answering by uttering the question. Way to save it is to ignore que (use as “um”/”like”)	respondre	que si POL				0,133,31,274,4,19,134,9,31,135,136,137,21,22,34,35,19,31,32,4,129,20,273,39,34,13			
+CIC308	irene_catalan_session_3.txt	D2024-07-25	Catalan	55	315	OK	x	-	dir	que DECL				41,139,2,3,4,143,141,142,275,145,143,276,11,43,264,13			
+CIC309	irene_catalan_session_3.txt	D2024-07-25	Catalan	55	316	OK		-	explicar	que DECL				41,139,2,84,4,143,141,142,275,145,143,276,11,43,264,13			
+CIC310	irene_catalan_session_3.txt	D2024-07-25	Catalan	55	317	OK		-	respondre	que DECL				41,139,2,86,4,143,141,142,275,145,143,276,11,43,264,13			
+CIC311	irene_catalan_session_3.txt	D2024-07-25	Catalan	55	318	OK		-	comentar	que DECL				41,139,2,138,4,143,141,142,275,145,143,276,11,43,264,13			
+CIC312	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	329	OK	x	-	dir	de BARE WH				41,139,31,32,11,55,265,145,143,276,143,141,142,13,113,35,55,67,21,22,34,67,277,13			
+CIC313	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	330	OK	x	-	dir	BARE WH				41,139,31,32,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC314	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	332	OK		-	explicar	BARE WH				41,139,31,61,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC315	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	333	>		Double meaning: most accessible is that Toni answered the question “whose cooking…?”, which is not what we want here. Since answer also has other meaning of being a response, it could potentially be okay.	respondre	BARE WH				41,139,31,274,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC316	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	335	OK		-	comentar	BARE WH				41,139,31,260,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC317	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	337	OK		Is fine, but not sure about contribution of que	dir	que WH*				41,139,31,32,4,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC318	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	339	#		This would make it be interpreted as a citation	dir	que WH				41,139,31,32,191,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC319	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	342	OK		-	explicar	que WH*				41,139,31,61,4,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC320	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	342	OK(?>)		This feels better than the previous one.	explicar	que WH				41,139,31,61,191,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC321	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	345	#		Feels like a citation as well	respondre	que WH				41,139,31,274,4,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC322	irene_catalan_session_3.txt	D2024-07-25	Catalan	56	348	marked		Similar to explicar, but I feel I am doing some mental gymnastics, it feels like it should be a complement clause that starts with que, but when you stop, you have to reanalyze it: “whoever is preferred by his children as a cook …” rather than “who …”	comentar	que WH				41,139,31,260,4,55,278,143,141,142,83,50,148,13,113,35,55,67,21,22,34,67,277,13			
+CIC!1!			Catalan	26		[]OK			dir	QUOT WH				41,42,30,31,32,14,64,55,56,57,43,52,45,50,33,151,29,17,13	Joan said to me, "Who did my sister meet with at a cafe?"		
+CIC!2!			Catalan	26		[]OK			preguntar	QUOT WH				41,42,18,68,14,64,55,66,57,43,52,45,50,33,151,29,17,13	Joan asked me, "Who did my sister meet with at a cafe?"		
